@@ -1,0 +1,32 @@
+div {
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    margin-top: 10em;
+    padding: 2em;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: dotted 1px;
+    color: rgb(82, 94, 167);
+}
+
+a:hover, button:hover {
+    color: #EF6480;
+    border-bottom-color: transparent;
+}
