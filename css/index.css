@@ -1,6 +1,6 @@
 div {
     margin: auto;
-    width: 50%;
+    width: 80%;
     border: 2px solid black;
     margin-top: 10em;
     padding: 2em;
@@ -29,4 +29,16 @@ a {
 a:hover, button:hover {
     color: #EF6480;
     border-bottom-color: transparent;
+}
+
+body {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+img {
+    width: 30em;
+}
+
+.flex {
+    display: flexbox;
 }
