@@ -72,7 +72,7 @@ let gamejams = [
 ];
 
 // Wait for window to load so jamDisplay isn't null
-window.onload = function() {
+function initGamejam() {
     let jamDisplay = document.getElementById("jamDisplay");
     
     let html = "";

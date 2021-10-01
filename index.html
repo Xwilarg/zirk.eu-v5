@@ -6,6 +6,7 @@
         <title>Zirk</title>
         <script src="js/tab.js"></script>
         <script src="js/gamejam.js"></script>
+        <script src="js/init.js"></script> <!-- Must be loaded last -->
     </head>
     <body>
         <div class="container">
@@ -15,13 +16,13 @@
                 To see more, you can use the cool tabs system<sup>TM</sup> right down here
             </p>
             <div class="tabSystem">
-                <button onclick="displayTab('globalTab', 'projects')">My Projects</button>
-                <button onclick="displayTab('globalTab', 'gamejams')">Game Jams</button>
+                <button onclick="displayTab('globalTab', 'project')">My Projects</button>
+                <button onclick="displayTab('globalTab', 'gamejam')">Game Jams</button>
                 <button onclick="displayTab('globalTab', 'about')">About Me</button>
                 <button onclick="displayTab('globalTab', 'nfaq')">NFAQ</button>
             </div>
 
-            <div class="globalTab" id="projects" hidden>
+            <div class="globalTab" id="project" hidden>
                 <h2>My Projects</h2>
                 <p class="flex">
                     <a href="https://github.com/Xwilarg/NHentaiDownloader"><img src="https://opengraph.githubassets.com/master/Xwilarg/NHentaiDownloader"/></a>
@@ -34,7 +35,7 @@
                     <a href="https://github.com/Xwilarg/DailyReset"><img src="https://opengraph.githubassets.com/master/Xwilarg/DailyReset"/></a>
                 </p>
             </div>
-            <div class="globalTab" id="gamejams" hidden>
+            <div class="globalTab" id="gamejam" hidden>
                 <h2>Game Jams</h2>
                 <div id="jamDisplay"></div>
             </div>
