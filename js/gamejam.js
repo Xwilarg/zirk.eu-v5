@@ -81,7 +81,23 @@ function initGamejam() {
     {
         let jam = gamejams[index];
     
-        html += '<img src="img/gamejam/' + jam.name + '.jpg"></img>'
+        html += '<img id="jam-' + jam.name + '" src="img/gamejam/' + jam.name + '.jpg"></img>'
     }
     jamDisplay.innerHTML = html;
+
+    // Add mouse over events
+    for (let index in gamejams)
+    {
+        let jam = gamejams[index];
+
+        document.getElementById("jam-" + jam.name).addEventListener("mouseover", function() {
+            console.log(this);
+            this.src = "";
+            this.style.backgroundImage = "url(img/gamejam/" + jam.name + ".gif)";
+        }, false);
+        document.getElementById("jam-" + jam.name).addEventListener("mouseout", function() {
+            this.src = "img/gamejam/" + jam.name + ".jpg";
+            this.style.backgroundImage = "";
+        }, false);
+    }
 }
