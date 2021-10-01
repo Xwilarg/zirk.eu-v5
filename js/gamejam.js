@@ -15,7 +15,7 @@ let gamejams = [
         "nsfw": false
     },
     {
-        "name": "dungeonMaster",
+        "name": "DungeonMaster",
         "fullName": "Dungeon Master",
         "nsfw": false
     },
