@@ -1,0 +1,15 @@
+.tabSystem > button {
+    background: none;
+    width: 24%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 1em;
+}
+
+.tabSystem > button:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.tabSystem {
+    text-align: center;
+}

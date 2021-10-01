@@ -1,4 +1,4 @@
-div {
+.container {
     margin: auto;
     width: 80%;
     border: 2px solid black;
@@ -26,7 +26,7 @@ a {
     color: rgb(82, 94, 167);
 }
 
-a:hover, button:hover {
+a:hover {
     color: #EF6480;
     border-bottom-color: transparent;
 }
