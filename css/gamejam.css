@@ -1,6 +1,9 @@
 img {
     width: 480px;
     height: 384px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #jamDisplay {
