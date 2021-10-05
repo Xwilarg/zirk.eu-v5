@@ -1,5 +1,16 @@
 let gamejams = [
     {
+        "name": "EscapeFromSpace",
+        "fullName": "Escape from Space",
+        "theme": "Unstable",
+        "event": "Ludum Dare 49",
+        "date": "2021-10-02",
+        "duration": 72,
+        "github": "https://github.com/BionomeeX/LudumDare49",
+        "website": "https://ldjam.com/events/ludum-dare/49/escape-from-space",
+        "nsfw": false
+    },
+    {
         "name": "TheRollingDices",
         "fullName": "The Rolling Dices - Paint It, Red",
         "theme": "Alea jacta est",
@@ -18,7 +29,7 @@ let gamejams = [
         "date": "2021-04-24",
         "duration": 72,
         "github": "https://github.com/BionomeeX/LudumDare48",
-        "website": "https://ldjam.com/events/ludum-dare/48/$239653",
+        "website": "https://ldjam.com/events/ludum-dare/48/nautilus-1",
         "nsfw": false
     },
     {
