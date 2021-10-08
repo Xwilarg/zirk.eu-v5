@@ -8,5 +8,6 @@ function displayTab(tabClass, currentTabName) {
             elem.hidden = true;
         }
         targetElement.hidden = false;
+        load(currentTabName);
     }
 }
