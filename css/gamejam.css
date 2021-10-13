@@ -4,23 +4,49 @@
     background-size: cover;
 }
 
+#gamejam .button-container {
+    justify-content: center;
+    display: flex;
+}
+
 #gamejam img {
     width: 480px;
     height: 384px;
 }
 
 #gamejam .button {
-    border: 1px solid black;
-    text-decoration: none;
-    padding-right: .2em;
-    padding-left: .2em;
-    border-radius: 3px;
+    background-color: rgb(149, 194, 82);
     color: black;
-    background-color: white;
+    border: none;
+    text-decoration: none;
+    padding: .5em;
+    margin: .1em;
+    border-radius: 3px;
 }
 
 #gamejam .button:hover {
-    background-color: grey;
+    background-color: black;
+    color: rgb(149, 194, 82);
+}
+
+.neutral {
+    background-color: gray !important;
+    color: white !important;
+}
+
+.neutral:hover {
+    background-color: white !important;
+    color: gray !important;
+}
+
+.github {
+    background-color: #333 !important;
+    color: #f5f5f5 !important;
+}
+
+.github:hover {
+    background-color: #f5f5f5 !important;
+    color: #333 !important;
 }
 
 #jamDisplay {

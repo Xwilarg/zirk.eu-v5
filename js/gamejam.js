@@ -218,7 +218,7 @@ function initGamejam() {
     {
         let jam = gamejams[index];
 
-        let buttons = "";
+        let buttons = '<span class="button-container">';
 
         for (let webgl in jam.webgl) {
             let sourceText = "";
@@ -227,19 +227,18 @@ function initGamejam() {
             }
             buttons += '<a class="button" href="' + jam.webgl[webgl] + '">Play (WebGL' + sourceText + ')</a>';
         }
-        buttons += "<br/>";
+        buttons += '</span><span class="button-container">';
         if (jam.github !== null) {
-            buttons += '<a class="button" href="' + jam.github + '">Source Code</a>';
+            buttons += '<a class="button github" href="' + jam.github + '">Source Code</a>';
         }
         if (jam.website !== null) {
-            buttons += '<a class="button" href="' + jam.website + '">Jam Website</a>';
+            buttons += '<a class="button neutral" href="' + jam.website + '">Jam Website</a>';
         }
+        buttons += "</span>"
 
         html += `
             <span id="jam-` + jam.name + `">
-                <a href="` + jam.webgl + `" target="_blank">
-                    <img id="jamimg-` + jam.name + `" src="img/gamejam/` + jam.name + `.jpg"></img>
-                </a>
+                <img id="jamimg-` + jam.name + `" src="img/gamejam/` + jam.name + `.jpg"></img>
                 <br/>
                 ` + buttons + `
             </span>
