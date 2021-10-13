@@ -208,7 +208,7 @@ function initGamejam() {
 
         html += `
             <a href="` + jam.webgl + `" target="_blank">
-                <img id="jam-` + jam.name + `" src="img/gamejam/` + jam.name + `.jpg" loading="lazy"></img>
+                <img id="jam-` + jam.name + `" src="img/gamejam/` + jam.name + `.jpg"></img>
             </a>
         `;
     }
