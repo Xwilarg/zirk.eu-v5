@@ -187,7 +187,7 @@ function initGamejam() {
     {
         let jam = gamejams[index];
     
-        html += '<img id="jam-' + jam.name + '" src="img/gamejam/' + jam.name + '.jpg"></img>'
+        html += '<img id="jam-' + jam.name + '" src="img/gamejam/' + jam.name + '.jpg" loading="lazy"></img>'
     }
     jamDisplay.innerHTML = html;
 
