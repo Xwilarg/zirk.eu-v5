@@ -8,7 +8,7 @@ let gamejams = [
         "duration": 72,
         "github": "https://github.com/BionomeeX/LudumDare49",
         "website": "https://ldjam.com/events/ludum-dare/49/escape-from-space",
-        "webgl": "https://gamejam.zirk.eu/EscapeFromSpace/index.html",
+        "webgl": [ "https://gamejam.zirk.eu/EscapeFromSpace/index.html" ],
         "postModification": null,
         "nsfw": false
     },
@@ -21,7 +21,7 @@ let gamejams = [
         "duration": 48,
         "github": "https://github.com/Xwilarg/TUFRJAM2",
         "website": "https://zirk.itch.io/the-rolling-dices-paint-it-red",
-        "webgl": "https://gamejam.zirk.eu/TheRollingDices/index.html",
+        "webgl": [ "https://gamejam.zirk.eu/TheRollingDices/index.html" ],
         "postModification": null,
         "nsfw": false
     },
@@ -34,7 +34,7 @@ let gamejams = [
         "duration": 72,
         "github": "https://github.com/BionomeeX/LudumDare48",
         "website": "https://ldjam.com/events/ludum-dare/48/nautilus-1",
-        "webgl": "https://gamejam.zirk.eu/Nautilus/index.html",
+        "webgl": [ "https://gamejam.zirk.eu/Nautilus/index.html" ],
         "postModification": null,
         "nsfw": false
     },
@@ -47,7 +47,7 @@ let gamejams = [
         "duration": 48,
         "github": "https://github.com/TORISOUP/GGJ2020_Akiba_team2",
         "website": "https://globalgamejam.org/2020/games/rrr-remove-reuse-repair-0",
-        "webgl": "https://unityroom.com/games/ggj2020_akibaha_team2_rrr",
+        "webgl": [ "https://unityroom.com/games/ggj2020_akibaha_team2_rrr" ],
         "postModification": null,
         "nsfw": false
     },
@@ -60,7 +60,10 @@ let gamejams = [
         "duration": 48,
         "github": "https://github.com/Xwilarg/42Jam/",
         "website": "https://itch.io/jam/42jam-2/rate/527252",
-        "webgl": "https://gamejam.zirk.eu/Unity/index.html?jamName=dungeonMaster",
+        "webgl": [
+            "https://gamejam.zirk.eu/Unity/index.html?jamName=dungeonMaster",
+            "https://zirk.itch.io/dungeon-master"
+        ],
         "postModification": null,
         "nsfw": false
     },
@@ -73,7 +76,10 @@ let gamejams = [
         "duration": 48,
         "github": "https://github.com/Xwilarg/Paint-Jam",
         "website": "https://itch.io/jam/paint-jam-2019/rate/372107",
-        "webgl": "https://gamejam.zirk.eu/Unity/index.html?jamName=larryTheSheepsMuseumInvasion",
+        "webgl": [
+            "https://gamejam.zirk.eu/Unity/index.html?jamName=larryTheSheepsMuseumInvasion",
+            "https://zirk.itch.io/larry-the-sheep-s-museum-invasion"
+        ],
         "postModification": null,
         "nsfw": false
     },
@@ -86,7 +92,10 @@ let gamejams = [
         "duration": 72,
         "github": "https://github.com/Xwilarg/NSFWValentinesJam",
         "website": "https://itch.io/jam/nsfw-valentines/rate/369107",
-        "webgl": "https://gamejam.zirk.eu/Unity/index.html?jamName=kibouNoImouto",
+        "webgl": [
+            "https://gamejam.zirk.eu/Unity/index.html?jamName=kibouNoImouto",
+            "https://zirk.itch.io/kibou-no-imouto"
+        ],
         "postModification": null,
         "nsfw": true
     },
@@ -99,7 +108,7 @@ let gamejams = [
         "duration": 48,
         "github": "https://github.com/Xwilarg/Global-Game-Jam-2019",
         "website": "https://globalgamejam.org/2019/games/new-sensations",
-        "webgl": "https://gamejam.zirk.eu/Unreal/index.html",
+        "webgl": [ "https://gamejam.zirk.eu/Unreal/index.html" ],
         "postModification": null,
         "nsfw": false
     },
@@ -112,7 +121,10 @@ let gamejams = [
         "duration": 48,
         "github": "https://github.com/Xwilarg/Jovial-Judgement",
         "website": "https://itch.io/jam/christmas-jam-2018/rate/349359",
-        "webgl": "https://gamejam.zirk.eu/Unity/index.html?jamName=jovialJudgement",
+        "webgl": [
+            "https://gamejam.zirk.eu/Unity/index.html?jamName=jovialJudgement",
+            "https://zirk.itch.io/jovial-jugement"
+        ],
         "postModification": null,
         "nsfw": false
     },
@@ -125,7 +137,7 @@ let gamejams = [
         "duration": 72,
         "github": "https://github.com/Xwilarg/Ludum-Dare-42",
         "website": "https://ldjam.com/events/ludum-dare/42/tofdsdfsftpdrrodwl",
-        "webgl": "https://gamejam.zirk.eu/Unity/index.html?jamName=toFSDfSftPDRRoDwL",
+        "webgl": [ "https://gamejam.zirk.eu/Unity/index.html?jamName=toFSDfSftPDRRoDwL" ],
         "postModification": null,
         "nsfw": false
     },
@@ -138,7 +150,7 @@ let gamejams = [
         "duration": 48,
         "github": "https://github.com/Xwilarg/Manchaud",
         "website": null, // https://projets-greenxgames.bemyapp.com/#/projects/5b242e050fcf4a0003b0eaf8
-        "webgl": "https://gamejam.zirk.eu/Unity/index.html?jamName=manchaud",
+        "webgl": [ "https://gamejam.zirk.eu/Unity/index.html?jamName=manchaud" ],
         "postModification": null,
         "nsfw": false
     },
@@ -151,7 +163,7 @@ let gamejams = [
         "duration": 48,
         "github": "https://github.com/Xwilarg/HadipoRun",
         "website": "https://globalgamejam.org/2018/games/hadiporun",
-        "webgl": "https://gamejam.zirk.eu/Unity/index.html?jamName=hadipoRun",
+        "webgl": [ "https://gamejam.zirk.eu/Unity/index.html?jamName=hadipoRun" ],
         "postModification": "Fix data files not being found making the player unable to pick items",
         "nsfw": false
     },
@@ -164,7 +176,7 @@ let gamejams = [
         "duration": 72,
         "github": "https://github.com/Xwilarg/LudumDare40",
         "website": "https://ldjam.com/events/ludum-dare/40/powerdown",
-        "webgl": "https://gamejam.zirk.eu/Unity/index.html?jamName=powerDown",
+        "webgl": [ "https://gamejam.zirk.eu/Unity/index.html?jamName=powerDown" ],
         "postModification": null,
         "nsfw": false,
     },
@@ -177,7 +189,7 @@ let gamejams = [
         "duration": 48,
         "github": null,
         "website": "https://globalgamejam.org/2017/games/tales-layinskia",
-        "webgl": "https://gamejam.zirk.eu/Unity/index.html?jamName=talesOfLayinskia",
+        "webgl": [ "https://gamejam.zirk.eu/Unity/index.html?jamName=talesOfLayinskia" ],
         "postModification": null,
         "nsfw": false
     },
@@ -190,7 +202,7 @@ let gamejams = [
         "duration": 72,
         "github": "https://github.com/Hinara/LudumDare",
         "website": null, // http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=123799
-        "webgl": "https://gamejam.zirk.eu/Unity/index.html?jamName=vespias",
+        "webgl": [ "https://gamejam.zirk.eu/Unity/index.html?jamName=vespias" ],
         "postModification": "Fix bug with layers making player appears under the ground",
         "nsfw": false
     }
@@ -206,10 +218,31 @@ function initGamejam() {
     {
         let jam = gamejams[index];
 
+        let buttons = "";
+
+        for (let webgl in jam.webgl) {
+            let sourceText = "";
+            if (jam.webgl.length > 1) {
+                sourceText = " Source " + (parseInt(webgl) + 1);
+            }
+            buttons += '<a class="button" href="' + jam.webgl[webgl] + '">Play (WebGL' + sourceText + ')</a>';
+        }
+        buttons += "<br/>";
+        if (jam.github !== null) {
+            buttons += '<a class="button" href="' + jam.github + '">Source Code</a>';
+        }
+        if (jam.website !== null) {
+            buttons += '<a class="button" href="' + jam.website + '">Jam Website</a>';
+        }
+
         html += `
-            <a href="` + jam.webgl + `" target="_blank">
-                <img id="jam-` + jam.name + `" src="img/gamejam/` + jam.name + `.jpg"></img>
-            </a>
+            <span id="jam-` + jam.name + `">
+                <a href="` + jam.webgl + `" target="_blank">
+                    <img id="jamimg-` + jam.name + `" src="img/gamejam/` + jam.name + `.jpg"></img>
+                </a>
+                <br/>
+                ` + buttons + `
+            </span>
         `;
     }
     jamDisplay.innerHTML = html;
@@ -219,14 +252,15 @@ function initGamejam() {
     {
         let jam = gamejams[index];
 
-        document.getElementById("jam-" + jam.name).addEventListener("mouseover", function() {
-            console.log(this);
-            this.src = "";
-            this.style.backgroundImage = "url(img/gamejam/" + jam.name + ".gif)";
+        let span = document.getElementById("jam-" + jam.name);
+        let img = document.getElementById("jamimg-" + jam.name)
+        span.addEventListener("mouseover", function() {
+            img.src = "";
+            img.style.backgroundImage = "url(img/gamejam/" + jam.name + ".gif)";
         }, false);
-        document.getElementById("jam-" + jam.name).addEventListener("mouseout", function() {
-            this.src = "img/gamejam/" + jam.name + ".jpg";
-            this.style.backgroundImage = "";
+        span.addEventListener("mouseout", function() {
+            img.src = "img/gamejam/" + jam.name + ".jpg";
+            img.style.backgroundImage = "";
         }, false);
     }
 }

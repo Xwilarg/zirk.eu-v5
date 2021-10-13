@@ -1,9 +1,26 @@
-#gamejam img {
-    width: 480px;
-    height: 384px;
+#gamejam span {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#gamejam img {
+    width: 480px;
+    height: 384px;
+}
+
+#gamejam .button {
+    border: 1px solid black;
+    text-decoration: none;
+    padding-right: .2em;
+    padding-left: .2em;
+    border-radius: 3px;
+    color: black;
+    background-color: white;
+}
+
+#gamejam .button:hover {
+    background-color: grey;
 }
 
 #jamDisplay {
