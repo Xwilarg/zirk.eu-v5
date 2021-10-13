@@ -218,23 +218,32 @@ function initGamejam() {
     {
         let jam = gamejams[index];
 
+        // Display buttons under the jam preview
         let buttons = '<span class="button-container">';
 
+        // Links where the user can play the jam (WebGL)
         for (let webgl in jam.webgl) {
             let sourceText = "";
             if (jam.webgl.length > 1) {
                 sourceText = " Source " + (parseInt(webgl) + 1);
             }
-            buttons += '<a class="button" href="' + jam.webgl[webgl] + '">Play (WebGL' + sourceText + ')</a>';
+            if (jam.nsfw) {
+                buttons += '<a class="button neutral disabled">Play (WebGL' + sourceText + ')</a>';
+            } else {
+                buttons += '<a class="button" href="' + jam.webgl[webgl] + '">Play (WebGL' + sourceText + ')</a>';
+            }
         }
-        buttons += '</span><span class="button-container">';
-        if (jam.github !== null) {
-            buttons += '<a class="button github" href="' + jam.github + '">Source Code</a>';
+        buttons += '</span>';
+        if (!jam.nsfw) { // Only display source and website if the jam is SFW
+            buttons += '<span class="button-container">';
+            if (jam.github !== null) {
+                buttons += '<a class="button github" href="' + jam.github + '">Source Code</a>';
+            }
+            if (jam.website !== null) {
+                buttons += '<a class="button neutral" href="' + jam.website + '">Jam Website</a>';
+            }
+            buttons += "</span>"
         }
-        if (jam.website !== null) {
-            buttons += '<a class="button neutral" href="' + jam.website + '">Jam Website</a>';
-        }
-        buttons += "</span>"
 
         html += `
             <span id="jam-` + jam.name + `">

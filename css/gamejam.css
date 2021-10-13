@@ -31,7 +31,7 @@
     color: white !important;
 }
 
-.neutral:hover {
+.neutral:hover :not(.disabled) {
     background-color: white !important;
     color: gray !important;
 }
