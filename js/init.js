@@ -4,4 +4,6 @@ window.onload = function() {
     if (tab !== null) {
         displayTab('globalTab', tab.toLowerCase());
     }
+
+    initProjects();
 };

@@ -40,5 +40,24 @@ img {
 }
 
 .flex {
-    display: flexbox;
+    display: flex;
+}
+
+#projectPreview {
+    flex: 30%;
+}
+
+#projectDisplay {
+    flex: 70%;
+}
+
+#projectDisplayContent {
+    width: 100%;
+    height: auto;
+}
+
+.projectPreviewInstance {
+    border-radius: 10px;
+    outline: 1px solid white;
+    cursor: pointer;
 }

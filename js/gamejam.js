@@ -246,10 +246,10 @@ function initGamejam() {
         }
 
         html += `
-            <span id="jam-` + jam.name + `">
-                <img id="jamimg-` + jam.name + `" src="img/gamejam/` + jam.name + `.jpg"></img>
+            <span id="jam-${jam.name}">
+                <img id="jamimg-${jam.name}" src="img/gamejam/${jam.name}.jpg"></img>
                 <br/>
-                ` + buttons + `
+                ${buttons}
             </span>
         `;
     }

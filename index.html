@@ -6,6 +6,7 @@
         <title>Zirk</title>
         <!-- Script order matters! -->
         <script src="js/gamejam.js"></script>
+        <script src="js/project.js"></script>
         <script src="js/lazy.js"></script>
         <script src="js/tab.js"></script>
         <script src="js/init.js"></script>
@@ -26,9 +27,12 @@
 
             <div class="globalTab" id="project" hidden>
                 <h2>My Projects</h2>
-                <p class="flex">
-                    TODO
-                </p>
+                <div class="flex">
+                    <div id="projectPreview"></div>
+                    <div id="projectDisplay">
+                        <img id="projectDisplayContent" src=""></img>
+                    </div>
+                </div>
             </div>
             <div class="globalTab" id="gamejam" hidden>
                 <h2>Game Jams</h2>
