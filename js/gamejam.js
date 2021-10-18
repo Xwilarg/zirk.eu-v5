@@ -228,16 +228,16 @@ function initGamejam() {
                 sourceText = " Source " + (parseInt(webgl) + 1);
             }
             if (jam.nsfw) {
-                buttons += '<a class="button neutral disabled">Play (WebGL' + sourceText + ')</a>';
+                buttons += '<a class="button disabled">Play (WebGL' + sourceText + ')</a>';
             } else {
-                buttons += '<a class="button" href="' + jam.webgl[webgl] + '">Play (WebGL' + sourceText + ')</a>';
+                buttons += '<a class="button colorful" href="' + jam.webgl[webgl] + '">Play (WebGL' + sourceText + ')</a>';
             }
         }
         buttons += '</span>';
         if (!jam.nsfw) { // Only display source and website if the jam is SFW
             buttons += '<span class="button-container">';
             if (jam.github !== null) {
-                buttons += '<a class="button github" href="' + jam.github + '">Source Code</a>';
+                buttons += '<a class="button neutral" href="' + jam.github + '">Source Code</a>';
             }
             if (jam.website !== null) {
                 buttons += '<a class="button neutral" href="' + jam.website + '">Jam Website</a>';
