@@ -1,11 +1,10 @@
 .container {
     margin: auto;
     width: 90%;
-    border: 2px solid black;
-    margin-top: 10em;
+    margin-top: 2em;
     padding: 2em;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     border-radius: 5px;
+    background-color: #f6f6f6;
 }
 
 h1 {
