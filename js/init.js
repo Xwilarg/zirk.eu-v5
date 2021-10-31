@@ -6,4 +6,15 @@ window.onload = function() {
     }
 
     initProjects();
+
+    document.getElementById("moreCSS").onclick = () => {
+        let link = document.createElement('link');
+        link.rel  = 'stylesheet';
+        link.href = "css/wow.css";
+        document.head.appendChild(link);
+        link.onload = function() {
+            resolve();
+        };
+        document.getElementById("cssQuestion").hidden = true;
+    };
 };

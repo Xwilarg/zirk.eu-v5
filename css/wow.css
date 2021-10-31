@@ -1,0 +1,53 @@
+html {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(122, 9, 32) 100%);
+    animation: switch 1s infinite;
+}
+
+.container {
+    background: red;
+    animation: gradient .5s infinite;
+}
+
+img {
+    animation: rotate 1.5s linear infinite;
+}
+
+.button {
+    z-index: 1;
+    animation: 
+        stretch
+        1.5s
+        ease-out
+        0s
+        alternate
+        infinite
+        none
+        running;
+}
+
+@keyframes switch {
+    from {
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(122, 9, 32) 100%);
+    }
+    to {
+        background: radial-gradient(circle, rgb(122, 9, 32) 0%, rgba(63,94,251,1) 100%);
+    }
+}
+@keyframes gradient {
+    from {background-color: rgb(212, 148, 104);}
+    to {background-color: yellow;}
+}
+@keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+}
+@keyframes stretch {
+    0% {
+      transform: scale(.3);
+      border-radius: 100%;
+    }
+    100% {
+      transform: scale(1.5);
+    }
+}
