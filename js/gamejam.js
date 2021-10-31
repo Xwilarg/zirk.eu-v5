@@ -1,5 +1,18 @@
 let gamejams = [
     {
+        "name": "GraviCube",
+        "fullName": "Gravi-Cube",
+        "theme": "Gravity",
+        "event": "Zero Hour Game Jam 2021",
+        "date": "2021-10-31",
+        "duration": 1,
+        "github": "https://github.com/Xwilarg/ZeroHourGameJam",
+        "website": "https://itch.io/jam/zero-hour-game-jam-2021/rate/1257289",
+        "webgl": [],
+        "postModification": "Re-add background and wall textures (Git merge conflicts)",
+        "nsfw": false
+    },
+    {
         "name": "EscapeFromSpace",
         "fullName": "Escape from Space",
         "theme": "Unstable",
