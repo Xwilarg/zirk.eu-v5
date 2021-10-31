@@ -12,9 +12,6 @@ window.onload = function() {
         link.rel  = 'stylesheet';
         link.href = "css/wow.css";
         document.head.appendChild(link);
-        link.onload = function() {
-            resolve();
-        };
         document.getElementById("cssQuestion").hidden = true;
     };
 };
