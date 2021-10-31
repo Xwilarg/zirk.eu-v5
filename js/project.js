@@ -2,8 +2,11 @@ let projects = [
     {
         "name": "Sanara",
         "id": "Sanara",
-        "github": "https://github.com/Xwilarg/Sanara",
         "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/Sanara"
+            },
             {
                 "name": "Website",
                 "content": "https://sanara.zirk.eu"
@@ -18,8 +21,11 @@ let projects = [
     {
         "name": "NHentaiDownloader",
         "id": "NHentaiDownloader",
-        "github": "https://github.com/Xwilarg/NHentaiDownloader",
         "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/NHentaiDownloader"
+            },
             {
                 "name": "Website",
                 "content": "https://nhentaidownloader.zirk.eu"
@@ -30,8 +36,11 @@ let projects = [
     {
         "name": "BooruSharp",
         "id": "BooruSharp",
-        "github": "https://github.com/Xwilarg/BooruSharp",
         "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/BooruSharp"
+            },
             {
                 "name": "NuGet",
                 "content": "https://www.nuget.org/packages/BooruSharp"
@@ -42,8 +51,11 @@ let projects = [
     {
         "name": "Discord OAuth2 PHP",
         "id": "Discord-OAuth2-PHP",
-        "github": "https://github.com/Xwilarg/Discord-OAuth2-PHP",
         "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/Discord-OAuth2-PHP"
+            },
             {
                 "name": "Packagist",
                 "content": "https://packagist.org/packages/xwilarg/discord-oauth2-php"
@@ -54,7 +66,15 @@ let projects = [
 ];
 
 function displayProject(index) {
-    document.getElementById("projectDisplayContent").src = `img/project/${projects[index].id}.png`;
+    let project = projects[index];
+    document.getElementById("projectDisplayContent").src = `img/project/${project.id}.png`;
+    let buttons = "";
+    for (let index in project.links)
+    {
+        let link = project.links[index];
+        buttons += '<a class="button neutral" href="' + link.content + '">' + link.name + '</a>';
+    }
+    document.getElementById("projectDisplayButtons").innerHTML = buttons;
 }
 
 function initProjects() {
