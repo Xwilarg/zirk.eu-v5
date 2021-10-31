@@ -8,7 +8,7 @@ let gamejams = [
         "duration": 1,
         "github": "https://github.com/Xwilarg/ZeroHourGameJam",
         "website": "https://itch.io/jam/zero-hour-game-jam-2021/rate/1257289",
-        "webgl": [],
+        "webgl": [ "https://tommoore515.itch.io/gravi-cube" ],
         "postModification": "Re-add background and wall textures (Git merge conflicts)",
         "nsfw": false
     },
