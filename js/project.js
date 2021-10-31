@@ -2,6 +2,8 @@ let projects = [
     {
         "name": "Sanara",
         "id": "Sanara",
+        "description": "Multipurpose bot for Discord",
+        "imageDescription": "Top left: image search, bottom left: shiritori (Japanese associative word game), right: text translation from image",
         "links": [
             {
                 "name": "Source Code",
@@ -21,6 +23,8 @@ let projects = [
     {
         "name": "NHentaiDownloader",
         "id": "NHentaiDownloader",
+        "description": "Allows to download doujinshi (fan-made manga) from some popular website",
+        "imageDescription": "Download of many doujinshi at once",
         "links": [
             {
                 "name": "Source Code",
@@ -36,6 +40,8 @@ let projects = [
     {
         "name": "BooruSharp",
         "id": "BooruSharp",
+        "description": "C# library to download images from Booru websites (anime image aggregator)",
+        "imageDescription": "Code to get the URL and rating of a random image having the \"Cirno\" tag",
         "links": [
             {
                 "name": "Source Code",
@@ -51,6 +57,8 @@ let projects = [
     {
         "name": "Discord OAuth2 PHP",
         "id": "Discord-OAuth2-PHP",
+        "description": "PHP library to easily use Discord OAuth2 authentification",
+        "imageDescription": "Code to authentificate an user with Discord and get his username and Discord tag",
         "links": [
             {
                 "name": "Source Code",
@@ -67,14 +75,22 @@ let projects = [
 
 function displayProject(index) {
     let project = projects[index];
-    document.getElementById("projectDisplayContent").src = `img/project/${project.id}.png`;
-    let buttons = "";
-    for (let index in project.links)
+    document.getElementById("projectDisplayText").innerHTML = project.description;
+    document.getElementById("projectDisplayContent").src = `img/project/${project.id}.png`;0
+    if (!project.nsfw) // We don't want to link projects that are in fact NSFW
     {
-        let link = project.links[index];
-        buttons += '<a class="button neutral" href="' + link.content + '">' + link.name + '</a>';
+        let buttons = "";
+        for (let index in project.links)
+        {
+            let link = project.links[index];
+            buttons += '<a class="button neutral" href="' + link.content + '">' + link.name + '</a>';
+        }
+        document.getElementById("projectDisplayButtons").innerHTML = buttons;
     }
-    document.getElementById("projectDisplayButtons").innerHTML = buttons;
+    else
+    {
+        document.getElementById("projectDisplayButtons").innerHTML = "";
+    }
 }
 
 function initProjects() {
@@ -82,11 +98,7 @@ function initProjects() {
     for (let index in projects)
     {
         let project = projects[index];
-
-        if (!project.nsfw)
-        {
-            html += `<img class="projectPreviewInstance" src="img/project/${project.id}.png" onclick="displayProject(${index})"></img>`;
-        }
+        html += `<img class="projectPreviewInstance" src="img/project/${project.id}.png" onclick="displayProject(${index})"></img>`;
     }
     document.getElementById("projectPreview").innerHTML = html;
 }
