@@ -76,7 +76,8 @@ let projects = [
 function displayProject(index) {
     let project = projects[index];
     document.getElementById("projectDisplayText").innerHTML = project.description;
-    document.getElementById("projectDisplayContent").src = `img/project/${project.id}.png`;0
+    document.getElementById("projectDisplayContent").src = `img/project/${project.id}.png`;
+    document.getElementById("projectDisplaySubtext").innerHTML = project.imageDescription;
     if (!project.nsfw) // We don't want to link projects that are in fact NSFW
     {
         let buttons = "";
