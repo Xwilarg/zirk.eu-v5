@@ -2,6 +2,7 @@ let gamejams = [
     {
         "name": "GraviCube",
         "fullName": "Gravi-Cube",
+        "location": "Online",
         "theme": "Gravity",
         "event": "Zero Hour Game Jam 2021",
         "date": "2021-10-31",
@@ -15,6 +16,7 @@ let gamejams = [
     {
         "name": "EscapeFromSpace",
         "fullName": "Escape from Space",
+        "location": "Online",
         "theme": "Unstable",
         "event": "Ludum Dare 49",
         "date": "2021-10-02",
@@ -28,6 +30,7 @@ let gamejams = [
     {
         "name": "TheRollingDices",
         "fullName": "The Rolling Dices - Paint It, Red",
+        "location": "Online",
         "theme": "Alea jacta est",
         "event": "TUFRJAM2",
         "date": "2021-04-30",
@@ -41,6 +44,7 @@ let gamejams = [
     {
         "name": "Nautilus",
         "fullName": "Nautilus",
+        "location": "Online",
         "theme": "Deeper and Deeper",
         "event": "Ludum Dare 48",
         "date": "2021-04-24",
@@ -54,6 +58,7 @@ let gamejams = [
     {
         "name": "RRR",
         "fullName": "R.R.R. (Remove Reuse Repair)",
+        "location": "Tokyo, Japan",
         "theme": "Repair",
         "event": "Global Game Jam 2020",
         "date": "2020-01-31",
@@ -67,6 +72,7 @@ let gamejams = [
     {
         "name": "DungeonMaster",
         "fullName": "Dungeon Master",
+        "location": "Online",
         "theme": "You are the final boss",
         "event": "42Jam #2",
         "date": "2019-11-30",
@@ -83,6 +89,7 @@ let gamejams = [
     {
         "name": "LarryTheSheepsMuseumInvasion",
         "fullName": "Larry: The Sheep\'s Museum Invasion",
+        "location": "Online",
         "theme": "Starry Night",
         "event": "Paint Jam",
         "date": "2019-02-16",
@@ -99,6 +106,7 @@ let gamejams = [
     {
         "name": "KibouNoImouto",
         "fullName": "希望の妹",
+        "location": "Online",
         "theme": "Intimacy",
         "event": "NSFW Valentines",
         "date": "2019-02-08",
@@ -115,6 +123,7 @@ let gamejams = [
     {
         "name": "NewSensations",
         "fullName": "New Sensations",
+        "location": "Online",
         "theme": "What home means to you",
         "event": "Global Game Jam 2019",
         "date": "2019-01-25",
@@ -128,6 +137,7 @@ let gamejams = [
     {
         "name": "JovialJudgement",
         "fullName": "Jovial Judgement",
+        "location": "Online",
         "theme": "You're on the naughty list",
         "event": "Christmas Jam 2018",
         "date": "2018-12-22",
@@ -144,6 +154,7 @@ let gamejams = [
     {
         "name": "ToFSDfSftPDRRoDwL",
         "fullName": "Tower of fated shoulders destined for survival from the Pouch destroyer rainbow road of doom with leeches",
+        "location": "Online",
         "theme": "Running out of Spaces",
         "event": "Ludum Dare 42",
         "date": "2018-08-11",
@@ -157,6 +168,7 @@ let gamejams = [
     {
         "name": "Manchaud",
         "fullName": "Manchaud",
+        "location": "Paris, France",
         "theme": "Green Game",
         "event": "Sogeti Green X Games",
         "date": "2018-06-15",
@@ -170,6 +182,7 @@ let gamejams = [
     {
         "name": "HadipoRun",
         "fullName": "Hadipo Run",
+        "location": "Le Kremlin-Bicêtre, France",
         "theme": "Transmission",
         "event": "Global Game Jam 2018",
         "date": "2018-01-26",
@@ -183,6 +196,7 @@ let gamejams = [
     {
         "name": "PowerDown",
         "fullName": "PowerDown",
+        "location": "Online",
         "theme": "The more you have, the worse it is",
         "event": "Ludum Dare 40",
         "date": "2017-12-02",
@@ -196,6 +210,7 @@ let gamejams = [
     {
         "name": "TalesOfLayinskia",
         "fullName": "Tales of Layinskia",
+        "location": "Le Kremlin-Bicêtre, France",
         "theme": "Waves",
         "event": "Global Game Jam 2017",
         "date": "2017-01-20",
@@ -209,6 +224,7 @@ let gamejams = [
     {
         "name": "Vespias",
         "fullName": "Vespias: Battle for the Pentacle",
+        "location": "Online",
         "theme": "One Room",
         "event": "Ludum Dare 37",
         "date": "2016-12-09",
