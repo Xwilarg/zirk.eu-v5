@@ -74,6 +74,8 @@ let projects = [
 ];
 
 function displayProject(index) {
+    document.getElementById("projectDisplay").hidden = false;
+
     let project = projects[index];
     document.getElementById("projectDisplayText").innerHTML = project.description;
     document.getElementById("projectDisplayContent").src = `img/project/${project.id}.png`;
