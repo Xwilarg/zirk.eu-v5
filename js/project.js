@@ -4,6 +4,7 @@ let projects = [
         "id": "Sanara",
         "description": "Multipurpose bot for Discord",
         "imageDescription": "Top left: image search, bottom left: shiritori (Japanese associative word game), right: text translation from image",
+        "languages": [ "C#" ],
         "links": [
             {
                 "name": "Source Code",
@@ -25,6 +26,7 @@ let projects = [
         "id": "NHentaiDownloader",
         "description": "Allows to download doujinshi (fan-made manga) from some popular website",
         "imageDescription": "Download of many doujinshi at once",
+        "languages": [ "TypeScript" ],
         "links": [
             {
                 "name": "Source Code",
@@ -42,6 +44,7 @@ let projects = [
         "id": "BooruSharp",
         "description": "C# library to download images from Booru websites (anime image aggregator)",
         "imageDescription": "Code to get the URL and rating of a random image having the \"Cirno\" tag",
+        "languages": [ "C#" ],
         "links": [
             {
                 "name": "Source Code",
@@ -59,6 +62,7 @@ let projects = [
         "id": "Discord-OAuth2-PHP",
         "description": "PHP library to easily use Discord OAuth2 authentification",
         "imageDescription": "Code to authentificate an user with Discord and get his username and Discord tag",
+        "languages": [ "PHP" ],
         "links": [
             {
                 "name": "Source Code",
@@ -67,6 +71,34 @@ let projects = [
             {
                 "name": "Packagist",
                 "content": "https://packagist.org/packages/xwilarg/discord-oauth2-php"
+            }
+        ],
+        "nsfw": false
+    },
+    {
+        "name": "DailyReset",
+        "id": "DailyReset",
+        "description": "Android application to help learning Korean and Japanese",
+        "imageDescription": "Image 1: Daily word, Image 2: Quizz with handwritten input, Image 3: Quizz result, Image 4: Sample sentence with daily word",
+        "languages": [ "Kotlin" ],
+        "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/DailyReset"
+            }
+        ],
+        "nsfw": false
+    },
+    {
+        "name": "Euphonia",
+        "id": "Euphonia",
+        "description": "Website to host and play your music",
+        "imageDescription": "Example of the website with a music playing. Bottom right: Preview from mobile notification",
+        "languages": [ "JavaScript", "PHP" ],
+        "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/Euphonia"
             }
         ],
         "nsfw": false
