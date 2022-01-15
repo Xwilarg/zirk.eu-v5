@@ -1,16 +1,16 @@
 let gamejams = [
     {
-        "name": "GraviCube",
-        "fullName": "Gravi-Cube",
+        "name": "Chickens",
+        "fullName": "Курятник",
         "location": "Online",
-        "theme": "Gravity",
-        "event": "Zero Hour Game Jam 2021",
-        "date": "2021-10-31",
-        "duration": 1,
-        "github": "https://github.com/Xwilarg/ZeroHourGameJam",
-        "website": "https://itch.io/jam/zero-hour-game-jam-2021/rate/1257289",
-        "webgl": [ "https://tommoore515.itch.io/gravi-cube" ],
-        "postModification": "Re-add background and wall textures (Git merge conflicts)",
+        "theme": "Жестокость",
+        "event": "Crystal Gamejam",
+        "date": "2022-01-15",
+        "duration": 5,
+        "github": "https://github.com/Xwilarg/Crystal-Gamejam",
+        "website": "https://itch.io/jam/crystal-gamejam/rate/1354761",
+        "webgl": [ "https://gamejam.zirk.eu/%D0%9A%D1%83%D1%80%D1%8F%D1%82%D0%BD%D0%B8%D0%BA/index.html" ],
+        "postModification": null,
         "nsfw": false
     },
     {
