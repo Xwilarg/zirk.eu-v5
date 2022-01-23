@@ -1,5 +1,19 @@
 let gamejams = [
     {
+        "name": "GlobeTrotter",
+        "fullName": "GlobeTrotter",
+        "location": "Online",
+        "theme": "Globe",
+        "event": "Bean Jam #23",
+        "date": "2022-01-23",
+        "duration": 3,
+        "github": "https://github.com/Xwilarg/BeanJam23",
+        "website": "https://itch.io/jam/bean-jam-23/rate/1365339",
+        "webgl": [ "https://gamejam.zirk.eu/GlobeTrotter/index.html", "https://zirk.itch.io/globetrotter" ],
+        "postModification": null,
+        "nsfw": false
+    },
+    {
         "name": "Chickens",
         "fullName": "Курятник",
         "location": "Online",
