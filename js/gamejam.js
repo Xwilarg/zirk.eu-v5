@@ -1,5 +1,19 @@
 let gamejams = [
     {
+        "name": "Catchmeleon",
+        "fullName": "Catchmeleon",
+        "location": "Online",
+        "theme": "Shapes and Colors",
+        "event": "One Hour Game Jam",
+        "date": "2022-01-29",
+        "duration": 1,
+        "github": "https://github.com/Xwilarg/OneHourGameJam353",
+        "website": "https://onehourgamejam.com/?page=jam&jam=353",
+        "webgl": [ "https://gamejam.zirk.eu/Catchmeleon/index.html" ],
+        "postModification": null,
+        "nsfw": false
+    },
+    {
         "name": "GlobeTrotter",
         "fullName": "GlobeTrotter",
         "location": "Online",
