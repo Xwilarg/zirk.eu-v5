@@ -93,8 +93,8 @@ let projects = [
         "name": "Euphonia",
         "id": "Euphonia",
         "description": "Website to host and play your music",
-        "imageDescription": "Example of the website with a music playing. Bottom right: Preview from mobile notification",
-        "languages": [ "JavaScript", "PHP" ],
+        "imageDescription": "Example of the website with a music playing. Top right: Preview from mobile notification",
+        "languages": [ "JavaScript", "PHP", "Python" ],
         "links": [
             {
                 "name": "Source Code",
