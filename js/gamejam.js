@@ -1,19 +1,5 @@
 let gamejams = [
     {
-        "name": "",
-        "fullName": "",
-        "location": "Online",
-        "theme": "Horny Games",
-        "event": "Strawberry Jam 6",
-        "date": "2022-02-01",
-        "duration": 672,
-        "github": null,
-        "website": null,
-        "webgl": [],
-        "postModification": null,
-        "nsfw": true
-    },
-    {
         "name": "Catchmeleon",
         "fullName": "Catchmeleon",
         "location": "Online",
