@@ -1,5 +1,19 @@
 let gamejams = [
     {
+        "name": "NotAllHeroesWearSwords",
+        "fullName": "Not All Heroes Wear Swords",
+        "location": "Online",
+        "theme": "Aux fourneaux !",
+        "event": "Game Anatomy Jam",
+        "date": "2022-02-18",
+        "duration": 56,
+        "github": "https://github.com/Xwilarg/Game-Anatomy-Jam",
+        "website": "https://itch.io/jam/game-anatomy-jam/rate/1409591",
+        "webgl": [ "https://gamejam.zirk.eu/NotAllHeroesWearSwords/index.html", "https://zirk.itch.io/not-all-heroes-wear-swords" ],
+        "postModification": null,
+        "nsfw": false
+    },
+    {
         "name": "Catchmeleon",
         "fullName": "Catchmeleon",
         "location": "Online",
