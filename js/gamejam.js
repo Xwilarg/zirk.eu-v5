@@ -1,5 +1,19 @@
 let gamejams = [
     {
+        "name": "Under",
+        "fullName": "Under",
+        "location": "Online",
+        "theme": "Обманчивая простота",
+        "event": "Game Anatomy Jam",
+        "date": "2022-02-18",
+        "duration": 72,
+        "github": "https://github.com/Xwilarg/Under",
+        "website": "https://itch.io/jam/indie-varvars-jam-1/rate/1421267",
+        "webgl": [ "https://gamejam.zirk.eu/Under/index.html" ],
+        "postModification": null,
+        "nsfw": false
+    },
+    {
         "name": "NotAllHeroesWearSwords",
         "fullName": "Not All Heroes Wear Swords",
         "location": "Online",
