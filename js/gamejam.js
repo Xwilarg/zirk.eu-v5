@@ -5,7 +5,7 @@ let gamejams = [
         "location": "Online",
         "theme": "Обманчивая простота",
         "event": "Game Anatomy Jam",
-        "date": "2022-02-18",
+        "date": "2022-02-25",
         "duration": 72,
         "github": "https://github.com/Xwilarg/Under",
         "website": "https://itch.io/jam/indie-varvars-jam-1/rate/1421267",
