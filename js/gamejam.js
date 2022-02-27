@@ -4,7 +4,7 @@ let gamejams = [
         "fullName": "Under",
         "location": "Online",
         "theme": "Обманчивая простота",
-        "event": "Game Anatomy Jam",
+        "event": "Indie Varvar's Jam #1",
         "date": "2022-02-25",
         "duration": 72,
         "github": "https://github.com/Xwilarg/Under",
