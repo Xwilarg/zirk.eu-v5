@@ -3,7 +3,7 @@ let projects = [
         "name": "Sanara",
         "id": "Sanara",
         "description": "Multipurpose bot for Discord",
-        "imageDescription": "Top left: image search, bottom left: shiritori (Japanese associative word game), right: text translation from image",
+        "imageDescription": "Top left: image search<br/>Bottom left: shiritori (Japanese associative word game)<br/>Right: text translation from image",
         "languages": [ "C#" ],
         "links": [
             {
@@ -21,7 +21,8 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": true
+        "highlist": true,
+        "date": "Since 2017-08-28"
     },
     {
         "name": "NHentaiDownloader",
@@ -41,7 +42,8 @@ let projects = [
         ],
         "nsfw": true,
         "type": "Web Extension",
-        "highlist": true
+        "highlist": true,
+        "date": "Since 2018-09-04"
     },
     {
         "name": "BooruSharp",
@@ -61,7 +63,8 @@ let projects = [
         ],
         "nsfw": true,
         "type": "Library",
-        "highlist": true
+        "highlist": true,
+        "date": "Since 2018-07-16"
     },
     {
         "name": "Discord OAuth2 PHP",
@@ -81,7 +84,8 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false
+        "highlist": false,
+        "date": "Since 2019-04-19"
     },
     {
         "name": "DailyReset",
@@ -97,7 +101,8 @@ let projects = [
         ],
         "nsfw": false,
         "Android App": "Library",
-        "highlist": false
+        "highlist": false,
+        "date": "Since 2021-02-04 - 2021-12-20"
     },
     {
         "name": "Euphonia",
@@ -113,7 +118,8 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": true
+        "highlist": true,
+        "date": "Since 2021-11-25"
     },
     {
         "name": "Colodex",
@@ -129,7 +135,8 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false
+        "highlist": false,
+        "date": "Since 2021-09-08"
     },
     {
         "name": "GitHub Traffic",
@@ -145,7 +152,8 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false
+        "highlist": false,
+        "date": "Since 2021-04-10"
     },
     {
         "name": "FPL-TimePlayed",
@@ -161,7 +169,8 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Flashpoint extension",
-        "highlist": false
+        "highlist": false,
+        "date": "2021-04-04 - 2021-04-30"
     },
     {
         "name": "TwitterSharp",
@@ -177,7 +186,8 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false
+        "highlist": false,
+        "date": "Since 2021-05-03"
     },
     {
         "name": "Pina",
@@ -193,7 +203,8 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false
+        "highlist": false,
+        "date": "Since 2019-05-29"
     },
     {
         "name": "CSV Cleaner",
@@ -209,7 +220,8 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Software",
-        "highlist": false
+        "highlist": false,
+        "date": "2019-01-22 - 2019-02-03"
     },
     {
         "name": "Konawall",
@@ -225,7 +237,25 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Script",
-        "highlist": false
+        "highlist": false,
+        "date": "2018-06-08 - 2018-10-05"
+    },
+    {
+        "name": "FightEpitechGrades",
+        "id": "FightEpitechGrades",
+        "description": "This project is a 2D video game made with the SFML where you fight your EPITECH's grades",
+        "imageDescription": "Player versus AI",
+        "languages": [ "C++" ],
+        "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/FightEpitechGrades"
+            }
+        ],
+        "nsfw": false,
+        "type": "Video Game",
+        "highlist": false,
+        "date": "2015 - 2016"
     },
     {
         "name": "ProjetISNProcessing",
@@ -241,7 +271,25 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false
+        "highlist": false,
+        "date": "2015 - 2016"
+    },
+    {
+        "name": "The Quest Of Zirk",
+        "id": "TQOZ",
+        "description": "Game for TI-83+ I made around the middle of my high school years",
+        "imageDescription": "Screen 1: Main menu (Main menu 1-Play 2-Stats 3-Reset 4-Achievements 5-Codes 6-Credit 7-Exit)<br/>Screen 2: Fight (You are attacking, your enemy loose: 12  He Still has: 33)<br/>Screen 3: In-game menu (Where are you going? 1- Capital 2-City 3-River 4-Graveyard 5-Dungeon)<br/>Screen 4: Stats recap (Enemies killed: 1  Damages done: 67  Damages received: 100)",
+        "languages": [ "TI-Basic" ],
+        "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/TQOZ"
+            }
+        ],
+        "nsfw": false,
+        "type": "Video Game",
+        "highlist": false,
+        "date": "Around 2012"
     }
 ];
 
