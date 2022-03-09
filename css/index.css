@@ -85,6 +85,7 @@ img {
     flex: 30%;
     overflow-y: scroll;
     height: 80vh;
+    text-align: center;
 }
 
 #projectDisplay {
