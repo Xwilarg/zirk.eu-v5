@@ -116,3 +116,7 @@ img {
     font-style: italic;
     margin-top: 0;
 }
+
+#projectDisplayTitle {
+    font-size: x-large;
+}
