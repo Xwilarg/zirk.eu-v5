@@ -5,14 +5,14 @@ html {
 
 .container {
     background: red;
-    animation: gradient .5s infinite;
+    animation: gradient .5s infinite, translateY .1s alternate infinite;
 }
 
 img {
     animation: rotate 1.5s linear infinite;
 }
 
-.button {
+.button, button {
     z-index: 1;
     animation: 
         stretch
@@ -25,14 +25,21 @@ img {
         running;
 }
 
+button {
+    background-color: rgb(255, 71, 230) !important;
+    border:rgb(51, 255, 0) 15px dashed !important;
+}
+
+button:hover {
+    box-shadow: inset -8px 15px rgb(255, 238, 0) !important;
+}
+
 p {
-    animation: translate 1.5s alternate infinite;
-    animation: slidein 5s alternate infinite;
+    animation: translate 1.5s alternate infinite, slidein 5s alternate infinite;
 }
 
 h1, h2, h3 {
-    animation: rotate 4s linear infinite;
-    animation: text_size_change 2s alternate infinite;
+    animation: rotate 4s linear infinite, text_size_change 2s alternate infinite;
 }
 
 .globalTab {
@@ -93,6 +100,11 @@ h1, h2, h3 {
 @keyframes translate {
     to {
       transform: translate(200px);
+    }
+}
+@keyframes translateY {
+    to {
+      transform: translateY(5px);
     }
 }
 @keyframes stretch {
