@@ -1,9 +1,13 @@
 .tabSystem > button {
     background: none;
-    width: 24%;
+    width: 22%;
     padding-top: .5em;
     padding-bottom: .5em;
     font-size: 1em;
+}
+
+.tabSystem > button.small {
+    width: 5%;
 }
 
 .tabSystem > button:hover {

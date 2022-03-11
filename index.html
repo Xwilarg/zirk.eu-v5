@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="css/index.css"/>
         <link rel="stylesheet" href="css/tab.css"/>
         <link rel="stylesheet" href="css/gamejam.css"/>
+        <link rel="stylesheet" href="css/project.css"/>
         <title>Zirk</title>
         <!-- Script order matters! -->
         <script src="js/gamejam.js"></script>
@@ -14,17 +15,21 @@
         <meta charset="UTF-8">
     </head>
     <body>
+        <div class="tabSystem">
+            <button class="small" onclick="displayTab('globalTab', 'home')">⌂</button>
+            <button onclick="displayTab('globalTab', 'project')">My Projects</button>
+            <button onclick="displayTab('globalTab', 'gamejam')">Game Jams</button>
+            <button onclick="displayTab('globalTab', 'about')">About Me</button>
+            <button onclick="displayTab('globalTab', 'others')">Others</button>
+        </div>
         <div class="container">
-            <h1>Zirk - Software Developer</h1>
-            <p>
-                Welcome on my website, as the big title says I'm a Software Developer, I like to fiddle with everything but my favorite languages are C# and C<br/>
-                To see more, you can use the cool tabs system<sup>TM</sup> right down here
-            </p>
-            <div class="tabSystem">
-                <button onclick="displayTab('globalTab', 'project')">My Projects</button>
-                <button onclick="displayTab('globalTab', 'gamejam')">Game Jams</button>
-                <button onclick="displayTab('globalTab', 'about')">About Me</button>
-                <button onclick="displayTab('globalTab', 'others')">Others</button>
+            
+            <div class="globalTab" id="home">
+                <h1>Zirk - Software Developer</h1>
+                <p>
+                    Welcome on my website, as the big title says I'm a Software Developer, I like to fiddle with everything but my favorite languages are C# and C<br/>
+                    To see more, you can use the cool tabs system<sup>TM</sup> right up there
+                </p>
             </div>
 
             <div class="globalTab" id="project">

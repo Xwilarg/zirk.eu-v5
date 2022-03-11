@@ -9,5 +9,7 @@ function displayTab(tabClass, currentTabName) {
         }
         targetElement.hidden = false;
         load(currentTabName);
+    } else {
+        displayTab(tabClass, "home");
     }
 }

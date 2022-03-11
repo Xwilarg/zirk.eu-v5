@@ -7,6 +7,8 @@ window.onload = function() {
     }
     if (tab !== null) {
         displayTab('globalTab', tab.toLowerCase());
+    } else {
+        displayTab('globalTab', "home");
     }
 
     initProjects();
