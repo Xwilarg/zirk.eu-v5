@@ -46,6 +46,43 @@ h1, h2, h3 {
     animation: width_change 12s alternate infinite;
 }
 
+html {
+    animation: cursor 5s linear infinite;
+}
+
+@keyframes cursor {
+    0% {
+        cursor: not-allowed;
+    }
+    10% {
+        cursor: crosshair;
+    }
+    20% {
+        cursor: grabbing;
+    }
+    30% {
+        cursor: alias;
+    }
+    40% {
+        cursor: cell;
+    }
+    50% {
+        cursor: zoom-in;
+    }
+    60% {
+        cursor: no-drop;
+    }
+    70% {
+        cursor: row-resize;
+    }
+    80% {
+        cursor: wait;
+    }
+    90% {
+        cursor: context-menu;
+    }
+}
+
 @keyframes slidein {
     from {
       margin-left: 100%;
