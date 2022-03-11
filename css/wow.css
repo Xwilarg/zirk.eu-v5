@@ -25,6 +25,54 @@ img {
         running;
 }
 
+p {
+    animation: translate 1.5s alternate infinite;
+    animation: slidein 5s alternate infinite;
+}
+
+h1, h2, h3 {
+    animation: rotate 4s linear infinite;
+    animation: text_size_change 2s alternate infinite;
+}
+
+.globalTab {
+    animation: width_change 12s alternate infinite;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+@keyframes width_change {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 20%;
+    }
+}
+@keyframes text_size_change {
+    from {
+        font-size: 1em;
+    }
+    to {
+        font-size: 5em;
+    }
+}
 @keyframes switch {
     from {
         background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(122, 9, 32) 100%);
@@ -40,6 +88,11 @@ img {
 @keyframes rotate {
     to {
       transform: rotate(360deg);
+    }
+}
+@keyframes translate {
+    to {
+      transform: translate(200px);
     }
 }
 @keyframes stretch {
