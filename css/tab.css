@@ -17,3 +17,20 @@
 .tabSystem {
     text-align: center;
 }
+
+.tabSystem > button.small {
+    background-color: rgb(136, 136, 255);
+    border-top: none;
+    border-left: none;
+    box-shadow: 1px 1px 1px black;
+}
+
+.tabSystem > button.small:hover {
+    background-color: rgb(136, 136, 255);
+    box-shadow: 1px 1px 1px black;
+}
+
+.tabSystem > button.small:active {
+    box-shadow: inset 2px 2px rgb(105, 105, 105);
+    background-color: rgb(123, 123, 255);
+}
