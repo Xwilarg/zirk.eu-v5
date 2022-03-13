@@ -1,5 +1,19 @@
 let gamejams = [
     {
+        "name": "GraphysCrypt",
+        "fullName": "Graphy's Crypt",
+        "location": "Online",
+        "theme": "Mix it up!",
+        "event": "One Hour Game Jam",
+        "date": "2022-03-11",
+        "duration": 48,
+        "github": "https://github.com/Xwilarg/GraphysCrypt/",
+        "website": "https://itch.io/jam/gamesplusjam2022/rate/1440233",
+        "webgl": [ "https://gamejam.zirk.eu/GraphysCrypt/index.html" ],
+        "postModification": null,
+        "nsfw": false
+    },
+    {
         "name": "ThereIsNoCloudItsJustSomeoneElsesComputer",
         "fullName": "There is no cloud, it's just someone else's computer",
         "location": "Online",
