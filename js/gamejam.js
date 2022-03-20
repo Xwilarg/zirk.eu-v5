@@ -1,5 +1,19 @@
 let gamejams = [
     {
+        "name": "AcCELLere",
+        "fullName": "AcCELLère",
+        "location": "Online",
+        "theme": null,
+        "event": "Scientific Game Jam - Printemps 2022",
+        "date": "2022-03-18",
+        "duration": 48,
+        "github": "https://github.com/Xwilarg/ScientificGameJam",
+        "website": "https://itch.io/jam/scientific-game-jam-spring-2022/rate/1448850",
+        "webgl": [ "https://gamejam.zirk.eu/AcCELL%C3%A8re/index.html" ],
+        "postModification": "Update project to 2021.2 to fix WebGL build crashing",
+        "nsfw": false
+    },
+    {
         "name": "GraphysCrypt",
         "fullName": "Graphy's Crypt",
         "location": "Online",
@@ -360,7 +374,7 @@ function initGamejam() {
 
         html += `
             <span id="jam-${jam.name}">
-                <p class="jamTitle">${jam.event} - ${jam.duration} hours<br/>${jam.theme}</p>
+                <p class="jamTitle">${jam.event} - ${jam.duration} hours<br/>${(jam.theme != null ? jam.theme : "")}</p>
                 <img id="jamimg-${jam.name}" src="img/gamejam/${jam.name}.jpg"></img>
                 <br/>
                 ${buttons}
