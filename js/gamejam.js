@@ -22,7 +22,7 @@ let gamejams = [
         "fullName": "Graphy's Crypt",
         "location": "Online",
         "theme": "Mix it up!",
-        "event": "One Hour Game Jam",
+        "event": "GamesPlusJam 2022",
         "date": "2022-03-11",
         "duration": 48,
         "github": "https://github.com/Xwilarg/GraphysCrypt/",
