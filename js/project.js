@@ -236,24 +236,6 @@ let projects = [
         "date": "2020-07-20 - 2021-12-21"
     },
     {
-        "name": "Natsuri",
-        "id": "Natsuri",
-        "description": "A Discord bot than open a gate allowing you to send an image to a random guild and to see the reactions they add to it",
-        "comment": "I was expecting this project to be more popular but it ended up being a lot of work for not that many people using it",
-        "imageDescription": "Generation of text based on last messages the user sent",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Natsuri"
-            }
-        ],
-        "nsfw": false,
-        "type": "Discord Bot",
-        "highlist": false,
-        "date": "2020-11-22 - 2020-12-04"
-    },
-    {
         "name": "CSV Cleaner",
         "id": "CSVCleaner",
         "description": "Some handy tools to clean your CSV files",
@@ -306,24 +288,6 @@ let projects = [
         "type": "Script",
         "highlist": false,
         "date": "2018-06-08 - 2018-10-05"
-    },
-    {
-        "name": "Atsuka",
-        "id": "Atsuka",
-        "description": "Detect \"bad\" messages and prevent user to send messages until he apologize",
-        "comment": "This project nearly destroyed a school group project after someone became angry toward the bot (and me)",
-        "imageDescription": "Messages are automatically deleted until the user apologize",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Atsuka"
-            }
-        ],
-        "nsfw": false,
-        "type": "Discord Bot",
-        "highlist": false,
-        "date": "2018-04-25 - 2019-07-14"
     },
     {
         "name": "FightEpitechGrades",
@@ -414,9 +378,17 @@ function displayProject(index) {
 
 function initProjects() {
     let html = "";
-    for (let index in projects)
+    let wasHighlist = true;
+    for (let index in projects.sort((a, b) => {
+        return b.highlist - a.highlist;
+    }))
     {
         let project = projects[index];
+        if (wasHighlist && !project.highlist)
+        {
+            wasHighlist = false;
+            html += "<hr/>";
+        }
         html += `<img class="projectPreviewInstance" src="img/project/${project.id}.png" onclick="displayProject(${index})"></img>`;
     }
     document.getElementById("projectPreview").innerHTML = html;

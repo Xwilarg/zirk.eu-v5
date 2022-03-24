@@ -717,9 +717,17 @@ function initGamejam() {
             buttons += "</span>"
         }
 
+        let jamInfo = "";
+        if (jam.rating !== null && jam.rating.scores != null && jam.rating.scores["Overall"].rank != null) {
+            jamInfo = `Ranked ${jam.rating.scores["Overall"].rank} out of ${jam.rating.entries}`;
+        }
+
         html += `
             <span id="jam-${jam.name}">
-                <p class="jamTitle">${jam.event} - ${jam.duration} hours<br/>${(jam.theme != null ? jam.theme : "")}</p>
+                <span class="jamInfoText">
+                    <p class="jamTitle">${jam.event} - ${jam.duration} hours<br/>${(jam.theme != null ? jam.theme : "")}</p>
+                    <p class="jamInfo">${jamInfo}</p>
+                </span>
                 <img id="jamimg-${jam.name}" src="img/gamejam/${jam.name}.jpg"></img>
                 <br/>
                 ${buttons}
