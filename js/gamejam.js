@@ -1,5 +1,20 @@
 let gamejams = [
     {
+        "name": "BarkThemAll",
+        "fullName": "Bark Them All",
+        "location": "Online",
+        "theme": "herd",
+        "event": "One Hour Game Jam",
+        "date": "2022-03-26",
+        "duration": 1,
+        "github": "https://github.com/Xwilarg/OneHourJam361",
+        "website": "https://onehourgamejam.com/?page=jam&jam=361",
+        "webgl": [ "https://gamejam.zirk.eu/BarkThemAll/index.html" ],
+        "postModification": null,
+        "nsfw": false,
+        "rating": null
+    },
+    {
         "name": "AcCELLere",
         "fullName": "AcCELLère",
         "location": "Online",
@@ -88,7 +103,7 @@ let gamejams = [
         "postModification": null,
         "nsfw": false,
         "rating": {
-            "entries": 18,
+            "entries": 20,
             "scores": {
                 "Соответствие теме": {
                     "rank": 2,
@@ -479,7 +494,7 @@ let gamejams = [
         "postModification": null,
         "nsfw": false,
         "rating": {
-            "entries": 32,
+            "entries": 38,
             "scores": {
                 "Innovation": {
                     "rank": 7,
