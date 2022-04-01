@@ -1,6 +1,7 @@
 html {
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(122, 9, 32) 100%);
     animation: switch 1s infinite;
+    text-shadow: -3px 0 1px cyan,3px 0 1px red; /* Thanks StackOverflow easter egg */
 }
 
 .container {

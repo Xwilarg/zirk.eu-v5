@@ -15,22 +15,25 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <div class="tabSystem">
-            <button class="small" onclick="displayTab('globalTab', 'home')">⌂</button>
-            <button onclick="displayTab('globalTab', 'project')">My Projects</button>
-            <button onclick="displayTab('globalTab', 'gamejam')">Game Jams</button>
-            <button onclick="displayTab('globalTab', 'about')">About Me</button>
-            <button onclick="displayTab('globalTab', 'others')">Others</button>
-        </div>
         <div class="container">
-            
-            <div class="globalTab" id="home">
+            <div id="intro">
                 <h1>Zirk - Software Developer</h1>
                 <p>
                     Welcome on my website, as the big title says I'm a Software Developer, I like to fiddle with everything but my favorite languages are C# and C<br/>
                     To see more, you can use the cool tabs system<sup>TM</sup> right up there
                 </p>
             </div>
+
+            <hr class="sepHr"/>
+
+            <div class="tabSystem">
+                <a href="#project" onclick="displayTab('globalTab', 'project')">My Projects</a>
+                <a href="#gamejam" onclick="displayTab('globalTab', 'gamejam')">Game Jams</a>
+                <a href="#about" onclick="displayTab('globalTab', 'about')">About Me</a>
+                <a href="#others" onclick="displayTab('globalTab', 'others')">Others</a>
+            </div>
+            
+            <hr class="sepHr"/>
 
             <div class="globalTab" id="project">
                 <h2>My Projects</h2>

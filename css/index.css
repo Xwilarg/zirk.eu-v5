@@ -1,7 +1,9 @@
 /* Main CSS */
 
 html {
-    background-color: #eee;
+    background-color: #4C4B63;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .container {
@@ -10,8 +12,13 @@ html {
     margin-top: 2em;
     padding: 2em;
     border-radius: 5px;
-    background-color: #f6f6f6;
-    box-shadow: 1px 1px 1px black;
+    text-align: center;
+    color: white;
+}
+
+.sepHr {
+    margin-bottom: 5em;
+    margin-top: 5em;
 }
 
 h1 {
@@ -29,29 +36,21 @@ h3 {
 a {
     text-decoration: none;
     border-bottom: dotted 1px;
-    color: rgb(82, 94, 167);
+    color: rgb(191, 200, 255);
 }
 
 a:hover {
     color: #EF6480;
     border-bottom-color: transparent;
+    cursor: pointer;
 }
 
 body {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
 img {
     width: 30em;
-}
-
-.flex {
-    display: flex;
-}
-
-#tabSystem {
-    position: absolute;
-    top: 0;
 }
 
 /* Buttons */

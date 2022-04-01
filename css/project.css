@@ -1,7 +1,11 @@
+.flex {
+    display: flex;
+}
+
 #projectPreview {
     flex: 30%;
     overflow-y: scroll;
-    height: 80vh;
+    height: 85vh;
     text-align: center;
 }
 
@@ -16,7 +20,7 @@
 
 .projectPreviewInstance {
     border-radius: 10px;
-    outline: 1px solid white;
+    outline: 1px solid black;
     cursor: pointer;
 }
 

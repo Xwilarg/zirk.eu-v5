@@ -1,36 +1,17 @@
-.tabSystem > button {
+.tabSystem > a {
     background: none;
-    width: 22%;
+    width: 25%;
     padding-top: .5em;
     padding-bottom: .5em;
     font-size: 1em;
-}
-
-.tabSystem > button.small {
-    width: 5%;
-}
-
-.tabSystem > button:hover {
-    background-color: rgb(235, 235, 235);
+    border: none;
 }
 
 .tabSystem {
     text-align: center;
+    display: flex;
 }
 
-.tabSystem > button.small {
-    background-color: rgb(136, 136, 255);
-    border-top: none;
-    border-left: none;
-    box-shadow: 1px 1px 1px black;
-}
-
-.tabSystem > button.small:hover {
-    background-color: rgb(136, 136, 255);
-    box-shadow: 1px 1px 1px black;
-}
-
-.tabSystem > button.small:active {
-    box-shadow: inset 2px 2px rgb(105, 105, 105);
-    background-color: rgb(123, 123, 255);
+#others {
+    text-align: left;
 }

@@ -1,14 +1,11 @@
 window.onload = function() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const tab = urlParams.get('tab');
+    const urlParam = window.location.hash;
 
     for (elem of document.getElementsByClassName("globalTab")) {
         elem.hidden = true;
     }
-    if (tab !== null) {
-        displayTab('globalTab', tab.toLowerCase());
-    } else {
-        displayTab('globalTab', "home");
+    if (urlParam !== null) {
+        displayTab('globalTab', urlParam.toLowerCase().substring(1));
     }
 
     initProjects();
