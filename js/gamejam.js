@@ -1,5 +1,20 @@
 let gamejams = [
     {
+        "name": "DemainSeraBien",
+        "fullName": "Demain Sera Bien",
+        "location": "Online",
+        "theme": "Delay the inevitable",
+        "event": "Ludum Dare 50",
+        "date": "2022-04-01",
+        "duration": 72,
+        "github": "https://github.com/Xwilarg/DemainSeraBien",
+        "website": "https://ldjam.com/events/ludum-dare/50/$288628",
+        "webgl": [ "https://gamejam.zirk.eu/DemainSeraBien/index.html" ],
+        "postModification": null,
+        "nsfw": false,
+        "rating": null
+    },
+    {
         "name": "BarkThemAll",
         "fullName": "Bark Them All",
         "location": "Online",
