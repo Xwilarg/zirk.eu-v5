@@ -1,5 +1,20 @@
 let gamejams = [
     {
+        "name": "DontCallALadyABug",
+        "fullName": "Don't Call A Lady A Bug!",
+        "location": "Online",
+        "theme": "It's not a bug!",
+        "event": "One Hour Game Jam",
+        "date": "2022-04-09",
+        "duration": 1,
+        "github": "https://github.com/Xwilarg/OneHourJam363",
+        "website": "https://onehourgamejam.com/?page=jam&jam=363",
+        "webgl": [ "https://gamejam.zirk.eu/DontCallALadyABug/index.html" ],
+        "postModification": null,
+        "nsfw": false,
+        "rating": null
+    },
+    {
         "name": "DemainSeraBien",
         "fullName": "Demain Sera Bien",
         "location": "Online",
