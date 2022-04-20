@@ -770,7 +770,7 @@ function initGamejam() {
         html += `
             <span id="jam-${jam.name}">
                 <span class="jamInfoText">
-                    <p class="jamTitle">${jam.event} - ${jam.duration} hours<br/>${(jam.theme != null ? jam.theme : "")}</p>
+                    <p class="jamTitle">${jam.event} - ${jam.duration} hour${jam.duration > 1 ? "s" : ""}<br/>${(jam.theme != null ? jam.theme : "")}</p>
                     <p class="jamInfo">${jamInfo}</p>
                 </span>
                 <img id="jamimg-${jam.name}" src="img/gamejam/${jam.name}.jpg"></img>
