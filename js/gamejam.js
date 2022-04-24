@@ -1,5 +1,20 @@
 let gamejams = [
     {
+        "name": "anomalyexe",
+        "fullName": "anomaly.exe",
+        "location": "Online",
+        "theme": "Only One",
+        "event": "Mini Jame Gam #9",
+        "date": "2022-04-22",
+        "duration": 58.5,
+        "github": "https://github.com/Xwilarg/anomaly.exe",
+        "website": "https://itch.io/jam/mini-jame-gam-9/rate/1500749",
+        "webgl": [ "https://gamejam.zirk.eu/anomalyexe/index.html" ],
+        "postModification": null,
+        "nsfw": false,
+        "rating": null
+    },
+    {
         "name": "DontCallALadyABug",
         "fullName": "Don't Call A Lady A Bug!",
         "location": "Online",
