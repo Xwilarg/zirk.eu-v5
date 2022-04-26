@@ -17,4 +17,12 @@ window.onload = function() {
         document.head.appendChild(link);
         document.getElementById("cssQuestion").hidden = true;
     };
+
+    Array.from(document.getElementsByClassName("question")).forEach(e => {
+        let children = e.children;
+        children[0].addEventListener("click", () => {
+            children[1].hidden = !children[1].hidden;
+        });
+        children[1].hidden = true;
+    });
 };
