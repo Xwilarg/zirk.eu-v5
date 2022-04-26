@@ -42,7 +42,43 @@ let gamejams = [
         "webgl": [ "https://gamejam.zirk.eu/DemainSeraBien/index.html" ],
         "postModification": null,
         "nsfw": false,
-        "rating": null
+        "rating": {
+            "entries": 1923,
+            "scores": {
+                "Overall": {
+                    "rank": 997,
+                    "score": 3.286
+                },
+                "Fun": {
+                    "rank": 919,
+                    "score": 3.167
+                },
+                "Innovation": {
+                    "rank": 255,
+                    "score": 3.738
+                },
+                "Theme": {
+                    "rank": 1068,
+                    "score": 3.286
+                },
+                "Graphics": {
+                    "rank": 697,
+                    "score": 3.643
+                },
+                "Audio": {
+                    "rank": 705,
+                    "score": 3.119
+                },
+                "Humor": {
+                    "rank": 480,
+                    "score": 3.286
+                },
+                "Mood": {
+                    "rank": 1096,
+                    "score": 3.071
+                }
+            }
+        }
     },
     {
         "name": "BarkThemAll",
