@@ -12,7 +12,39 @@ let gamejams = [
         "webgl": [ "https://gamejam.zirk.eu/anomalyexe/index.html" ],
         "postModification": null,
         "nsfw": false,
-        "rating": null
+        "rating": {
+            "entries": 84,
+            "scores": {
+                "Gameplay": {
+                    "rank": 6,
+                    "score": 3.524
+                },
+                "Fun Factor": {
+                    "rank": 10,
+                    "score": 3.476
+                },
+                "Theme Implementation": {
+                    "rank": 18,
+                    "score": 3.190
+                },
+                "Overall": {
+                    "rank": 19,
+                    "score": 3.127
+                },
+                "Graphics": {
+                    "rank": 20,
+                    "score": 3.190
+                },
+                "Special Feature Implementation": {
+                    "rank": 35,
+                    "score": 2.952
+                },
+                "Audio": {
+                    "rank": 38,
+                    "score": 2.429
+                }
+            }
+        }
     },
     {
         "name": "DontCallALadyABug",
@@ -815,7 +847,9 @@ function initGamejam() {
 
         let jamInfo = "";
         if (jam.rating !== null && jam.rating.scores != null && jam.rating.scores["Overall"].rank != null) {
-            jamInfo = `Ranked ${jam.rating.scores["Overall"].rank} out of ${jam.rating.entries}`;
+            const overall = jam.rating.scores["Overall"].rank;
+            const entries = jam.rating.entries;
+            jamInfo = `Ranked ${overall} out of ${entries}<br/>(${(overall / entries * 100).toFixed(1)}% tier)`;
         }
 
         html += `
