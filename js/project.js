@@ -1,10 +1,12 @@
+const STATE_WORKING = 0;
+const STATE_HALF = 1;
+const STATE_NOT_WORKING = 2;
+
 let projects = [
     {
         "name": "Euphonia",
-        "id": "Euphonia",
         "description": "Website to host and play your music",
         "comment": "I was tired of others music platforms so I made my own!",
-        "imageDescription": "Example of the website with a music playing. Top right: Preview from mobile notification",
         "languages": [ "JavaScript", "PHP", "Python" ],
         "links": [
             {
@@ -12,17 +14,25 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Euphonia"
             }
         ],
+        "image": {
+            "id": "Euphonia",
+            "description": "Example of the website with a music playing. Top right: Preview from mobile notification"
+        },
         "nsfw": false,
         "type": "Website",
         "highlist": true,
-        "date": "Since 2021-11-25"
+        "dates": {
+            "start": "2021-11-25",
+            "end": null
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": "Things works well, should probably work on a easy way to import songs next"
+        }
     },
     {
         "name": "Colodex",
-        "id": "Colodex",
         "description": "Library to use Holodex (vtuber stream aggregator) in C",
-        "comment": "",
-        "imageDescription": "Sample code that display the name and organization associated with a YouTube channel ID",
         "languages": [ "C" ],
         "links": [
             {
@@ -33,7 +43,14 @@ let projects = [
         "nsfw": false,
         "type": "Library",
         "highlist": false,
-        "date": "Since 2021-09-08"
+        "dates": {
+            "start": "2021-09-08",
+            "end": "2021-10-27"
+        },
+        "state": {
+            "status": STATE_HALF,
+            "comment": "Only a few methods in the API are implemented"
+        }
     },
     {
         "name": "TwitterSharp",
@@ -50,15 +67,19 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false,
-        "date": "Since 2021-05-03"
+        "highlist": true,
+        "dates": {
+            "start": "2021-05-03",
+            "end": null
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": "Still a few API endpoints not implemented but the most important ones are here"
+        }
     },
     {
         "name": "GitHub Traffic",
-        "id": "GitHubTraffic",
         "description": "Statistics about the traffic of your GitHub repositories",
-        "comment": "",
-        "imageDescription": "Latest traffic applied on account \"Xwilarg\"",
         "languages": [ "Python" ],
         "links": [
             {
@@ -69,14 +90,19 @@ let projects = [
         "nsfw": false,
         "type": "Library",
         "highlist": false,
-        "date": "Since 2021-04-10"
+        "dates": {
+            "start": "2021-04-10",
+            "end": "2022-02-16"
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": "Only display the numbers of views but it's good enough for this project scope"
+        }
     },
     {
         "name": "Pina",
-        "id": "Pina",
         "description": "A Discord bot that allow anyone to pin messages in your server without the \"Manage Messages\" permission",
         "comment": "Surely didn't expect this project to be much popular but it's doing decently I guess, still have weird bugs I have no idea how to solve tho",
-        "imageDescription": "Example of pinnig a message",
         "languages": [ "C#" ],
         "links": [
             {
@@ -87,14 +113,18 @@ let projects = [
         "nsfw": false,
         "type": "Discord Bot",
         "highlist": false,
-        "date": "Since 2019-05-29"
+        "dates": {
+            "start": "2019-05-29",
+            "end": null
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": null
+        }
     },
     {
         "name": "Discord OAuth2 PHP",
-        "id": "Discord-OAuth2-PHP",
         "description": "PHP library to easily use Discord OAuth2 authentification",
-        "comment": "",
-        "imageDescription": "Code to authentificate an user with Discord and get his username and Discord tag",
         "languages": [ "PHP" ],
         "links": [
             {
@@ -109,14 +139,22 @@ let projects = [
         "nsfw": false,
         "type": "Library",
         "highlist": false,
-        "date": "Since 2019-04-19"
+        "dates": {
+            "start": "2019-04-19",
+            "end": "2020-07-17"
+        },
+        "state": {
+            "status": STATE_HALF,
+            "comment": "Still some issue where if the user reload the page, he have to authentify again"
+        }
     },
     {
-        "name": "NHentaiDownloader",
-        "id": "NHentaiDownloader",
+        "name": "NHentai Downloader",
         "description": "Allows to download doujinshi (fan-made manga) from some popular website",
-        "comment": "",
-        "imageDescription": "Download of many doujinshi at once",
+        "image": {
+            "description": "Download of many doujinshi at once",
+            "id": "NHentaiDownloader"
+        },
         "languages": [ "TypeScript" ],
         "links": [
             {
@@ -131,14 +169,23 @@ let projects = [
         "nsfw": true,
         "type": "Web Extension",
         "highlist": true,
-        "date": "Since 2018-09-04"
+        "dates": {
+            "start": "2018-09-04",
+            "end": null
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": null
+        }
     },
     {
         "name": "BooruSharp",
-        "id": "BooruSharp",
         "description": "C# library to download images from Booru websites (anime image aggregator)",
         "comment": "Making a common library for so many websites is such a pain, I still don't know why my unit tests randomly fails",
-        "imageDescription": "Code to get the URL and rating of a random image having the \"Cirno\" tag",
+        "image": {
+            "id": "BooruSharp",
+            "description": "Code to get the URL and rating of a random image having the \"Cirno\" tag"
+        },
         "languages": [ "C#" ],
         "links": [
             {
@@ -153,14 +200,22 @@ let projects = [
         "nsfw": true,
         "type": "Library",
         "highlist": true,
-        "date": "Since 2018-07-16"
+        "dates": {
+            "start": "2018-07-16",
+            "end": null
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": "Looks like some API calls are failing for some booru but I can't reproduce the issue repeatedly"
+        }
     },
     {
         "name": "Sanara",
-        "id": "Sanara",
         "description": "Multipurpose bot for Discord",
-        "comment": "Probably my favorite project so far!",
-        "imageDescription": "Top left: image search<br/>Bottom left: shiritori (Japanese associative word game)<br/>Right: text translation from image",
+        "image": {
+            "id": "Sanara",
+            "description": "Top left: image search<br/>Bottom left: shiritori (Japanese associative word game)<br/>Right: text translation from image"
+        },
         "languages": [ "C#" ],
         "links": [
             {
@@ -173,20 +228,24 @@ let projects = [
             },
             {
                 "name": "Invitation Link",
-                "content": "https://discordapp.com/oauth2/authorize?client_id=329664361016721408&permissions=3196928&scope=bot"
+                "content": "https://discord.com/api/oauth2/authorize?client_id=329664361016721408&scope=bot%20applications.commands"
             }
         ],
         "nsfw": false,
         "type": "Discord Bot",
         "highlist": true,
-        "date": "Since 2017-08-28"
+        "dates": {
+            "start": "2017-08-28",
+            "end": null
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": "There are still a lot of crashs reported, especially on the subscription module"
+        }
     },
     {
         "name": "FPL-TimePlayed",
-        "id": "FPL-TimePlayed",
         "description": "Flashpoint extension to display how much time you spent on a game",
-        "comment": "",
-        "imageDescription": "Upper part: extension settings, lower part: display example",
         "languages": [ "Typescript" ],
         "links": [
             {
@@ -197,14 +256,23 @@ let projects = [
         "nsfw": false,
         "type": "Flashpoint extension",
         "highlist": false,
-        "date": "2021-04-04 - 2021-04-30"
+        "dates": {
+            "start": "2021-04-04",
+            "end": "2021-04-30"
+        },
+        "state": {
+            "status": STATE_HALF,
+            "comment": "Last time I tried the extension couldn't create playlists anymore"
+        }
     },
     {
         "name": "DailyReset",
-        "id": "DailyReset",
         "description": "Android application to help learning Korean and Japanese, give a new word every day and do quizzes based on them",
         "comment": "Made this project to motivate myself to continue learning Japanese... that didn't work",
-        "imageDescription": "Image 1: Daily word<br/>Image 2: Quizz with handwritten input<br/>Image 3: Quizz result<br/>Image 4: Sample sentence with daily word",
+        "image": {
+            "id": "DailyReset",
+            "description": "Image 1: Daily word<br/>Image 2: Quizz with handwritten input<br/>Image 3: Quizz result<br/>Image 4: Sample sentence with daily word"
+        },
         "languages": [ "Kotlin" ],
         "links": [
             {
@@ -214,15 +282,23 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Android App",
-        "highlist": false,
-        "date": "Since 2021-02-04 - 2021-12-20"
+        "highlist": true,
+        "dates": {
+            "start": "2021-02-04",
+            "end": "2021-12-20"
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": "The app would need more gamification and a better design to be great"
+        }
     },
     {
         "name": "Yuuka",
-        "id": "Yuuka",
         "description": "A Discord bot that allow you to create tags with text, audio or images, and then play them when you want to",
-        "comment": "",
-        "imageDescription": "Tags",
+        "image": {
+            "id": "Yuuka",
+            "description": "Tags"
+        },
         "languages": [ "C#" ],
         "links": [
             {
@@ -232,15 +308,24 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
-        "date": "2020-07-20 - 2021-12-21"
+        "highlist": true,
+        "dates": {
+            "start": "2020-07-20",
+            "end": "2021-12-21"
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": null
+        }
     },
     {
         "name": "CSV Cleaner",
-        "id": "CSVCleaner",
         "description": "Some handy tools to clean your CSV files",
         "comment": "A tool I made for someone who had to manually clean CSV files, I'm pretty happy of the end result",
-        "imageDescription": "CSV data loaded into the software",
+        "image" : {
+            "id": "CSVCleaner",
+            "description": "CSV data loaded into the software"
+        },
         "languages": [ "C++" ],
         "links": [
             {
@@ -250,15 +335,24 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Software",
-        "highlist": false,
-        "date": "2019-01-22 - 2019-02-03"
+        "highlist": true,
+        "dates": {
+            "start": "2019-01-22",
+            "end": "2019-02-03"
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": "Could be more intuitive to use"
+        }
     },
     {
         "name": "Lania",
-        "id": "Lania",
         "description": "A Discord bot than open a gate allowing you to send an image to a random guild and to see the reactions they add to it",
         "comment": "Was expecting this project to be more popular but it never took of",
-        "imageDescription": "Left: An image send to others guilds<br/>Right: 2 images received",
+        "image": {
+            "id": "Lania",
+            "description": "Left: An image send to others guilds<br/>Right: 2 images received"
+        },
         "languages": [ "C#" ],
         "links": [
             {
@@ -268,15 +362,19 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
-        "date": "2018-06-09 - 2020-01-06"
+        "highlist": true,
+        "dates": {
+            "start": "2018-06-09",
+            "end": "2020-01-06"
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": "Had some minor annoying bugs were some information weren't transmit properly between servers"
+        }
     },
     {
         "name": "Konawall",
-        "id": "Konawall",
         "description": "Set a random anime wallpaper on your computer",
-        "comment": "",
-        "imageDescription": "Script launched, searching for a wallpaper for the tag \"kantai_collection\"",
         "languages": [ "Python" ],
         "links": [
             {
@@ -287,7 +385,14 @@ let projects = [
         "nsfw": false,
         "type": "Script",
         "highlist": false,
-        "date": "2018-06-08 - 2018-10-05"
+        "dates": {
+            "start": "2018-06-08",
+            "end": "2018-10-05"
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": null
+        }
     },
     {
         "name": "FightEpitechGrades",
