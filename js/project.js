@@ -54,10 +54,12 @@ let projects = [
     },
     {
         "name": "TwitterSharp",
-        "id": "TwitterSharp",
         "description": "C# wrapper around Twitter API V2",
         "comment": "This project is referenced by Twitter Developer Platform! https://developer.twitter.com/en/docs/twitter-api/tools-and-libraries/v2",
-        "imageDescription": "Code to search the 10 latests tweet of Mori Calliope ",
+        "image": {
+            "id": "TwitterSharp",
+            "description": "Code to search the 10 latests tweet of Mori Calliope "
+        },
         "languages": [ "C#" ],
         "links": [
             {
@@ -396,10 +398,12 @@ let projects = [
     },
     {
         "name": "FightEpitechGrades",
-        "id": "FightEpitechGrades",
         "description": "2D fighting game",
         "comment": "First games I made at EPITECH, having people trying to beat the AI was a lot of fun",
-        "imageDescription": "Player versus AI",
+        "image": {
+            "id": "FightEpitechGrades",
+            "description": "Player versus AI",
+        },
         "languages": [ "C++" ],
         "links": [
             {
@@ -409,15 +413,24 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
-        "date": "End of 2016"
+        "highlist": true,
+        "dates": {
+            "start": "End of 2016",
+            "end": "End of 2016"
+        },
+        "state": {
+            "status": STATE_HALF,
+            "comment": "The \"fight against grades\" that was supposed to be the main part of the game ended up lacking"
+        }
     },
     {
         "name": "ProjetISNProcessing",
-        "id": "ProjetISNProcessing",
-        "description": "RPG",
+        "description": "Turned-based RPG",
         "comment": "Final project of my last year of highschool, I kind of wanted to continue it but after some time the game become really laggy, never found out why",
-        "imageDescription": "Ongoing game",
+        "image": {
+            "id": "ProjetISNProcessing",
+            "description": "Ongoing game"
+        },
         "languages": [ "Java" ],
         "links": [
             {
@@ -427,15 +440,24 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
-        "date": "2015 - 2016"
+        "highlist": true,
+        "dates": {
+            "start": "2015",
+            "end": "2016"
+        },
+        "state": {
+            "status": STATE_HALF,
+            "comment": "After some levels the game became really laggy and thus unplayable"
+        }
     },
     {
         "name": "The Quest Of Zirk",
-        "id": "TQOZ",
         "description": "Text-based game for TI-83+",
         "comment": "Game I made back in high-school on my calculator, had to stop because I reached the limit of 99 GOTO I could do",
-        "imageDescription": "Screen 1: Main menu (Main menu 1-Play 2-Stats 3-Reset 4-Achievements 5-Codes 6-Credit 7-Exit)<br/>Screen 2: Fight (You are attacking, your enemy loose: 12  He Still has: 33)<br/>Screen 3: In-game menu (Where are you going? 1- Capital 2-City 3-River 4-Graveyard 5-Dungeon)<br/>Screen 4: Stats recap (Enemies killed: 1  Damages done: 67  Damages received: 100)",
+        "image": {
+            "id": "TQOZ",
+            "description": "Screen 1: Main menu (Main menu 1-Play 2-Stats 3-Reset 4-Achievements 5-Codes 6-Credit 7-Exit)<br/>Screen 2: Fight (You are attacking, your enemy loose: 12  He Still has: 33)<br/>Screen 3: In-game menu (Where are you going? 1- Capital 2-City 3-River 4-Graveyard 5-Dungeon)<br/>Screen 4: Stats recap (Enemies killed: 1  Damages done: 67  Damages received: 100)"
+        },
         "languages": [ "TI-Basic" ],
         "links": [
             {
@@ -445,8 +467,15 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
-        "date": "Around 2012"
+        "highlist": true,
+        "dates": {
+            "start": "Around 2012",
+            "end": "Around 2012"
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": null
+        }
     }
 ];
 
@@ -463,8 +492,8 @@ function displayProject(index) {
         document.getElementById("projectDisplayTitle").innerHTML = "";
     }
     document.getElementById("projectDisplayText").innerHTML = project.description;
-    document.getElementById("projectDisplayContent").src = `img/project/${project.id}.png`;
-    document.getElementById("projectDisplaySubtext").innerHTML = project.imageDescription;
+    document.getElementById("projectDisplayContent").src = `img/project/${project.image.id}.png`;
+    document.getElementById("projectDisplaySubtext").innerHTML = project.image.description;
     if (!project.nsfw) // We don't want to link projects that are in fact NSFW
     {
         let buttons = "";
@@ -481,20 +510,41 @@ function displayProject(index) {
     }
 }
 
+function getHighlightHtml(project, index) {
+    return `<img class="projectPreviewInstance" src="img/project/${project.image.id}.png" onclick="displayProject(${index})"></img>`;
+}
+
 function initProjects() {
     let html = "";
-    let wasHighlist = true;
     for (let index in projects.sort((a, b) => {
         return b.highlist - a.highlist;
     }))
     {
         let project = projects[index];
-        if (wasHighlist && !project.highlist)
+        if (!project.highlist)
         {
-            wasHighlist = false;
-            html += "<hr/>";
+            break;
         }
-        html += `<img class="projectPreviewInstance" src="img/project/${project.id}.png" onclick="displayProject(${index})"></img>`;
+        html += getHighlightHtml(project, index);
     }
     document.getElementById("projectPreview").innerHTML = html;
+
+    html = "";
+    for (let index in projects.sort((a, b) => {
+        return a.name.localeCompare(b.name);
+    }))
+    {
+        let project = projects[index];
+        html += `
+            <tr>
+                <td>${project.name}</td>
+                <td>${project.type}</td>
+                <td>${project.description}</td>
+                <td>${project.languages.join(' ')}</td>
+                <td>${project.state.status}</td>
+                <td></td>
+            </tr>
+        `
+    }
+    document.getElementById("projectAll").innerHTML = html;
 }
