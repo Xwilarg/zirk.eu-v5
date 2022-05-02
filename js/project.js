@@ -20,7 +20,7 @@ let projects = [
         },
         "nsfw": false,
         "type": "Website",
-        "highlist": true,
+        "highlight": true,
         "dates": {
             "start": "2021-11-25",
             "end": null
@@ -42,7 +42,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-09-08",
             "end": "2021-10-27"
@@ -69,7 +69,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": true,
+        "highlight": true,
         "dates": {
             "start": "2021-05-03",
             "end": null
@@ -91,7 +91,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-04-10",
             "end": "2022-02-16"
@@ -114,7 +114,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-05-29",
             "end": null
@@ -140,7 +140,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-04-19",
             "end": "2020-07-17"
@@ -170,7 +170,7 @@ let projects = [
         ],
         "nsfw": true,
         "type": "Web Extension",
-        "highlist": true,
+        "highlight": true,
         "dates": {
             "start": "2018-09-04",
             "end": null
@@ -201,7 +201,7 @@ let projects = [
         ],
         "nsfw": true,
         "type": "Library",
-        "highlist": true,
+        "highlight": true,
         "dates": {
             "start": "2018-07-16",
             "end": null
@@ -235,7 +235,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": true,
+        "highlight": true,
         "dates": {
             "start": "2017-08-28",
             "end": null
@@ -257,7 +257,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Flashpoint extension",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-04-04",
             "end": "2021-04-30"
@@ -284,7 +284,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Android App",
-        "highlist": true,
+        "highlight": true,
         "dates": {
             "start": "2021-02-04",
             "end": "2021-12-20"
@@ -310,7 +310,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": true,
+        "highlight": true,
         "dates": {
             "start": "2020-07-20",
             "end": "2021-12-21"
@@ -337,7 +337,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Software",
-        "highlist": true,
+        "highlight": true,
         "dates": {
             "start": "2019-01-22",
             "end": "2019-02-03"
@@ -364,7 +364,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": true,
+        "highlight": true,
         "dates": {
             "start": "2018-06-09",
             "end": "2020-01-06"
@@ -386,7 +386,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Script",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2018-06-08",
             "end": "2018-10-05"
@@ -413,7 +413,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": true,
+        "highlight": true,
         "dates": {
             "start": "End of 2016",
             "end": "End of 2016"
@@ -440,7 +440,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": true,
+        "highlight": true,
         "dates": {
             "start": "2015",
             "end": "2016"
@@ -467,7 +467,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": true,
+        "highlight": true,
         "dates": {
             "start": "Around 2012",
             "end": "Around 2012"
@@ -489,7 +489,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Script",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2018-05-23",
             "end": "2018-06-06"
@@ -511,7 +511,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2017-12-17",
             "end": "2018-05-23"
@@ -533,7 +533,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2017-11-09",
             "end": "2017-11-23"
@@ -555,7 +555,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2018-06-08",
             "end": "2018-10-04"
@@ -577,7 +577,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Software",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2018-12-29",
             "end": "2019-01-03"
@@ -599,7 +599,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2018-11-05",
             "end": "2019-01-23"
@@ -621,7 +621,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-02-28",
             "end": "2019-03-01"
@@ -643,7 +643,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-03-05",
             "end": "2019-02-04"
@@ -665,7 +665,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Software",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-03-15",
             "end": "2019-03-31"
@@ -687,7 +687,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Software",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-08-01",
             "end": "2019-02-17"
@@ -717,7 +717,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-04-02",
             "end": "2019-04-02"
@@ -739,7 +739,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Script",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-05-14",
             "end": "2019-05-14"
@@ -761,7 +761,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Script",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2018-06-20",
             "end": "2019-05-29"
@@ -783,7 +783,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Software",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-06-18",
             "end": "2019-06-18"
@@ -805,7 +805,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-05-31",
             "end": "2019-07-07"
@@ -827,7 +827,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-07-29",
             "end": "2019-07-29"
@@ -849,7 +849,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-02-21",
             "end": "2019-08-09"
@@ -871,7 +871,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-08-12",
             "end": "2019-08-10"
@@ -893,7 +893,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-09-12",
             "end": "2019-09-24"
@@ -915,7 +915,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-11-18",
             "end": "2019-12-01"
@@ -937,7 +937,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-11-26",
             "end": "2019-12-26"
@@ -959,7 +959,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-01-12",
             "end": "2020-01-15"
@@ -981,7 +981,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Software",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-01-21",
             "end": "2020-01-25"
@@ -1003,7 +1003,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-02-19",
             "end": "2019-04-07"
@@ -1025,7 +1025,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Robot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-03-02",
             "end": "2019-03-02"
@@ -1051,7 +1051,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-04-11",
             "end": "2020-05-01"
@@ -1068,7 +1068,7 @@ let projects = [
         "links": [],
         "nsfw": false,
         "type": "Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "",
             "end": ""
@@ -1090,7 +1090,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Browser Extension",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-05-16",
             "end": "2020-05-16"
@@ -1112,7 +1112,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Script",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-06-18",
             "end": "2020-06-25"
@@ -1134,7 +1134,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Script",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-07-30",
             "end": "2020-07-01"
@@ -1156,7 +1156,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-07-13",
             "end": "2020-04-20"
@@ -1178,7 +1178,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Script",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-07-18",
             "end": "2020-07-16"
@@ -1200,7 +1200,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-02-19",
             "end": "2020-03-04"
@@ -1222,7 +1222,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Script",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-04-27",
             "end": "2020-04-03"
@@ -1244,7 +1244,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": null,
             "end": null
@@ -1266,7 +1266,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-08-17",
             "end": "2020-08-16"
@@ -1288,7 +1288,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Script",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-08-08",
             "end": "2020-10-17"
@@ -1310,7 +1310,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Script",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-08-08",
             "end": "2020-10-17"
@@ -1332,7 +1332,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Mobile Application",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-07-07",
             "end": "2020-10-20"
@@ -1354,7 +1354,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-09-01",
             "end": "2020-10-25"
@@ -1376,7 +1376,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-11-08",
             "end": "2020-11-13"
@@ -1398,7 +1398,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-11-14",
             "end": "2020-11-19"
@@ -1420,7 +1420,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-11-14",
             "end": "2020-11-28"
@@ -1442,7 +1442,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-11-22",
             "end": "2020-12-04"
@@ -1464,7 +1464,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-12-04",
             "end": "2020-12-04"
@@ -1486,7 +1486,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Software",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-12-11",
             "end": "2020-12-11"
@@ -1508,7 +1508,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-09-21",
             "end": "2021-01-09"
@@ -1530,7 +1530,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-01-13",
             "end": "2021-01-19"
@@ -1552,7 +1552,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2018-11-13",
             "end": "2021-02-05"
@@ -1574,7 +1574,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-02-06",
             "end": "2021-02-06"
@@ -1596,7 +1596,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-12-10",
             "end": "2021-03-10"
@@ -1618,7 +1618,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-11-15",
             "end": "2021-03-16"
@@ -1640,7 +1640,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-03-18",
             "end": "2021-03-27"
@@ -1662,7 +1662,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-02-12",
             "end": "2021-03-28"
@@ -1684,7 +1684,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-04-03",
             "end": "2021-04-06"
@@ -1706,7 +1706,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Flashpoint extension",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-04-06",
             "end": "2021-04-06"
@@ -1728,7 +1728,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "GitHub application",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-04-13",
             "end": "2021-04-13"
@@ -1750,7 +1750,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-04-21",
             "end": "2021-04-22"
@@ -1772,7 +1772,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-04-14",
             "end": "2021-04-14"
@@ -1794,7 +1794,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-04-13",
             "end": "2021-04-12"
@@ -1816,7 +1816,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-03-19",
             "end": "2021-05-09"
@@ -1838,7 +1838,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-05-22",
             "end": "2021-05-08"
@@ -1860,7 +1860,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-06-05",
             "end": "2021-07-07"
@@ -1882,7 +1882,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-05-05",
             "end": "2021-05-09"
@@ -1904,7 +1904,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-06-21",
             "end": "2021-06-22"
@@ -1926,7 +1926,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-06-12",
             "end": "2021-07-03"
@@ -1948,7 +1948,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Software",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-07-10",
             "end": "2021-07-10"
@@ -1970,7 +1970,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-03-18",
             "end": "2021-07-27"
@@ -1992,7 +1992,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-04-07",
             "end": "2019-07-27"
@@ -2014,7 +2014,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-01-08",
             "end": "2021-08-11"
@@ -2036,7 +2036,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-08-14",
             "end": "2021-08-15"
@@ -2058,7 +2058,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-11-06",
             "end": "2021-09-01"
@@ -2080,7 +2080,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-08-22",
             "end": "2021-08-29"
@@ -2102,7 +2102,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-08-09",
             "end": "2021-09-11"
@@ -2124,7 +2124,7 @@ let projects = [
         ],
         "nsfw": true,
         "type": "Browser Extension",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-12-07",
             "end": "2021-09-22"
@@ -2146,7 +2146,7 @@ let projects = [
         ],
         "nsfw": true,
         "type": "Software",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-09-29",
             "end": "2021-09-15"
@@ -2168,7 +2168,7 @@ let projects = [
         ],
         "nsfw": true,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-10-08",
             "end": null
@@ -2190,7 +2190,7 @@ let projects = [
         ],
         "nsfw": true,
         "type": "Library",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-01-07",
             "end": "2021-09-20"
@@ -2212,7 +2212,7 @@ let projects = [
         ],
         "nsfw": true,
         "type": "Library",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2018-08-08",
             "end": "2021-11-25"
@@ -2234,7 +2234,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-07-21",
             "end": "2021-11-26"
@@ -2256,7 +2256,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-05-12",
             "end": "2021-12-28"
@@ -2278,7 +2278,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2022-01-07",
             "end": "2022-01-07"
@@ -2300,7 +2300,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Script",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2020-10-08",
             "end": "2022-02-03"
@@ -2322,7 +2322,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2018-11-29",
             "end": "2019-09-14"
@@ -2344,7 +2344,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-04-25",
             "end": "2019-07-14"
@@ -2366,7 +2366,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2019-04-29",
             "end": "2022-02-15"
@@ -2388,7 +2388,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2022-02-07",
             "end": null
@@ -2410,7 +2410,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Terraria Mod",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2022-02-17",
             "end": "2022-02-17"
@@ -2432,7 +2432,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Software",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2022-03-15",
             "end": "2022-03-16"
@@ -2454,7 +2454,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Software",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2022-03-05",
             "end": "2022-03-22"
@@ -2476,7 +2476,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2022-03-22",
             "end": null
@@ -2498,7 +2498,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2022-03-24",
             "end": "2022-03-24"
@@ -2520,7 +2520,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Browser Extension",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2022-04-14",
             "end": null
@@ -2542,7 +2542,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2022-03-28",
             "end": null
@@ -2564,7 +2564,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2018-08-14",
             "end": "2022-03-17"
@@ -2586,7 +2586,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2022-05-30",
             "end": null
@@ -2608,7 +2608,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Website",
-        "highlist": false,
+        "highlight": false,
         "dates": {
             "start": "2021-12-31",
             "end": "2018-12-25"
@@ -2652,13 +2652,23 @@ function displayProject(name) {
 }
 
 function getHighlightHtml(project) {
-    return `<img class="projectPreviewInstance" src="img/project/${project.image.id}.png" onclick="displayProject('${project.name}')"></img>`;
+    return `<img class="projectPreviewInstance" src="img/project/highlight/${project.image.id}.png" onclick="displayProject('${project.name}')"></img>`;
+}
+
+function showProjectPreview(name, src) {
+    document.getElementById("projectNormalPreview").hidden = false;
+    document.getElementById("projectNormalPreviewTitle").innerHTML = name;
+    document.getElementById("projectNormalPreviewImage").src = src;
+}
+
+function hideProjectPreview() {
+    document.getElementById("projectNormalPreview").hidden = true;
 }
 
 function initProjects() {
     let html = "Ongoing:<br/><br/>";
     for (let project of projects
-        .filter(x => x.highlist && x.dates.end === null)
+        .filter(x => x.highlight && x.dates.end === null)
         .sort((a, b) => {
             return a.name.localeCompare(b.name);
         }))
@@ -2667,7 +2677,7 @@ function initProjects() {
     }
     html += "<hr/>Archive:<br/><br/>";
     for (let project of projects
-        .filter(x => x.highlist && x.dates.end !== null)
+        .filter(x => x.highlight && x.dates.end !== null)
         .sort((a, b) => {
             return a.name.localeCompare(b.name);
         }))
@@ -2678,18 +2688,34 @@ function initProjects() {
 
     html = "";
     for (let index in projects.sort((a, b) => {
+        if (a.image === undefined) {
+            if (b.image === undefined) {
+                return -1;
+            }
+            return 1;
+        }
+        if (b.image === undefined) {
+            return -1;
+        }
         return a.name.localeCompare(b.name);
     }))
     {
         let project = projects[index];
+        let image = "";
+        let imageContent = "";
+        if (project.image !== undefined) {
+            image = `onmouseover="showProjectPreview('${project.name}', 'img/project/${project.highlight ? "highlight" : "normal"}/${project.image.id}.png')" onmouseleave="hideProjectPreview()"`;
+            imageContent = "Hover me";
+        }
         html += `
             <tr>
                 <td>${project.name}</td>
                 <td>${project.type}</td>
                 <td>${project.description}</td>
                 <td>${project.languages.join(' ')}</td>
-                <td>${project.state.status}</td>
                 <td></td>
+                <td></td>
+                <td ${image}>${imageContent}</td>
             </tr>
         `
     }
