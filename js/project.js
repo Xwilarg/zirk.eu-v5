@@ -2562,12 +2562,16 @@ let projects = [
                 "content": "https://github.com/Xwilarg/CommitMessageAnalyzer"
             }
         ],
+        "image": {
+            "id": "CommitMessageAnalyzer",
+            "description": "Analyze of the lasts commits of a repository"
+        },
         "nsfw": false,
         "type": "Website",
         "highlight": false,
         "dates": {
             "start": "2018-08-14",
-            "end": "2022-03-17"
+            "end": "2022-04-16"
         },
         "state": {
             "status": STATE_WORKING,
