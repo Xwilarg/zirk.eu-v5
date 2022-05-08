@@ -1,5 +1,20 @@
 let gamejams = [
     {
+        "name": "DiNAsaurTime",
+        "fullName": "DiNAsaur Time",
+        "location": "Gothenburg, Sweden",
+        "theme": null,
+        "event": "GBG Science Jam 2022",
+        "date": "2022-05-03",
+        "duration": 48,
+        "github": "https://github.com/Xwilarg/DiNAsaurTime",
+        "website": "https://itch.io/jam/science-jam-gbg/rate/1520599",
+        "webgl": [ "https://gamejam.zirk.eu/DiNAsaurTime/index.html" ],
+        "postModification": null,
+        "nsfw": false,
+        "rating": null
+    },
+    {
         "name": "anomalyexe",
         "fullName": "anomaly.exe",
         "location": "Online",
