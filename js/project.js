@@ -40,6 +40,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Colodex"
             }
         ],
+        "image": {
+            "id": "Colodex",
+            "description": "Request to get information about the latest streams"
+        },
         "nsfw": false,
         "type": "Library",
         "highlight": false,
@@ -58,7 +62,7 @@ let projects = [
         "comment": "This project is referenced by Twitter Developer Platform! https://developer.twitter.com/en/docs/twitter-api/tools-and-libraries/v2",
         "image": {
             "id": "TwitterSharp",
-            "description": "Code to search the 10 latests tweet of Mori Calliope "
+            "description": "Code to search the 10 latests tweet of Mori Calliope"
         },
         "languages": [ "C#" ],
         "links": [
@@ -89,6 +93,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/GitHubTraffic"
             }
         ],
+        "image": {
+            "id": "GitHubTraffic",
+            "description": "Most popular repositories for user \"Xwilarg\""
+        },
         "nsfw": false,
         "type": "Library",
         "highlight": false,
@@ -112,6 +120,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Pina"
             }
         ],
+        "image": {
+            "id": "Pina",
+            "description": "Example of how to pin a message using the bot, followed by setting a whitelist"
+        },
         "nsfw": false,
         "type": "Discord Bot",
         "highlight": false,
@@ -138,6 +150,10 @@ let projects = [
                 "content": "https://packagist.org/packages/xwilarg/discord-oauth2-php"
             }
         ],
+        "image": {
+            "description": "Code to get and display the username of someone",
+            "id": "Discord-OAuth2-PHP"
+        },
         "nsfw": false,
         "type": "Library",
         "highlight": false,
@@ -255,6 +271,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/FPL-TimePlayed"
             }
         ],
+        "image": {
+            "id": "FPL-TimePlayed",
+            "description": "Example of usage"
+        },
         "nsfw": false,
         "type": "Flashpoint extension",
         "highlight": false,
@@ -384,12 +404,16 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Konawall"
             }
         ],
+        "image": {
+            "id": "Konawall",
+            "description": "Setting a random wallpaper with the tag \"kantai_collection\""
+        },
         "nsfw": false,
         "type": "Script",
         "highlight": false,
         "dates": {
-            "start": "2018-06-08",
-            "end": "2018-10-05"
+            "start": "2018-12-30",
+            "end": "2019-01-20"
         },
         "state": {
             "status": STATE_WORKING,
