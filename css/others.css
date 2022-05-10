@@ -2,3 +2,7 @@
     border: 1px solid white;
     padding: .5em;
 }
+
+#others > img {
+    width: 30em;
+}

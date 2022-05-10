@@ -1434,7 +1434,7 @@ let projects = [
     },
     {
         "name": "Arena",
-        "description": "Add gamification to your Discord guild",
+        "description": "2D fighting game",
         "languages": [ "C#" ],
         "links": [
             {
@@ -1442,6 +1442,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Arena"
             }
         ],
+        "image": {
+            "id": "Arena",
+            "description": "Example of a character in the arena who equipped a sword"
+        },
         "nsfw": false,
         "type": "Video Game",
         "highlight": false,
@@ -1450,7 +1454,7 @@ let projects = [
             "end": "2020-11-28"
         },
         "state": {
-            "status": STATE_NOT_WORKING,
+            "status": STATE_HALF,
             "comment": null
         }
     },
@@ -2256,6 +2260,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Camellia"
             }
         ],
+        "image": {
+            "id": "Camellia",
+            "description": null
+        },
         "nsfw": false,
         "type": "Discord Bot",
         "highlight": false,
@@ -2366,6 +2374,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Atsuka"
             }
         ],
+        "image": {
+            "id": "Atsuka",
+            "description": "Example of censorship by the bot"
+        },
         "nsfw": false,
         "type": "Discord Bot",
         "highlight": false,
@@ -2718,7 +2730,7 @@ function initProjects() {
     for (let index in projects.sort((a, b) => {
         if (a.image === undefined) {
             if (b.image === undefined) {
-                return -1;
+                return a.name.localeCompare(b.name);
             }
             return 1;
         }
