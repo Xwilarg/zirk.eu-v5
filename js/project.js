@@ -2458,7 +2458,7 @@ let projects = [
     },
     {
         "name": "SDVX5ToKamaitachi",
-        "description": "Export SDVX 5 e-amusement data to Kamaitachi",
+        "description": "Export SDVX 5 e-amusement data to Kamaitachi JSON",
         "languages": [ "C#" ],
         "links": [
             {
@@ -2466,6 +2466,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/SDVX5ToKamaitachi"
             }
         ],
+        "image": {
+            "id": "SDVX5ToKamaitachi",
+            "description": "Example of export"
+        },
         "nsfw": false,
         "type": "Software",
         "highlight": false,
