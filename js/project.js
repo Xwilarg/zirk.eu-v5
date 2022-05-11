@@ -893,6 +893,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/KC-Bomber-Survival"
             }
         ],
+        "image": {
+            "id": "KC-Bomber-Survival",
+            "description": null
+        },
         "nsfw": false,
         "type": "Video Game",
         "highlight": false,
@@ -1934,12 +1938,16 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Airi"
             }
         ],
+        "image": {
+            "id": "Airi",
+            "description": "Example of a bot that follow the player and help him"
+        },
         "nsfw": false,
         "type": "Bot",
         "highlight": false,
         "dates": {
             "start": "2019-03-18",
-            "end": "2021-07-27"
+            "end": "2021-07-10"
         },
         "state": {
             "status": STATE_HALF,
