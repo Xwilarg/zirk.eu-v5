@@ -612,28 +612,6 @@ let projects = [
         }
     },
     {
-        "name": "Choukai",
-        "description": "Bot to help the administration of gamejams",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Choukai"
-            }
-        ],
-        "nsfw": false,
-        "type": "Discord Bot",
-        "highlight": false,
-        "dates": {
-            "start": "2018-11-05",
-            "end": "2019-01-23"
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "FPH",
         "description": "Gestion game where you have to build a squad and send it fight in a building",
         "languages": [ "C#" ],
