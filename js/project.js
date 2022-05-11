@@ -1279,28 +1279,6 @@ let projects = [
         }
     },
     {
-        "name": "PowerQueryMCheatSheet",
-        "description": "Cheat sheet for Power Query M",
-        "languages": [ "JavaScript" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/PowerQueryMCheatSheet"
-            }
-        ],
-        "nsfw": false,
-        "type": "Website",
-        "highlight": false,
-        "dates": {
-            "start": "2020-08-17",
-            "end": "2020-08-16"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "JishoParser",
         "description": "Extract various information from jisho.org",
         "languages": [ "C#" ],
@@ -1354,12 +1332,16 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Yousei"
             }
         ],
+        "image": {
+            "id": "Yousei",
+            "description": null
+        },
         "nsfw": false,
         "type": "Mobile Application",
         "highlight": false,
         "dates": {
             "start": "2020-07-07",
-            "end": "2020-10-20"
+            "end": "2020-10-22"
         },
         "state": {
             "status": STATE_WORKING,
@@ -1382,28 +1364,6 @@ let projects = [
         "dates": {
             "start": "2020-09-01",
             "end": "2020-10-25"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "Yumia",
-        "description": null,
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/-"
-            }
-        ],
-        "nsfw": false,
-        "type": "Discord Bot",
-        "highlight": false,
-        "dates": {
-            "start": "2020-11-08",
-            "end": "2020-11-13"
         },
         "state": {
             "status": STATE_NOT_WORKING,
@@ -2097,28 +2057,6 @@ let projects = [
         }
     },
     {
-        "name": "Yuzu",
-        "description": "",
-        "languages": [ "C++" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Yuzu"
-            }
-        ],
-        "nsfw": false,
-        "type": "Library",
-        "highlight": false,
-        "dates": {
-            "start": "2021-08-22",
-            "end": "2021-08-29"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "Unwritten",
         "description": "",
         "languages": [ "C#" ],
@@ -2527,28 +2465,6 @@ let projects = [
         }
     },
     {
-        "name": "WanaKanaSharp",
-        "description": "",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/WanaKanaSharp"
-            }
-        ],
-        "nsfw": false,
-        "type": "Library",
-        "highlight": false,
-        "dates": {
-            "start": "2022-03-24",
-            "end": "2022-03-24"
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "HumbleWish",
         "description": "Extension to know where game in Humble Bundle are in the wishlist of your friends",
         "languages": [ "JavaScript" ],
@@ -2558,11 +2474,15 @@ let projects = [
                 "content": "https://github.com/Xwilarg/HumbleWish"
             }
         ],
+        "image": {
+            "id": "HumbleWish",
+            "description": null
+        },
         "nsfw": false,
         "type": "Browser Extension",
         "highlight": false,
         "dates": {
-            "start": "2022-04-14",
+            "start": "2022-04-13",
             "end": null
         },
         "state": {
