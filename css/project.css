@@ -22,6 +22,7 @@
     border-radius: 10px;
     outline: 1px solid black;
     cursor: pointer;
+    width: 30em;
 }
 
 #projectDisplayButtons {
