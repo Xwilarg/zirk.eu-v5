@@ -1436,6 +1436,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Joumachi"
             }
         ],
+        "image": {
+            "id": "Joumachi",
+            "description": null
+        },
         "nsfw": false,
         "type": "Discord Bot",
         "highlight": false,
@@ -1920,6 +1924,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/ImageCategorizer"
             }
         ],
+        "image": {
+            "id": "ImageCategorizer",
+            "description": null
+        },
         "nsfw": false,
         "type": "Software",
         "highlight": false,
@@ -1990,6 +1998,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/ImageViewer"
             }
         ],
+        "image": {
+            "id": "ImageViewer",
+            "description": null
+        },
         "nsfw": false,
         "type": "Website",
         "highlight": false,
@@ -2043,28 +2055,6 @@ let projects = [
         },
         "state": {
             "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "Unwritten",
-        "description": "",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Unwritten"
-            }
-        ],
-        "nsfw": false,
-        "type": "Video Game",
-        "highlight": false,
-        "dates": {
-            "start": "2021-08-09",
-            "end": "2021-09-11"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
             "comment": null
         }
     },
