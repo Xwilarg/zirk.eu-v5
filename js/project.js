@@ -1138,15 +1138,19 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Tami"
             }
         ],
+        "image": {
+            "id": "Tami",
+            "description": null
+        },
         "nsfw": false,
         "type": "Script",
         "highlight": false,
         "dates": {
-            "start": "2020-07-30",
+            "start": "2020-06-30",
             "end": "2020-07-01"
         },
         "state": {
-            "status": STATE_NOT_WORKING,
+            "status": STATE_HALF,
             "comment": null
         }
     },
