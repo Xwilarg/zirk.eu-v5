@@ -533,12 +533,16 @@ let projects = [
                 "content": "https://github.com/Xwilarg/jpo"
             }
         ],
+        "image": {
+            "image": "jpo",
+            "description": null
+        },
         "nsfw": false,
         "type": "Video Game",
         "highlight": false,
         "dates": {
             "start": "2017-12-17",
-            "end": "2018-05-23"
+            "end": "2018-02-10"
         },
         "state": {
             "status": STATE_WORKING,
@@ -1372,6 +1376,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Ship"
             }
         ],
+        "image": {
+            "id": "Ship",
+            "description": null
+        },
         "nsfw": false,
         "type": "Website",
         "highlight": false,
