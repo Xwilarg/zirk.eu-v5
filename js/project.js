@@ -625,12 +625,16 @@ let projects = [
                 "content": "https://github.com/Xwilarg/FPH"
             }
         ],
+        "image": {
+            "id": "FPH",
+            "description": null
+        },
         "nsfw": false,
         "type": "Video Game",
         "highlight": false,
         "dates": {
             "start": "2019-02-28",
-            "end": "2019-03-01"
+            "end": "2019-03-03"
         },
         "state": {
             "status": STATE_NOT_WORKING,
@@ -778,28 +782,6 @@ let projects = [
         }
     },
     {
-        "name": "Rummikub",
-        "description": "Implementation of the Rummikub game",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Rummikub-old"
-            }
-        ],
-        "nsfw": false,
-        "type": "Video Game",
-        "highlight": false,
-        "dates": {
-            "start": "2019-05-31",
-            "end": "2019-07-07"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": "You can move pieces around but that's all"
-        }
-    },
-    {
         "name": "JishoSharp",
         "description": "Library around jisho.org",
         "languages": [ "C#" ],
@@ -927,34 +909,16 @@ let projects = [
                 "content": "https://github.com/Xwilarg/ProjectAlpha"
             }
         ],
-        "nsfw": false,
-        "type": "Video Game",
-        "highlight": false,
-        "dates": {
-            "start": "2019-11-26",
-            "end": "2019-12-26"
+        "image": {
+            "id": "ProjectAlpha",
+            "description": null
         },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "Intervention",
-        "description": "A game where you have to control an intervention unit throught a radio",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Intervention"
-            }
-        ],
         "nsfw": false,
         "type": "Video Game",
         "highlight": false,
         "dates": {
-            "start": "2020-01-12",
-            "end": "2020-01-15"
+            "start": "2019-10-26",
+            "end": "2019-12-26"
         },
         "state": {
             "status": STATE_NOT_WORKING,
@@ -1093,28 +1057,6 @@ let projects = [
         }
     },
     {
-        "name": "Tsuka",
-        "description": "Package Manager",
-        "languages": [ "C++" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Tsuka"
-            }
-        ],
-        "nsfw": false,
-        "type": "Script",
-        "highlight": false,
-        "dates": {
-            "start": "2020-06-18",
-            "end": "2020-06-25"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "Tami",
         "description": "Bot to allow you to moderate a server with votes",
         "languages": [ "C#" ],
@@ -1150,6 +1092,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Sand-and-Seeds"
             }
         ],
+        "image": {
+            "id": "SandAndSeeds",
+            "description": null
+        },
         "nsfw": false,
         "type": "Video Game",
         "highlight": false,
@@ -1483,28 +1429,6 @@ let projects = [
         }
     },
     {
-        "name": "PixelWizard",
-        "description": "",
-        "languages": [ "C++" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/PixelWizard"
-            }
-        ],
-        "nsfw": false,
-        "type": "Video Game",
-        "highlight": false,
-        "dates": {
-            "start": "2021-02-06",
-            "end": "2021-02-06"
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "CharaCreator",
         "description": "Tool to help creating characters and worlds more easily",
         "languages": [ "JavaScript" ],
@@ -1523,50 +1447,6 @@ let projects = [
         },
         "state": {
             "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "Kyouka",
-        "description": "",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Kyouka"
-            }
-        ],
-        "nsfw": false,
-        "type": "Discord Bot",
-        "highlight": false,
-        "dates": {
-            "start": "2020-11-15",
-            "end": "2021-03-16"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "Gashapon",
-        "description": "Video game that rely on gacha mechanism",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Gashapon-old"
-            }
-        ],
-        "nsfw": false,
-        "type": "Video Game",
-        "highlight": false,
-        "dates": {
-            "start": "2021-03-18",
-            "end": "2021-03-27"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
             "comment": null
         }
     },
@@ -1608,50 +1488,6 @@ let projects = [
         "dates": {
             "start": "2021-04-03",
             "end": "2021-04-06"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "FPL-StickyPin",
-        "description": "Allow a FPL game to stay on top of everything",
-        "languages": [ "JavaScript" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/FPL-StickyPin"
-            }
-        ],
-        "nsfw": false,
-        "type": "Flashpoint extension",
-        "highlight": false,
-        "dates": {
-            "start": "2021-04-06",
-            "end": "2021-04-06"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "dotnet-performance-action",
-        "description": "GitHub extension to benchmark code",
-        "languages": [ "JavaScript" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/dotnet-performance-action"
-            }
-        ],
-        "nsfw": false,
-        "type": "GitHub application",
-        "highlight": false,
-        "dates": {
-            "start": "2021-04-13",
-            "end": "2021-04-13"
         },
         "state": {
             "status": STATE_NOT_WORKING,
@@ -1773,50 +1609,6 @@ let projects = [
         }
     },
     {
-        "name": "HumanResources",
-        "description": "",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/HumanResources"
-            }
-        ],
-        "nsfw": false,
-        "type": "Video Game",
-        "highlight": false,
-        "dates": {
-            "start": "2021-06-21",
-            "end": "2021-06-22"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "Rondo",
-        "description": "",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Rondo"
-            }
-        ],
-        "nsfw": false,
-        "type": "Discord Bot",
-        "highlight": false,
-        "dates": {
-            "start": "2021-06-12",
-            "end": "2021-07-03"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "ImageCategorizer",
         "description": "Software to help categorizing images",
         "languages": [ "C#" ],
@@ -1865,28 +1657,6 @@ let projects = [
         },
         "state": {
             "status": STATE_HALF,
-            "comment": null
-        }
-    },
-    {
-        "name": "Pie",
-        "description": "",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Pie"
-            }
-        ],
-        "nsfw": false,
-        "type": "Video Game",
-        "highlight": false,
-        "dates": {
-            "start": "2021-08-14",
-            "end": "2021-08-15"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
             "comment": null
         }
     },
@@ -1988,11 +1758,15 @@ let projects = [
                 "content": "https://github.com/Xwilarg/TrafficSimulator"
             }
         ],
+        "image": {
+            "id": "TrafficSimulator",
+            "description": null
+        },
         "nsfw": true,
         "type": "Library",
         "highlight": false,
         "dates": {
-            "start": "2021-01-07",
+            "start": "2020-12-19",
             "end": "2021-09-20"
         },
         "state": {
@@ -2071,28 +1845,6 @@ let projects = [
         }
     },
     {
-        "name": "Settler",
-        "description": "",
-        "languages": [ "JavaScript" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Settler"
-            }
-        ],
-        "nsfw": false,
-        "type": "Video Game",
-        "highlight": false,
-        "dates": {
-            "start": "2022-01-07",
-            "end": "2022-01-07"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "Sanara-PreloadBooruQuizz",
         "description": "Preload data for Sanara quizzes",
         "languages": [ "C#" ],
@@ -2124,6 +1876,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Konari"
             }
         ],
+        "image": {
+            "id": "Konari",
+            "description": null
+        },
         "nsfw": false,
         "type": "Discord Bot",
         "highlight": false,
