@@ -599,6 +599,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Particles"
             }
         ],
+        "image": {
+            "id": "Particles",
+            "description": null
+        },
         "nsfw": false,
         "type": "Software",
         "highlight": false,
@@ -774,28 +778,6 @@ let projects = [
         }
     },
     {
-        "name": "Bots Manager",
-        "description": "Software to manage bots",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/BotsManagerOld"
-            }
-        ],
-        "nsfw": false,
-        "type": "Software",
-        "highlight": false,
-        "dates": {
-            "start": "2019-06-18",
-            "end": "2019-06-18"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "Rummikub",
         "description": "Implementation of the Rummikub game",
         "languages": [ "C#" ],
@@ -919,6 +901,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/RhythmParadise"
             }
         ],
+        "image": {
+            "id": "RhythmParadise",
+            "description": null
+        },
         "nsfw": false,
         "type": "Video Game",
         "highlight": false,
@@ -1199,28 +1185,6 @@ let projects = [
         }
     },
     {
-        "name": "admin.zirk.eu",
-        "description": "Administration page",
-        "languages": [ "JavaScript" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/admin.zirk.eu"
-            }
-        ],
-        "nsfw": false,
-        "type": "Website",
-        "highlight": false,
-        "dates": {
-            "start": "2020-02-19",
-            "end": "2020-03-04"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "Alimentation Warning",
         "description": "Tell you if your laptop isn't plugged-in",
         "languages": [ "C++" ],
@@ -1446,28 +1410,6 @@ let projects = [
         "dates": {
             "start": "2020-12-04",
             "end": "2020-12-04"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "World Generation",
-        "description": "",
-        "languages": [ "C++" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/WorldGeneration"
-            }
-        ],
-        "nsfw": false,
-        "type": "Software",
-        "highlight": false,
-        "dates": {
-            "start": "2020-12-11",
-            "end": "2020-12-11"
         },
         "state": {
             "status": STATE_NOT_WORKING,
@@ -1739,28 +1681,6 @@ let projects = [
         }
     },
     {
-        "name": "Owari",
-        "description": "Bot to archive a Discord server",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Owari"
-            }
-        ],
-        "nsfw": false,
-        "type": "Discord Bot",
-        "highlight": false,
-        "dates": {
-            "start": "2021-04-14",
-            "end": "2021-04-14"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "zirk.eu (old)",
         "description": "Old version of this website",
         "languages": [ "JavaScript" ],
@@ -1776,28 +1696,6 @@ let projects = [
         "dates": {
             "start": "2019-04-13",
             "end": "2021-04-12"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "BooruSharp-Website",
-        "description": "Old version of BooruSharp documentation",
-        "languages": [],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/BooruSharp-Website"
-            }
-        ],
-        "nsfw": false,
-        "type": "Website",
-        "highlight": false,
-        "dates": {
-            "start": "2021-03-19",
-            "end": "2021-05-09"
         },
         "state": {
             "status": STATE_NOT_WORKING,
@@ -1858,6 +1756,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Onigiri"
             }
         ],
+        "image": {
+            "id": "Onigiri",
+            "description": null
+        },
         "nsfw": false,
         "type": "Discord Bot",
         "highlight": false,
@@ -1963,54 +1865,6 @@ let projects = [
         },
         "state": {
             "status": STATE_HALF,
-            "comment": null
-        }
-    },
-    {
-        "name": "Hista",
-        "description": "Bot manage your roles in a Discord server",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Hista"
-            }
-        ],
-        "nsfw": false,
-        "type": "Discord Bot",
-        "highlight": false,
-        "dates": {
-            "start": "2020-04-07",
-            "end": "2019-07-27"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "ImageViewer",
-        "description": "Easily categorize and view images",
-        "languages": [ "JavaScript", "PHP" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/ImageViewer"
-            }
-        ],
-        "image": {
-            "id": "ImageViewer",
-            "description": null
-        },
-        "nsfw": false,
-        "type": "Website",
-        "highlight": false,
-        "dates": {
-            "start": "2021-01-08",
-            "end": "2021-08-11"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
             "comment": null
         }
     },
