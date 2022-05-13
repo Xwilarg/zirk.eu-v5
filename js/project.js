@@ -1258,11 +1258,15 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Isathos"
             }
         ],
+        "image": {
+            "id": "Isathos",
+            "description": null
+        },
         "nsfw": false,
         "type": "Video Game",
         "highlight": false,
         "dates": {
-            "start": "2020-09-01",
+            "start": "2020-07-24",
             "end": "2020-10-25"
         },
         "state": {
@@ -1824,28 +1828,6 @@ let projects = [
         "dates": {
             "start": "2021-07-21",
             "end": "2021-11-26"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "Issho",
-        "description": "",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Issho"
-            }
-        ],
-        "nsfw": false,
-        "type": "Discord Bot",
-        "highlight": false,
-        "dates": {
-            "start": "2021-05-12",
-            "end": "2021-12-28"
         },
         "state": {
             "status": STATE_NOT_WORKING,
