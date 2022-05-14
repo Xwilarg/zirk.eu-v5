@@ -559,6 +559,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Lab2D"
             }
         ],
+        "image": {
+            "id": "Lab2D",
+            "description": null
+        },
         "nsfw": false,
         "type": "Video Game",
         "highlight": false,
@@ -1009,51 +1013,16 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Meina"
             }
         ],
+        "image": {
+            "id": "TerrariaBot",
+            "description": null
+        },
         "nsfw": false,
         "type": "Library",
         "highlight": false,
         "dates": {
             "start": "2020-04-11",
             "end": "2020-05-01"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "Meina",
-        "description": "",
-        "languages": [ "C#" ],
-        "links": [],
-        "nsfw": false,
-        "type": "Bot",
-        "highlight": false,
-        "dates": {
-            "start": "",
-            "end": ""
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "NHentaiCategorizer",
-        "description": "An extension to order your doujinshis",
-        "languages": [ "JavaScript" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/NHentaiCategorizer"
-            }
-        ],
-        "nsfw": false,
-        "type": "Browser Extension",
-        "highlight": false,
-        "dates": {
-            "start": "2020-05-16",
-            "end": "2020-05-16"
         },
         "state": {
             "status": STATE_NOT_WORKING,
@@ -1704,6 +1673,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/NHentaiAnalytics"
             }
         ],
+        "image": {
+            "id": "NHentaiAnalytics",
+            "description": null
+        },
         "nsfw": true,
         "type": "Browser Extension",
         "highlight": false,
@@ -1918,12 +1891,16 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Sanara-Website"
             }
         ],
+        "image": {
+            "id": "SanaraWebsite",
+            "description": null
+        },
         "nsfw": false,
         "type": "Website",
         "highlight": false,
         "dates": {
             "start": "2019-04-29",
-            "end": "2022-02-15"
+            "end": null
         },
         "state": {
             "status": STATE_WORKING,
