@@ -2057,6 +2057,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/TaikyokuShogi"
             }
         ],
+        "image": {
+            "id": "TaikyokuShogi",
+            "description": null
+        },
         "nsfw": false,
         "type": "Video Game",
         "highlight": false,
