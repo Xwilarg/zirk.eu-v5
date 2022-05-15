@@ -502,28 +502,6 @@ let projects = [
         }
     },
     {
-        "name": "GelbooruTagDownloader",
-        "description": "Program to save a list of all Gelbooru tags and their occurance",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/GelbooruTagDownloader"
-            }
-        ],
-        "nsfw": false,
-        "type": "Script",
-        "highlight": false,
-        "dates": {
-            "start": "2018-05-23",
-            "end": "2018-06-06"
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "jpo",
         "description": "Showcase of some EPITECH projects in VR, mostly in a parodic way",
         "languages": [ "C#" ],
@@ -1082,28 +1060,6 @@ let projects = [
         }
     },
     {
-        "name": "KanaRecognition",
-        "description": "Getting data about kana to be used for handwriting recognition",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/KanaRecognition"
-            }
-        ],
-        "nsfw": false,
-        "type": "Script",
-        "highlight": false,
-        "dates": {
-            "start": "2020-07-18",
-            "end": "2020-07-16"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "Alimentation Warning",
         "description": "Tell you if your laptop isn't plugged-in",
         "languages": [ "C++" ],
@@ -1141,50 +1097,6 @@ let projects = [
         "dates": {
             "start": null,
             "end": null
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "JishoParser",
-        "description": "Extract various information from jisho.org",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/JishoParser"
-            }
-        ],
-        "nsfw": false,
-        "type": "Script",
-        "highlight": false,
-        "dates": {
-            "start": "2020-08-08",
-            "end": "2020-10-17"
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "JishoParser",
-        "description": "Extract various information from jisho.org",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/JishoParser"
-            }
-        ],
-        "nsfw": false,
-        "type": "Script",
-        "highlight": false,
-        "dates": {
-            "start": "2020-08-08",
-            "end": "2020-10-17"
         },
         "state": {
             "status": STATE_WORKING,
@@ -1712,28 +1624,6 @@ let projects = [
         }
     },
     {
-        "name": "gamejam.zirk.eu",
-        "description": "Used by the gamejam tab",
-        "languages": [ "JavaScript" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/gamejam.zirk.eu"
-            }
-        ],
-        "nsfw": true,
-        "type": "Website",
-        "highlight": false,
-        "dates": {
-            "start": "2021-10-08",
-            "end": null
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "TrafficSimulator",
         "description": "",
         "languages": [ "C#" ],
@@ -1804,28 +1694,6 @@ let projects = [
         },
         "state": {
             "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "Sanara-PreloadBooruQuizz",
-        "description": "Preload data for Sanara quizzes",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Sanara-PreloadBooruQuizz"
-            }
-        ],
-        "nsfw": false,
-        "type": "Script",
-        "highlight": false,
-        "dates": {
-            "start": "2020-10-08",
-            "end": "2022-02-03"
-        },
-        "state": {
-            "status": STATE_WORKING,
             "comment": null
         }
     },
@@ -1923,28 +1791,6 @@ let projects = [
         "dates": {
             "start": "2022-02-07",
             "end": null
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "Gashapon",
-        "description": "",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Gashapon"
-            }
-        ],
-        "nsfw": false,
-        "type": "Terraria Mod",
-        "highlight": false,
-        "dates": {
-            "start": "2022-02-17",
-            "end": "2022-02-17"
         },
         "state": {
             "status": STATE_WORKING,
@@ -2115,28 +1961,6 @@ let projects = [
         "dates": {
             "start": "2022-05-30",
             "end": null
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "Bots db",
-        "description": "",
-        "languages": [ "PHP" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Bots-db"
-            }
-        ],
-        "nsfw": false,
-        "type": "Website",
-        "highlight": false,
-        "dates": {
-            "start": "2021-12-31",
-            "end": "2018-12-25"
         },
         "state": {
             "status": STATE_WORKING,
