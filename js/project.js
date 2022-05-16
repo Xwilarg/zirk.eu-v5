@@ -554,7 +554,7 @@ let projects = [
         }
     },
     {
-        "name": "FightEpitechGrades (2)",
+        "name": "FightEpitechGrades",
         "description": "2D fighting game where you import your marks and fight against them",
         "languages": [ "C++" ],
         "links": [
@@ -563,6 +563,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/FightEpitechGrades"
             }
         ],
+        "image": {
+            "id": "FightEpitechGrades-2",
+            "description": null
+        },
         "nsfw": false,
         "type": "Video Game",
         "highlight": false,
