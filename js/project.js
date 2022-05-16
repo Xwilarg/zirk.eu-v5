@@ -821,6 +821,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/FE3H-Badge"
             }
         ],
+        "image": {
+            "id": "FE3H-Badge",
+            "description": null
+        },
         "nsfw": false,
         "type": "Website",
         "highlight": false,
@@ -1300,28 +1304,6 @@ let projects = [
         }
     },
     {
-        "name": "Discord-Utils",
-        "description": "Help methods used for Discord bots",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Discord-Utils"
-            }
-        ],
-        "nsfw": false,
-        "type": "Library",
-        "highlight": false,
-        "dates": {
-            "start": "2018-11-13",
-            "end": "2021-02-05"
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "CharaCreator",
         "description": "Tool to help creating characters and worlds more easily",
         "languages": [ "JavaScript" ],
@@ -1331,6 +1313,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/CharaCreator"
             }
         ],
+        "image": {
+            "id": "CharaCreator",
+            "description": null
+        },
         "nsfw": false,
         "type": "Website",
         "highlight": false,
@@ -1353,6 +1339,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Cover"
             }
         ],
+        "image": {
+            "id": "Cover",
+            "description": null
+        },
         "nsfw": false,
         "type": "Website",
         "highlight": false,
