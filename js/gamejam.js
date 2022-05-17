@@ -823,7 +823,7 @@ let gamejams = [
     }
 ];
 
-function getJamHtml(jam) {
+function getJamHtml(jam, idCmpl) {
     // Display buttons under the jam preview
     let buttons = '<span class="button-container">';
 
@@ -859,16 +859,35 @@ function getJamHtml(jam) {
     }
 
     return `
-        <span id="jam-${jam.name}">
+        <span id="jam-${jam.name}${idCmpl}">
             <span class="jamInfoText">
                 <p class="jamTitle">${jam.event} - ${jam.duration} hour${jam.duration > 1 ? "s" : ""}<br/>${(jam.theme != null ? jam.theme : "")}</p>
                 <p class="jamInfo">${jamInfo}</p>
             </span>
-            <img id="jamimg-${jam.name}" src="img/gamejam/${jam.name}.jpg"></img>
+            <img id="jamimg-${jam.name}${idCmpl}" src="img/gamejam/${jam.name}.jpg"></img>
             <br/>
             ${buttons}
         </span>
     `;
+}
+
+function jamMouseOver(id, name) {
+    let img = document.getElementById(id);
+    img.src = "";
+    img.style.backgroundImage = "url(img/gamejam/" + name + ".gif)";
+}
+
+function jamMouseOut(id, name) {
+    let img = document.getElementById(id);
+    img.src = "img/gamejam/" + name + ".jpg";
+    img.style.backgroundImage = "";
+}
+
+function drawSpeJam(jam, inId, outId) {
+    document.getElementById(outId).innerHTML = getJamHtml(jam, inId);
+    let bestSpan = document.getElementById("jam-" + jam.name + inId);
+    bestSpan.addEventListener("mouseover", () => { jamMouseOver("jamimg-" + jam.name + inId, jam.name); }, false);
+    bestSpan.addEventListener("mouseout", () => { jamMouseOut("jamimg-" + jam.name + inId, jam.name); }, false);
 }
 
 // Wait for window to load so jamDisplay isn't null
@@ -881,7 +900,7 @@ function initGamejam() {
     {
         let jam = gamejams[index];
 
-        html += getJamHtml(jam);
+        html += getJamHtml(jam, "");
     }
     jamDisplay.innerHTML = html;
 
@@ -891,16 +910,22 @@ function initGamejam() {
         let jam = gamejams[index];
 
         let span = document.getElementById("jam-" + jam.name);
-        let img = document.getElementById("jamimg-" + jam.name)
-        span.addEventListener("mouseover", function() {
-            img.src = "";
-            img.style.backgroundImage = "url(img/gamejam/" + jam.name + ".gif)";
-        }, false);
-        span.addEventListener("mouseout", function() {
-            img.src = "img/gamejam/" + jam.name + ".jpg";
-            img.style.backgroundImage = "";
-        }, false);
+        span.addEventListener("mouseover", () => { jamMouseOver("jamimg-" + jam.name, jam.name); }, false);
+        span.addEventListener("mouseout", () => { jamMouseOut("jamimg-" + jam.name, jam.name); }, false);
     }
-
-    document.getElementById("jamBestRanked").innerHTML = getJamHtml(gamejams[0]);
+    drawSpeJam(
+        gamejams
+        .filter(x => x.fullName === "anomaly.exe")[0]
+    , "favorite", "jamFavorite");
+    drawSpeJam(
+        gamejams
+        .filter(x => x.rating !== null && x.rating.scores != null && x.rating.scores["Overall"].rank != null)
+        .sort((a, b) => {
+            return (a.rating.scores["Overall"].rank / a.rating.entries) - (b.rating.scores["Overall"].rank / b.rating.entries);
+        })[0]
+    , "best", "jamBestRanked");
+    drawSpeJam(
+        gamejams
+        .filter(x => x.duration >= 48)[0]
+    , "latest", "jamLatest");
 }
