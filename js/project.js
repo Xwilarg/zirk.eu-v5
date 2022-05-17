@@ -512,7 +512,7 @@ let projects = [
             }
         ],
         "image": {
-            "image": "jpo",
+            "id": "jpo",
             "description": null
         },
         "nsfw": false,
@@ -632,72 +632,6 @@ let projects = [
         }
     },
     {
-        "name": "Nozomi",
-        "description": "Bot to help manage rethinkdb from Discord",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Nozomi"
-            }
-        ],
-        "nsfw": false,
-        "type": "Discord Bot",
-        "highlight": false,
-        "dates": {
-            "start": "2019-03-05",
-            "end": "2019-02-04"
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "Program Manager",
-        "description": "Software to help manage others softwares",
-        "languages": [ "C++" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/ProgramManagerOld"
-            }
-        ],
-        "nsfw": false,
-        "type": "Software",
-        "highlight": false,
-        "dates": {
-            "start": "2019-03-15",
-            "end": "2019-03-31"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": "Should be able to start process but that's all"
-        }
-    },
-    {
-        "name": "Program Manager (2)",
-        "description": "Software to help manage others softwares",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/ProgramManager"
-            }
-        ],
-        "nsfw": false,
-        "type": "Software",
-        "highlight": false,
-        "dates": {
-            "start": "2019-08-01",
-            "end": "2019-02-17"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "WebColor",
         "description": "Example of client/server implement for syncing a color",
         "languages": [ "Golang", "C++", "JavaScript" ],
@@ -728,72 +662,6 @@ let projects = [
         }
     },
     {
-        "name": "Wallpaper-cleaner",
-        "description": "Remove all images that don't have the correct aspect ratio to be used as a wallpaper",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Wallpaper-cleaner"
-            }
-        ],
-        "nsfw": false,
-        "type": "Script",
-        "highlight": false,
-        "dates": {
-            "start": "2019-05-14",
-            "end": "2019-05-14"
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "Restarter",
-        "description": "Restart a process when it stops",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Restarter"
-            }
-        ],
-        "nsfw": false,
-        "type": "Script",
-        "highlight": false,
-        "dates": {
-            "start": "2018-06-20",
-            "end": "2019-05-29"
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "JishoSharp",
-        "description": "Library around jisho.org",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/JishoSharp"
-            }
-        ],
-        "nsfw": false,
-        "type": "Library",
-        "highlight": false,
-        "dates": {
-            "start": "2019-07-29",
-            "end": "2019-07-29"
-        },
-        "state": {
-            "status": STATE_HALF,
-            "comment": "Only word search is implemented"
-        }
-    },
-    {
         "name": "LOLIS2D",
         "description": "Wrapper around the SFML",
         "languages": [ "C++" ],
@@ -803,6 +671,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/LOLIS2D"
             }
         ],
+        "image": {
+            "id": "LOLIS2D",
+            "description": null
+        },
         "nsfw": false,
         "type": "Library",
         "highlight": false,
@@ -929,6 +801,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Hayari"
             }
         ],
+        "image": {
+            "id": "Hayari",
+            "description": null
+        },
         "nsfw": false,
         "type": "Software",
         "highlight": false,
@@ -973,12 +849,16 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Hanako"
             }
         ],
+        "image": {
+            "id": "Hanako",
+            "description": null
+        },
         "nsfw": false,
         "type": "Robot",
         "highlight": false,
         "dates": {
             "start": "2020-03-02",
-            "end": "2019-03-02"
+            "end": null
         },
         "state": {
             "status": STATE_NOT_WORKING,
@@ -1090,28 +970,6 @@ let projects = [
         }
     },
     {
-        "name": "Sanara (V1)",
-        "description": "Old code of Sanara",
-        "languages": [ "C++" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Sanara-V1"
-            }
-        ],
-        "nsfw": false,
-        "type": "Discord Bot",
-        "highlight": false,
-        "dates": {
-            "start": null,
-            "end": null
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "Yousei",
         "description": "A quizz based app to learn Japanese",
         "languages": [ "Kotlin" ],
@@ -1164,28 +1022,6 @@ let projects = [
         }
     },
     {
-        "name": "Ryumi",
-        "description": "Add gamification to your Discord guild",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Ryumi"
-            }
-        ],
-        "nsfw": false,
-        "type": "Discord Bot",
-        "highlight": false,
-        "dates": {
-            "start": "2020-11-14",
-            "end": "2020-11-19"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "Arena",
         "description": "2D fighting game",
         "languages": [ "C#" ],
@@ -1221,6 +1057,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Natsuri"
             }
         ],
+        "image": {
+            "id": "Natsuri",
+            "description": null
+        },
         "nsfw": false,
         "type": "Discord Bot",
         "highlight": false,
@@ -1295,6 +1135,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/HololiveCalendar"
             }
         ],
+        "image": {
+            "id": "HololiveCalendar",
+            "description": null
+        },
         "nsfw": false,
         "type": "Website",
         "highlight": false,
@@ -1369,11 +1213,15 @@ let projects = [
                 "content": "https://github.com/Xwilarg/HoloSongs"
             }
         ],
+        "image": {
+            "id": "HoloSongs",
+            "description": null
+        },
         "nsfw": false,
         "type": "Website",
         "highlight": false,
         "dates": {
-            "start": "2021-04-03",
+            "start": "2021-04-02",
             "end": "2021-04-06"
         },
         "state": {
@@ -1404,28 +1252,6 @@ let projects = [
         }
     },
     {
-        "name": "zirk.eu (old)",
-        "description": "Old version of this website",
-        "languages": [ "JavaScript" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/zirk.eu-old"
-            }
-        ],
-        "nsfw": false,
-        "type": "Website",
-        "highlight": false,
-        "dates": {
-            "start": "2019-04-13",
-            "end": "2021-04-12"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "HoloRPG",
         "description": "",
         "languages": [ "C#" ],
@@ -1435,34 +1261,16 @@ let projects = [
                 "content": "https://github.com/Xwilarg/HoloRPG-old"
             }
         ],
+        "image": {
+            "id": "HoloRPG",
+            "description": null
+        },
         "nsfw": false,
         "type": "Video Game",
         "highlight": false,
         "dates": {
             "start": "2021-05-22",
             "end": "2021-05-08"
-        },
-        "state": {
-            "status": STATE_NOT_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "HoloRPG (2)",
-        "description": "",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/HoloRPG"
-            }
-        ],
-        "nsfw": false,
-        "type": "Video Game",
-        "highlight": false,
-        "dates": {
-            "start": "2021-06-05",
-            "end": "2021-07-07"
         },
         "state": {
             "status": STATE_NOT_WORKING,
@@ -1557,6 +1365,10 @@ let projects = [
                 "content": "https://github.com/Xwilarg/Fuyanami"
             }
         ],
+        "image": {
+            "id": "Fuyanami",
+            "description": null
+        },
         "nsfw": false,
         "type": "Video Game",
         "highlight": false,
@@ -1818,28 +1630,6 @@ let projects = [
         }
     },
     {
-        "name": "Guruguru",
-        "description": "Software to visualize a set of images",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Guruguru"
-            }
-        ],
-        "nsfw": false,
-        "type": "Software",
-        "highlight": false,
-        "dates": {
-            "start": "2022-03-05",
-            "end": "2022-03-22"
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "PocketWatch",
         "description": "Tactical RPG where fights are resolved in real time",
         "languages": [ "C#" ],
@@ -1954,6 +1744,27 @@ let projects = [
         "highlight": false,
         "dates": {
             "start": "2022-05-30",
+            "end": null
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": null
+        }
+    },
+    {
+        "name": "Tsuna",
+        "description": "",
+        "languages": [ "Python" ],
+        "links": [],
+        "image": {
+            "id": "Tsuna",
+            "description": null
+        },
+        "nsfw": false,
+        "type": "Discord Bot",
+        "highlight": false,
+        "dates": {
+            "start": "Q1 2019",
             "end": null
         },
         "state": {
