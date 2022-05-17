@@ -823,6 +823,54 @@ let gamejams = [
     }
 ];
 
+function getJamHtml(jam) {
+    // Display buttons under the jam preview
+    let buttons = '<span class="button-container">';
+
+    // Links where the user can play the jam (WebGL)
+    for (let webgl in jam.webgl) {
+        let sourceText = "";
+        if (jam.webgl.length > 1) {
+            sourceText = " Source " + (parseInt(webgl) + 1);
+        }
+        if (jam.nsfw) {
+            buttons += '<a class="button disabled">Play (WebGL' + sourceText + ')</a>';
+        } else {
+            buttons += '<a class="button colorful" href="' + jam.webgl[webgl] + '">Play (WebGL' + sourceText + ')</a>';
+        }
+    }
+    buttons += '</span>';
+    if (!jam.nsfw) { // Only display source and website if the jam is SFW
+        buttons += '<span class="button-container">';
+        if (jam.github !== null) {
+            buttons += '<a class="button neutral" href="' + jam.github + '">Source Code</a>';
+        }
+        if (jam.website !== null) {
+            buttons += '<a class="button neutral" href="' + jam.website + '">Jam Website</a>';
+        }
+        buttons += "</span>"
+    }
+
+    let jamInfo = "";
+    if (jam.rating !== null && jam.rating.scores != null && jam.rating.scores["Overall"].rank != null) {
+        const overall = jam.rating.scores["Overall"].rank;
+        const entries = jam.rating.entries;
+        jamInfo = `Ranked ${overall} out of ${entries}<br/>(${(overall / entries * 100).toFixed(1)}% tier)`;
+    }
+
+    return `
+        <span id="jam-${jam.name}">
+            <span class="jamInfoText">
+                <p class="jamTitle">${jam.event} - ${jam.duration} hour${jam.duration > 1 ? "s" : ""}<br/>${(jam.theme != null ? jam.theme : "")}</p>
+                <p class="jamInfo">${jamInfo}</p>
+            </span>
+            <img id="jamimg-${jam.name}" src="img/gamejam/${jam.name}.jpg"></img>
+            <br/>
+            ${buttons}
+        </span>
+    `;
+}
+
 // Wait for window to load so jamDisplay isn't null
 function initGamejam() {
     let jamDisplay = document.getElementById("jamDisplay");
@@ -833,51 +881,7 @@ function initGamejam() {
     {
         let jam = gamejams[index];
 
-        // Display buttons under the jam preview
-        let buttons = '<span class="button-container">';
-
-        // Links where the user can play the jam (WebGL)
-        for (let webgl in jam.webgl) {
-            let sourceText = "";
-            if (jam.webgl.length > 1) {
-                sourceText = " Source " + (parseInt(webgl) + 1);
-            }
-            if (jam.nsfw) {
-                buttons += '<a class="button disabled">Play (WebGL' + sourceText + ')</a>';
-            } else {
-                buttons += '<a class="button colorful" href="' + jam.webgl[webgl] + '">Play (WebGL' + sourceText + ')</a>';
-            }
-        }
-        buttons += '</span>';
-        if (!jam.nsfw) { // Only display source and website if the jam is SFW
-            buttons += '<span class="button-container">';
-            if (jam.github !== null) {
-                buttons += '<a class="button neutral" href="' + jam.github + '">Source Code</a>';
-            }
-            if (jam.website !== null) {
-                buttons += '<a class="button neutral" href="' + jam.website + '">Jam Website</a>';
-            }
-            buttons += "</span>"
-        }
-
-        let jamInfo = "";
-        if (jam.rating !== null && jam.rating.scores != null && jam.rating.scores["Overall"].rank != null) {
-            const overall = jam.rating.scores["Overall"].rank;
-            const entries = jam.rating.entries;
-            jamInfo = `Ranked ${overall} out of ${entries}<br/>(${(overall / entries * 100).toFixed(1)}% tier)`;
-        }
-
-        html += `
-            <span id="jam-${jam.name}">
-                <span class="jamInfoText">
-                    <p class="jamTitle">${jam.event} - ${jam.duration} hour${jam.duration > 1 ? "s" : ""}<br/>${(jam.theme != null ? jam.theme : "")}</p>
-                    <p class="jamInfo">${jamInfo}</p>
-                </span>
-                <img id="jamimg-${jam.name}" src="img/gamejam/${jam.name}.jpg"></img>
-                <br/>
-                ${buttons}
-            </span>
-        `;
+        html += getJamHtml(jam);
     }
     jamDisplay.innerHTML = html;
 
@@ -897,4 +901,6 @@ function initGamejam() {
             img.style.backgroundImage = "";
         }, false);
     }
+
+    document.getElementById("jamBestRanked").innerHTML = getJamHtml(gamejams[0]);
 }
