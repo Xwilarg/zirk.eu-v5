@@ -11,7 +11,7 @@
     background-size: cover;
 }
 
-#jamDisplay {
+.jamFlex {
     display: flex;
     flex-flow: wrap;
     justify-content: center;

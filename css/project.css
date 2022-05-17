@@ -54,3 +54,7 @@
 #projectNormalPreviewImage {
     max-width: 60vw;
 }
+
+.censor {
+    color: transparent;
+}

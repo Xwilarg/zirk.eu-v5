@@ -316,7 +316,7 @@ let projects = [
     },
     {
         "name": "Yuuka",
-        "description": "A Discord bot that allow you to create tags with text, audio or images, and then play them when you want to",
+        "description": "A Discord bot that allow you to create tags with text, audio or images, and then play/show them when you want to",
         "image": {
             "id": "Yuuka",
             "description": "Tags"
@@ -581,7 +581,7 @@ let projects = [
     },
     {
         "name": "Particles",
-        "description": "Example of particles usage with the SFML",
+        "description": "Example of particles system with the SFML",
         "languages": [ "C++" ],
         "links": [
             {
@@ -649,12 +649,16 @@ let projects = [
                 "content": "https://github.com/Xwilarg/WebClient"
             }
         ],
+        "image": {
+            "id": "WebColor",
+            "description": null
+        },
         "nsfw": false,
         "type": "Website",
         "highlight": false,
         "dates": {
             "start": "2019-04-02",
-            "end": "2019-04-02"
+            "end": "2022-05-17"
         },
         "state": {
             "status": STATE_WORKING,
@@ -767,7 +771,7 @@ let projects = [
     },
     {
         "name": "Project Alpha",
-        "description": "",
+        "description": "Beat them all",
         "languages": [ "C#" ],
         "links": [
             {
@@ -831,8 +835,8 @@ let projects = [
         "type": "Website",
         "highlight": false,
         "dates": {
-            "start": "2020-02-19",
-            "end": "2019-04-07"
+            "start": "2019-04-07",
+            "end": "2020-02-19"
         },
         "state": {
             "status": STATE_HALF,
@@ -961,8 +965,8 @@ let projects = [
         "type": "Script",
         "highlight": false,
         "dates": {
-            "start": "2020-04-27",
-            "end": "2020-04-03"
+            "start": "2020-04-03",
+            "end": "2020-04-27"
         },
         "state": {
             "status": STATE_NOT_WORKING,
@@ -1253,7 +1257,7 @@ let projects = [
     },
     {
         "name": "HoloRPG",
-        "description": "",
+        "description": "Tactical RPG",
         "languages": [ "C#" ],
         "links": [
             {
@@ -1357,7 +1361,7 @@ let projects = [
     },
     {
         "name": "Fuyanami",
-        "description": "Bot that help managing my VPS",
+        "description": "Bot that help managing a VPS",
         "languages": [ "C#" ],
         "links": [
             {
@@ -1383,7 +1387,7 @@ let projects = [
     },
     {
         "name": "NHentaiAnalytics",
-        "description": "",
+        "description": "Find doujins based on your preferences",
         "languages": [ "JavaScript" ],
         "links": [
             {
@@ -1417,12 +1421,16 @@ let projects = [
                 "content": "https://github.com/Xwilarg/VNotify"
             }
         ],
-        "nsfw": true,
+        "image": {
+            "id": "VNotify",
+            "description": null
+        },
+        "nsfw": false,
         "type": "Software",
         "highlight": false,
         "dates": {
-            "start": "2021-09-29",
-            "end": "2021-09-15"
+            "start": "2021-09-15",
+            "end": "2021-09-29"
         },
         "state": {
             "status": STATE_NOT_WORKING,
@@ -1431,7 +1439,7 @@ let projects = [
     },
     {
         "name": "TrafficSimulator",
-        "description": "",
+        "description": "Simulation of car traffic",
         "languages": [ "C#" ],
         "links": [
             {
@@ -1443,7 +1451,7 @@ let projects = [
             "id": "TrafficSimulator",
             "description": null
         },
-        "nsfw": true,
+        "nsfw": false,
         "type": "Library",
         "highlight": false,
         "dates": {
@@ -1457,7 +1465,7 @@ let projects = [
     },
     {
         "name": "NHentaiSharp",
-        "description": "",
+        "description": "Library to use a doujin API",
         "languages": [ "C#" ],
         "links": [
             {
@@ -1705,7 +1713,7 @@ let projects = [
     },
     {
         "name": "CommitMessageAnalyzer",
-        "description": "",
+        "description": "Analyze the commit messages on one of your repository",
         "languages": [ "JavaScript", "PHP" ],
         "links": [
             {
@@ -1743,7 +1751,7 @@ let projects = [
         "type": "Website",
         "highlight": false,
         "dates": {
-            "start": "2022-05-30",
+            "start": "2021-05-30",
             "end": null
         },
         "state": {
@@ -1753,8 +1761,8 @@ let projects = [
     },
     {
         "name": "Tsuna",
-        "description": "",
-        "languages": [ "Python" ],
+        "description": "Compile and execute code sent on Discord",
+        "languages": null,
         "links": [],
         "image": {
             "id": "Tsuna",
@@ -1833,7 +1841,7 @@ function initProjects() {
     for (let project of projects
         .filter(x => x.highlight && x.dates.end !== null)
         .sort((a, b) => {
-            return a.name.localeCompare(b.name);
+            return Date.parse(a.dates.end) < Date.parse(b.dates.end);
         }))
     {
         html += getHighlightHtml(project);
@@ -1842,15 +1850,6 @@ function initProjects() {
 
     html = "";
     for (let index in projects.sort((a, b) => {
-        if (a.image === undefined) {
-            if (b.image === undefined) {
-                return a.name.localeCompare(b.name);
-            }
-            return 1;
-        }
-        if (b.image === undefined) {
-            return -1;
-        }
         return a.name.localeCompare(b.name);
     }))
     {
@@ -1861,12 +1860,13 @@ function initProjects() {
             image = `onmouseover="showProjectPreview('${project.name}', 'img/project/${project.highlight ? "highlight" : "normal"}/${project.image.id}.png')" onmouseleave="hideProjectPreview()"`;
             imageContent = "Hover me";
         }
+        const censorName = project.nsfw ? 'class="censor"' : "";
         html += `
             <tr>
-                <td>${project.name}</td>
+                <td ${censorName}>${project.name}</td>
                 <td>${project.type}</td>
                 <td>${project.description}</td>
-                <td>${project.languages.join(' ')}</td>
+                <td>${project.languages === null ? "" : project.languages.join(' ')}</td>
                 <td></td>
                 <td></td>
                 <td ${image}>${imageContent}</td>
