@@ -7,3 +7,11 @@
 .question > h3:hover {
     background-color: rgb(0, 0, 0, .1);
 }
+
+.full-width {
+    background-color: transparent !important;
+}
+
+.full-width > td {
+    border: none;
+}

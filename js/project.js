@@ -1590,28 +1590,6 @@ let projects = [
         }
     },
     {
-        "name": "Genesis",
-        "description": "",
-        "languages": [ "TypeScript" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Genesis"
-            }
-        ],
-        "nsfw": false,
-        "type": "Website",
-        "highlight": false,
-        "dates": {
-            "start": "2022-02-07",
-            "end": null
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
         "name": "SDVX5ToKamaitachi",
         "description": "Export SDVX 5 e-amusement data to Kamaitachi JSON",
         "languages": [ "C#" ],
@@ -1631,28 +1609,6 @@ let projects = [
         "dates": {
             "start": "2022-03-15",
             "end": "2022-03-16"
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "PocketWatch",
-        "description": "Tactical RPG where fights are resolved in real time",
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/PocketWatch"
-            }
-        ],
-        "nsfw": false,
-        "type": "Video Game",
-        "highlight": false,
-        "dates": {
-            "start": "2022-03-22",
-            "end": null
         },
         "state": {
             "status": STATE_WORKING,
@@ -1795,7 +1751,7 @@ function displayProject(name) {
         document.getElementById("projectDisplayTitle").innerHTML = "";
     }
     document.getElementById("projectDisplayText").innerHTML = project.description;
-    document.getElementById("projectDisplayContent").src = `img/project/${project.image.id}.png`;
+    document.getElementById("projectDisplayContent").src = `img/project/highlight/${project.image.id}.png`;
     document.getElementById("projectDisplaySubtext").innerHTML = project.image.description;
     if (!project.nsfw) // We don't want to link projects that are in fact NSFW
     {
