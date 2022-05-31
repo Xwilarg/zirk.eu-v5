@@ -29,7 +29,11 @@ let gamejams = [
         "webgl": [ "https://gamejam.zirk.eu/DiNAsaurTime/index.html" ],
         "postModification": null,
         "nsfw": false,
-        "rating": null
+        "rating": {
+            "entries": 7,
+            "totalRatingCount": null,
+            "scores": null
+        }
     },
     {
         "name": "anomalyexe",
@@ -101,7 +105,11 @@ let gamejams = [
         "webgl": [ "https://gamejam.zirk.eu/DontCallALadyABug/index.html" ],
         "postModification": null,
         "nsfw": false,
-        "rating": null
+        "rating": {
+            "entries": 5,
+            "totalRatingCount": null,
+            "scores": null
+        }
     },
     {
         "name": "DemainSeraBien",
@@ -178,7 +186,11 @@ let gamejams = [
         "webgl": [ "https://gamejam.zirk.eu/BarkThemAll/index.html" ],
         "postModification": null,
         "nsfw": false,
-        "rating": null
+        "rating": {
+            "entries": 4,
+            "totalRatingCount": null,
+            "scores": null
+        }
     },
     {
         "name": "AcCELLere",
