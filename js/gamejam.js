@@ -47,34 +47,42 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 84,
+            "totalRatingCount": 993,
             "scores": {
                 "Gameplay": {
                     "rank": 6,
-                    "score": 3.524
+                    "score": 3.524,
+                    "ratingCount": 21
                 },
                 "Fun Factor": {
                     "rank": 10,
-                    "score": 3.476
+                    "score": 3.476,
+                    "ratingCount": 21
                 },
                 "Theme Implementation": {
                     "rank": 18,
-                    "score": 3.190
+                    "score": 3.190,
+                    "ratingCount": 21
                 },
                 "Overall": {
                     "rank": 19,
-                    "score": 3.127
+                    "score": 3.127,
+                    "ratingCount": 21
                 },
                 "Graphics": {
                     "rank": 20,
-                    "score": 3.190
+                    "score": 3.190,
+                    "ratingCount": 21
                 },
                 "Special Feature Implementation": {
                     "rank": 35,
-                    "score": 2.952
+                    "score": 2.952,
+                    "ratingCount": 21
                 },
                 "Audio": {
                     "rank": 38,
-                    "score": 2.429
+                    "score": 2.429,
+                    "ratingCount": 21
                 }
             }
         }
@@ -111,38 +119,47 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 1923,
+            "totalRatingCount": null,
             "scores": {
                 "Overall": {
                     "rank": 997,
-                    "score": 3.286
+                    "score": 3.286,
+                    "ratingCount": 23
                 },
                 "Fun": {
                     "rank": 919,
-                    "score": 3.167
+                    "score": 3.167,
+                    "ratingCount": 23
                 },
                 "Innovation": {
                     "rank": 255,
-                    "score": 3.738
+                    "score": 3.738,
+                    "ratingCount": 23
                 },
                 "Theme": {
                     "rank": 1068,
-                    "score": 3.286
+                    "score": 3.286,
+                    "ratingCount": 23
                 },
                 "Graphics": {
                     "rank": 697,
-                    "score": 3.643
+                    "score": 3.643,
+                    "ratingCount": 23
                 },
                 "Audio": {
                     "rank": 705,
-                    "score": 3.119
+                    "score": 3.119,
+                    "ratingCount": 23
                 },
                 "Humor": {
                     "rank": 480,
-                    "score": 3.286
+                    "score": 3.286,
+                    "ratingCount": 23
                 },
                 "Mood": {
                     "rank": 1096,
-                    "score": 3.071
+                    "score": 3.071,
+                    "ratingCount": 23
                 }
             }
         }
@@ -179,6 +196,7 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 7,
+            "totalRatingCount": null,
             "scores": null
         }
     },
@@ -198,26 +216,32 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 67,
+            "totalRatingCount": 854,
             "scores": {
                 "Visuals": {
                     "rank": 3,
-                    "score": 4.353
+                    "score": 4.353,
+                    "ratingCount": 17
                 },
                 "Overall": {
                     "rank": 5,
-                    "score": 4.118
+                    "score": 4.118,
+                    "ratingCount": 17
                 },
                 "Gameplay": {
                     "rank": 5,
-                    "score": 3.941
+                    "score": 3.941,
+                    "ratingCount": 17
                 },
                 "Audio": {
                     "rank": 13,
-                    "score": 3.588
+                    "score": 3.588,
+                    "ratingCount": 17
                 },
                 "Originality": {
                     "rank": 23,
-                    "score": 3.529
+                    "score": 3.529,
+                    "ratingCount": 17
                 }
             }
         }
@@ -238,6 +262,7 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 4,
+            "totalRatingCount": null,
             "scores": null
         }
     },
@@ -257,30 +282,37 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 20,
+            "totalRatingCount": 205,
             "scores": {
                 "Соответствие теме": {
                     "rank": 2,
-                    "score": 4.091
+                    "score": 4.091,
+                    "ratingCount": 11
                 },
                 "Звук": {
                     "rank": 4,
-                    "score": 3.455
+                    "score": 3.455,
+                    "ratingCount": 11
                 },
                 "Идея": {
                     "rank": 4,
-                    "score": 4.364
+                    "score": 4.364,
+                    "ratingCount": 11
                 },
                 "Overall": {
                     "rank": 4,
-                    "score": 3.782
+                    "score": 3.782,
+                    "ratingCount": 11
                 },
                 "Геймплей": {
                     "rank": 5,
-                    "score": 3.636
+                    "score": 3.636,
+                    "ratingCount": 11
                 },
                 "Визуал": {
                     "rank": 8,
-                    "score": 3.364
+                    "score": 3.364,
+                    "ratingCount": 11
                 }
             }
         }
@@ -301,6 +333,7 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 7,
+            "totalRatingCount": null,
             "scores": null
         }
     },
@@ -320,6 +353,7 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 5,
+            "totalRatingCount": null,
             "scores": null
         }
     },
@@ -339,38 +373,47 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 5,
+            "totalRatingCount": 21,
             "scores": {
                 "Overall": {
                     "rank": 1,
-                    "score": 3.257
+                    "score": 3.257,
+                    "ratingCount": 5
                 },
                 "Graphics": {
                     "rank": 1,
-                    "score": 3.800
+                    "score": 3.800,
+                    "ratingCount": 5
                 },
                 "Audio": {
                     "rank": 1,
-                    "score": 2.400
+                    "score": 2.400,
+                    "ratingCount": 5
                 },
                 "Environment": {
                     "rank": 1,
-                    "score": 3.400
+                    "score": 3.400,
+                    "ratingCount": 5
                 },
                 "Fun": {
                     "rank": 2,
-                    "score": 3.200
+                    "score": 3.200,
+                    "ratingCount": 5
                 },
                 "Creativity": {
                     "rank": 2,
-                    "score": 2.800
+                    "score": 2.800,
+                    "ratingCount": 5
                 },
                 "Playability": {
                     "rank": 2,
-                    "score": 3.800
+                    "score": 3.800,
+                    "ratingCount": 5
                 },
                 "Theme Compatibility": {
                     "rank": 2,
-                    "score": 3.400
+                    "score": 3.400,
+                    "ratingCount": 5
                 }
             }
         }
@@ -391,26 +434,32 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 2,
+            "totalRatingCount": 1,
             "scores": {
                 "Theme": {
                     "rank": 1,
-                    "score": 5.000
+                    "score": 5.000,
+                    "ratingCount": 1
                 },
                 "Sound": {
                     "rank": 1,
-                    "score": 2.000
+                    "score": 2.000,
+                    "ratingCount": 1
                 },
                 "Visual": {
                     "rank": 1,
-                    "score": 5.000
+                    "score": 5.000,
+                    "ratingCount": 1
                 },
                 "Gameplay" :{
                     "rank": 1,
-                    "score": 5.000
+                    "score": 5.000,
+                    "ratingCount": 1
                 },
                 "Overall": {
                     "rank": 1,
-                    "score": 4.250
+                    "score": 4.250,
+                    "ratingCount": 1
                 }
             }
         }
@@ -431,30 +480,37 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 2204,
+            "totalRatingCount": null,
             "scores": {
                 "Overall": {
                     "rank": 673,
-                    "score": 3.577
+                    "score": 3.577,
+                    "ratingCount": 28
                 },
                 "Fun": {
                     "rank": 958,
-                    "score": 3.231
+                    "score": 3.231,
+                    "ratingCount": 28
                 },
                 "Innovation": {
                     "rank": 419,
-                    "score": 3.611
+                    "score": 3.611,
+                    "ratingCount": 29
                 },
                 "Theme": {
                     "rank": 948,
-                    "score": 3.333
+                    "score": 3.333,
+                    "ratingCount": 29
                 },
                 "Graphics": {
                     "rank": 695,
-                    "score": 3.667
+                    "score": 3.667,
+                    "ratingCount": 29
                 },
                 "Mood": {
                     "rank": 196,
-                    "score": 3.981
+                    "score": 3.981,
+                    "ratingCount": 28
                 }
             }
         }
@@ -475,6 +531,7 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 59,
+            "totalRatingCount": null,
             "scores": null
         }
     },
@@ -494,6 +551,7 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 2721,
+            "totalRatingCount": null,
             "scores": null
         }
     },
@@ -532,34 +590,42 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 8,
+            "totalRatingCount": 23,
             "scores": {
                 "Theme": {
                     "rank": 1,
-                    "score": 4.677
+                    "score": 4.677,
+                    "ratingCount": 3
                 },
                 "Innovation": {
                     "rank": 2,
-                    "score": 4.000
+                    "score": 4.000,
+                    "ratingCount": 3
                 },
                 "Overall": {
                     "rank": 3,
-                    "score": 3.000
+                    "score": 3.000,
+                    "ratingCount": 3
                 },
                 "Fun": {
                     "rank": 3,
-                    "score": 3.000
+                    "score": 3.000,
+                    "ratingCount": 3
                 },
                 "Mood": {
                     "rank": 5,
-                    "score": 2.333
+                    "score": 2.333,
+                    "ratingCount": 3
                 },
                 "Audio": {
                     "rank": 5,
-                    "score": 1.667
+                    "score": 1.667,
+                    "ratingCount": 3
                 },
                 "Graphics": {
                     "rank": 7,
-                    "score": 2.000
+                    "score": 2.000,
+                    "ratingCount": 3
                 }
             }
         }
@@ -583,26 +649,32 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 33,
+            "totalRatingCount": 307,
             "scores": {
                 "Mechanics": {
                     "rank": 1,
-                    "score": 3.750
+                    "score": 3.750,
+                    "ratingCount": 12
                 },
                 "Sound": {
                     "rank": 3,
-                    "score": 3.583
+                    "score": 3.583,
+                    "ratingCount": 12
                 },
                 "Fun": {
                     "rank": 5,
-                    "score": 3.417
+                    "score": 3.417,
+                    "ratingCount": 12
                 },
                 "Overall": {
                     "rank": 6,
-                    "score": 3.417
+                    "score": 3.417,
+                    "ratingCount": 12
                 },
                 "Art": {
                     "rank": 16,
-                    "score": 2.833
+                    "score": 2.833,
+                    "ratingCount": 12
                 }
             }
         }
@@ -661,26 +733,32 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 38,
+            "totalRatingCount": 331,
             "scores": {
                 "Innovation": {
                     "rank": 7,
-                    "score": 3.400
+                    "score": 3.400,
+                    "ratingCount": 10
                 },
                 "Sound": {
                     "rank": 13,
-                    "score": 3.100
+                    "score": 3.100,
+                    "ratingCount": 10
                 },
                 "Graphics": {
                     "rank": 14,
-                    "score": 3.500
+                    "score": 3.500,
+                    "ratingCount": 10
                 },
                 "Overall": {
                     "rank": 26,
-                    "score": 2.800
+                    "score": 2.800,
+                    "ratingCount": 10
                 },
                 "Fun": {
                     "rank": 27,
-                    "score": 2.700
+                    "score": 2.700,
+                    "ratingCount": 10
                 }
             }
         }
@@ -701,34 +779,42 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 2013,
+            "totalRatingCount": null,
             "scores": {
                 "Overall": {
                     "rank": 456,
-                    "score": 3.515
+                    "score": 3.515,
+                    "ratingCount": 35
                 },
                 "Fun": {
                     "rank": 416,
-                    "score": 3.409
+                    "score": 3.409,
+                    "ratingCount": 35
                 },
                 "Innovation": {
                     "rank": 624,
-                    "score": 3.141
+                    "score": 3.141,
+                    "ratingCount": 34
                 },
                 "Theme": {
                     "rank": 693,
-                    "score": 3.379
+                    "score": 3.379,
+                    "ratingCount": 35
                 },
                 "Graphics": {
                     "rank": 335,
-                    "score": 3.797
+                    "score": 3.797,
+                    "ratingCount": 34
                 },
                 "Humor": {
                     "rank": 138,
-                    "score": 3.597
+                    "score": 3.597,
+                    "ratingCount": 33
                 },
                 "Mood": {
                     "rank": 556,
-                    "score": 3.167
+                    "score": 3.167,
+                    "ratingCount": 32
                 }
             }
         }
@@ -781,26 +867,32 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 1846,
+            "totalRatingCount": null,
             "scores": {
                 "Overall": {
                     "rank": null,
-                    "score": 2.938
+                    "score": 2.938,
+                    "ratingCount": 10
                 },
                 "Fun": {
                     "rank": null,
-                    "score": 2.813
+                    "score": 2.813,
+                    "ratingCount": 10
                 },
                 "Innovation": {
                     "rank": null,
-                    "score": 3.563
+                    "score": 3.563,
+                    "ratingCount": 10
                 },
                 "Theme": {
                     "rank": null,
-                    "score": 3.688
+                    "score": 3.688,
+                    "ratingCount": 10
                 },
                 "Humor": {
                     "rank": null,
-                    "score": 2.625
+                    "score": 2.625,
+                    "ratingCount": 10
                 }
             }
         }
@@ -837,30 +929,37 @@ let gamejams = [
         "nsfw": false,
         "rating": {
             "entries": 1489,
+            "totalRatingCount": null,
             "scores": {
                 "Innovation": {
                     "rank": 527,
-                    "score": 2.96
+                    "score": 2.96,
+                    "ratingCount": null
                 },
                 "Audio": {
                     "rank": 547,
-                    "score": 2.00
+                    "score": 2.00,
+                    "ratingCount": null
                 },
                 "Fun": {
                     "rank": 765,
-                    "score": 2.58
+                    "score": 2.58,
+                    "ratingCount": null
                 },
                 "Overall": {
                     "rank": 771,
-                    "score": 2.83
+                    "score": 2.83,
+                    "ratingCount": null
                 },
                 "Theme": {
                     "rank": 778,
-                    "score": 2.79
+                    "score": 2.79,
+                    "ratingCount": null
                 },
                 "Mood": {
                     "rank": 817,
-                    "score": 2.22
+                    "score": 2.22,
+                    "ratingCount": null
                 }
             }
         }
