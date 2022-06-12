@@ -13,7 +13,47 @@ let gamejams = [
         "webgl": [ "https://gamejam.zirk.eu/DontWasteYourTime/index.html" ],
         "postModification": null,
         "nsfw": false,
-        "rating": null
+        "rating": {
+            "entries": 42,
+            "totalRatingCount": 802,
+            "scores": {
+                "Theme": {
+                    "rank": 4,
+                    "score": 3.952,
+                    "ratingCount": 16
+                },
+                "Game Design": {
+                    "rank": 8,
+                    "score": 3.546,
+                    "ratingCount": 16
+                },
+                "Overall": {
+                    "rank": 9,
+                    "score": 3.449,
+                    "ratingCount": 16
+                },
+                "Innovation / Originality": {
+                    "rank": 11,
+                    "score": 3.662,
+                    "ratingCount": 16
+                },
+                "Gameplay / Fun": {
+                    "rank": 13,
+                    "score": 3.371,
+                    "ratingCount": 16
+                },
+                "Sound / Music": {
+                    "rank": 19,
+                    "score": 3.022,
+                    "ratingCount": 16
+                },
+                "Graphics": {
+                    "rank": 27,
+                    "score": 3.139,
+                    "ratingCount": 16
+                },
+            }
+        }
     },
     {
         "name": "DiNAsaurTime",
