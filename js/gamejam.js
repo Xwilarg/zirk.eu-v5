@@ -1137,6 +1137,13 @@ function initGamejam() {
     , "best", "jamBestRanked");
     drawSpeJam(
         gamejams
-        .filter(x => x.duration >= 48)[0]
-    , "latest", "jamLatest");
+        .filter(x => x.engine !== "Unity")[0]
+    , "nonUnity", "jamLatestNonUnity");
+    for (let jam in gamejams
+        .slice(0, 3))
+    {
+        drawSpeJam(
+            gamejams[jam]
+        , "latest" + jam, "jamLatest" + jam);
+    }
 }
