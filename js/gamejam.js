@@ -1084,7 +1084,8 @@ function getJamHtml(jam, idCmpl) {
 
 function jamMouseOver(id, name) {
     let img = document.getElementById(id);
-    img.src = "";
+    // https://stackoverflow.com/questions/5775469/whats-the-valid-way-to-include-an-image-with-no-src#comment27184376_14115340
+    img.src = "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==";
     img.style.backgroundImage = "url(img/gamejam/" + name + ".gif)";
 }
 

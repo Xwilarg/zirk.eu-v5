@@ -30,6 +30,7 @@
     z-index: 1;
     width: 480px;
     height: 384px;
+    bottom: -40px;
 }
 
 .jamInfo {
