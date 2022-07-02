@@ -9,8 +9,8 @@ let gamejams = [
         "duration": 744,
         "engine": "Unity",
         "github": "https://github.com/Xwilarg/FrogQuest/",
-        "website": "",
-        "webgl": [ ],
+        "website": "https://itch.io/jam/touhou-pride-4/rate/1595766",
+        "webgl": [ "https://gamejam.zirk.eu/FrogQuest/index.html" ],
         "postModification": null,
         "nsfw": false,
         "rating": null
