@@ -1,5 +1,21 @@
 let gamejams = [
     {
+        "name": "KupalaNight",
+        "fullName": "Kupala Night",
+        "location": "Online",
+        "theme": null,
+        "event": "United With Ukraine Game Jam",
+        "date": "2022-07-09",
+        "duration": 41,
+        "engine": "Unity",
+        "github": "https://github.com/Xwilarg/UnityWithUkraine/",
+        "website": "https://gamejolt.com/x/permalink/jam-entry/2091",
+        "webgl": [ "https://gamejam.zirk.eu/KupalaNight/index.html" ],
+        "postModification": "Fix intro not playing and blocking game on a black screen in WebGL build",
+        "nsfw": false,
+        "rating": null
+    },
+    {
         "name": "FrogQuest",
         "fullName": "Frog Quest",
         "location": "Online",
