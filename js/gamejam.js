@@ -13,7 +13,11 @@ let gamejams = [
         "webgl": [ "https://gamejam.zirk.eu/KupalaNight/index.html" ],
         "postModification": "Fix intro not playing and blocking game on a black screen in WebGL build",
         "nsfw": false,
-        "rating": null
+        "rating": {
+            "entries": 57,
+            "totalRatingCount": null,
+            "scores": null
+        }
     },
     {
         "name": "FrogQuest",
