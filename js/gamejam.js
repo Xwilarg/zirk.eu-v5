@@ -3,7 +3,7 @@ let gamejams = [
         "name": "KupalaNight",
         "fullName": "Kupala Night",
         "location": "Online",
-        "theme": null,
+        "theme": "Heritage of Ukraine",
         "event": "United With Ukraine Game Jam",
         "date": "2022-07-09",
         "duration": 41,
