@@ -33,7 +33,52 @@ let gamejams = [
         "webgl": [ "https://gamejam.zirk.eu/FrogQuest/index.html" ],
         "postModification": null,
         "nsfw": false,
-        "rating": null
+        "rating": {
+            "entries": 31,
+            "totalRatingCount": 843,
+            "scores": {
+                "Story / Writing": {
+                    "rank": 12,
+                    "score": 3.656,
+                    "ratingCount": 32
+                },
+                "Audio": {
+                    "rank": 13,
+                    "score": 3.750,
+                    "ratingCount": 32
+                },
+                "Challenge": {
+                    "rank": 13,
+                    "score": 3.313,
+                    "ratingCount": 32
+                },
+                "Concept": {
+                    "rank": 16,
+                    "score": 4.000,
+                    "ratingCount": 32
+                },
+                "Use of LGBT Themes": {
+                    "rank": 17,
+                    "score": 3.531,
+                    "ratingCount": 32
+                },
+                "Visuals": {
+                    "rank": 18,
+                    "score": 3.781,
+                    "ratingCount": 32
+                },
+                "Gameplay": {
+                    "rank": 19,
+                    "score": 3.406,
+                    "ratingCount": 32
+                },
+                "Overall": {
+                    "rank": 21,
+                    "score": 3.500,
+                    "ratingCount": 32
+                }
+            }
+        }
     },
     {
         "name": "DontWasteYourTime",
