@@ -1,5 +1,21 @@
 let gamejams = [
     {
+        "name": "GoingStraightToThePoint",
+        "fullName": "Going Straight to the Point",
+        "location": "Online",
+        "theme": null,
+        "event": "TF2Maps 72-Hour Summer Jam",
+        "date": "2022-07-22",
+        "duration": 72,
+        "engine": "Unity",
+        "github": "https://github.com/Xwilarg/GoingStraightToThePoint",
+        "website": "https://tf2maps.net/downloads/going-straight-to-the-point.14272/",
+        "webgl": [ "https://gamejam.zirk.eu/GoingStraightToThePoint/index.html" ],
+        "postModification": null,
+        "nsfw": false,
+        "rating": null
+    },
+    {
         "name": "KupalaNight",
         "fullName": "Kupala Night",
         "location": "Online",
