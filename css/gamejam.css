@@ -30,8 +30,7 @@
     font-size: 1.2em;
     z-index: 1;
     width: 480px;
-    height: 384px;
-    bottom: -40px;
+    top: -370px;
 }
 
 .jamInfo {
