@@ -1,46 +1,17 @@
 .flex {
     display: flex;
+    flex-flow: wrap;
+    align-content: center;
+    justify-content: center;
 }
 
-#projectPreview {
-    flex: 30%;
-    overflow-y: scroll;
-    height: 85vh;
-    text-align: center;
+.highlight-preview {
+    width: 40%;
+    min-width: 500px;
 }
 
-#projectDisplay {
-    flex: 70%;
-}
-
-#projectDisplayContent {
+.highlight-preview img {
     width: 100%;
-    height: auto;
-}
-
-.projectPreviewInstance {
-    border-radius: 10px;
-    outline: 1px solid black;
-    cursor: pointer;
-    width: 30em;
-}
-
-#projectDisplayButtons {
-    margin-top: .5em;
-}
-
-#projectDisplayText {
-    font-size: 1.2em;
-}
-
-#projectDisplaySubtext {
-    font-size: .9em;
-    font-style: italic;
-    margin-top: 0;
-}
-
-#projectDisplayTitle {
-    font-size: x-large;
 }
 
 #projectNormalPreview {
@@ -53,6 +24,11 @@
 
 #projectNormalPreviewImage {
     max-width: 60vw;
+}
+
+.project-buttons {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .censor {

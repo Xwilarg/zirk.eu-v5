@@ -10,6 +10,10 @@ let projects = [
         "languages": [ "JavaScript", "PHP", "Python" ],
         "links": [
             {
+                "name": "Website",
+                "content": "https://sanara.zirk.eu"
+            },
+            {
                 "name": "Source Code",
                 "content": "https://github.com/Xwilarg/Euphonia"
             }
@@ -28,6 +32,101 @@ let projects = [
         "state": {
             "status": STATE_WORKING,
             "comment": "Things works well, should probably work on a easy way to import songs next"
+        }
+    },
+    {
+        "name": "NHentai Downloader",
+        "description": "Allows to download doujinshi (fan-made manga) from some popular website",
+        "image": {
+            "description": "Download of many doujinshi at once",
+            "id": "NHentaiDownloader"
+        },
+        "languages": [ "TypeScript" ],
+        "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/NHentaiDownloader"
+            },
+            {
+                "name": "Website",
+                "content": "https://nhentaidownloader.zirk.eu"
+            }
+        ],
+        "nsfw": true,
+        "type": "Web Extension",
+        "highlight": true,
+        "dates": {
+            "start": "2018-09-04",
+            "end": null
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": null
+        }
+    },
+    {
+        "name": "BooruSharp",
+        "description": "C# library to download images from Booru websites (anime image aggregator)",
+        "comment": "Making a common library for so many websites is such a pain, I still don't know why my unit tests randomly fails",
+        "image": {
+            "id": "BooruSharp",
+            "description": "Code to get the URL and rating of a random image having the \"Cirno\" tag"
+        },
+        "languages": [ "C#" ],
+        "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/BooruSharp"
+            },
+            {
+                "name": "NuGet",
+                "content": "https://www.nuget.org/packages/BooruSharp"
+            }
+        ],
+        "nsfw": true,
+        "type": "Library",
+        "highlight": true,
+        "dates": {
+            "start": "2018-07-16",
+            "end": null
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": "Looks like some API calls are failing for some booru but I can't reproduce the issue repeatedly"
+        }
+    },
+    {
+        "name": "Sanara",
+        "description": "Multipurpose bot for Discord",
+        "image": {
+            "id": "Sanara",
+            "description": "Top left: image search<br/>Bottom left: shiritori (Japanese associative word game)<br/>Right: text translation from image"
+        },
+        "languages": [ "C#" ],
+        "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/Sanara"
+            },
+            {
+                "name": "Website",
+                "content": "https://sanara.zirk.eu"
+            },
+            {
+                "name": "Invitation Link",
+                "content": "https://discord.com/api/oauth2/authorize?client_id=329664361016721408&scope=bot%20applications.commands"
+            }
+        ],
+        "nsfw": false,
+        "type": "Discord Bot",
+        "highlight": true,
+        "dates": {
+            "start": "2017-08-28",
+            "end": null
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": "There are still a lot of crashs reported, especially on the subscription module"
         }
     },
     {
@@ -164,101 +263,6 @@ let projects = [
         "state": {
             "status": STATE_HALF,
             "comment": "Still some issue where if the user reload the page, he have to authentify again"
-        }
-    },
-    {
-        "name": "NHentai Downloader",
-        "description": "Allows to download doujinshi (fan-made manga) from some popular website",
-        "image": {
-            "description": "Download of many doujinshi at once",
-            "id": "NHentaiDownloader"
-        },
-        "languages": [ "TypeScript" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/NHentaiDownloader"
-            },
-            {
-                "name": "Website",
-                "content": "https://nhentaidownloader.zirk.eu"
-            }
-        ],
-        "nsfw": true,
-        "type": "Web Extension",
-        "highlight": true,
-        "dates": {
-            "start": "2018-09-04",
-            "end": null
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": null
-        }
-    },
-    {
-        "name": "BooruSharp",
-        "description": "C# library to download images from Booru websites (anime image aggregator)",
-        "comment": "Making a common library for so many websites is such a pain, I still don't know why my unit tests randomly fails",
-        "image": {
-            "id": "BooruSharp",
-            "description": "Code to get the URL and rating of a random image having the \"Cirno\" tag"
-        },
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/BooruSharp"
-            },
-            {
-                "name": "NuGet",
-                "content": "https://www.nuget.org/packages/BooruSharp"
-            }
-        ],
-        "nsfw": true,
-        "type": "Library",
-        "highlight": true,
-        "dates": {
-            "start": "2018-07-16",
-            "end": null
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": "Looks like some API calls are failing for some booru but I can't reproduce the issue repeatedly"
-        }
-    },
-    {
-        "name": "Sanara",
-        "description": "Multipurpose bot for Discord",
-        "image": {
-            "id": "Sanara",
-            "description": "Top left: image search<br/>Bottom left: shiritori (Japanese associative word game)<br/>Right: text translation from image"
-        },
-        "languages": [ "C#" ],
-        "links": [
-            {
-                "name": "Source Code",
-                "content": "https://github.com/Xwilarg/Sanara"
-            },
-            {
-                "name": "Website",
-                "content": "https://sanara.zirk.eu"
-            },
-            {
-                "name": "Invitation Link",
-                "content": "https://discord.com/api/oauth2/authorize?client_id=329664361016721408&scope=bot%20applications.commands"
-            }
-        ],
-        "nsfw": false,
-        "type": "Discord Bot",
-        "highlight": true,
-        "dates": {
-            "start": "2017-08-28",
-            "end": null
-        },
-        "state": {
-            "status": STATE_WORKING,
-            "comment": "There are still a lot of crashs reported, especially on the subscription module"
         }
     },
     {
@@ -1770,7 +1774,18 @@ function displayProject(name) {
 }
 
 function getHighlightHtml(project) {
-    return `<img class="projectPreviewInstance" src="img/project/highlight/${project.image.id}.png" onclick="displayProject('${project.name}')"></img>`;
+    let buttons = `<div class="project-buttons">`;
+    for (let b of project.links) {
+        buttons += `<a class="button neutral">${b.name}</a>`;
+    }
+    buttons += "</div>"
+
+    return `
+    <div class="highlight-preview">
+        <img class="projectPreviewInstance" src="img/project/highlight/${project.image.id}.png"/><br/>
+        ${buttons}
+    </div>    
+    `;
 }
 
 function showProjectPreview(name, src) {
@@ -1784,20 +1799,11 @@ function hideProjectPreview() {
 }
 
 function initProjects() {
-    let html = "Ongoing:<br/><br/>";
+    let html = "";
     for (let project of projects
-        .filter(x => x.highlight && x.dates.end === null)
+        .filter(x => x.highlight)
         .sort((a, b) => {
             return a.name.localeCompare(b.name);
-        }))
-    {
-        html += getHighlightHtml(project);
-    }
-    html += "<hr/>Archive:<br/><br/>";
-    for (let project of projects
-        .filter(x => x.highlight && x.dates.end !== null)
-        .sort((a, b) => {
-            return Date.parse(a.dates.end) < Date.parse(b.dates.end);
         }))
     {
         html += getHighlightHtml(project);
