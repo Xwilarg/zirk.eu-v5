@@ -3,16 +3,13 @@ const STATE_HALF = 1;
 const STATE_NOT_WORKING = 2;
 
 let projects = [
+    // Highlighted projects
     {
         "name": "Euphonia",
         "description": "Website to host and play your music",
         "comment": "I was tired of others music platforms so I made my own!",
         "languages": [ "JavaScript", "PHP", "Python" ],
         "links": [
-            {
-                "name": "Website",
-                "content": "https://sanara.zirk.eu"
-            },
             {
                 "name": "Source Code",
                 "content": "https://github.com/Xwilarg/Euphonia"
@@ -81,6 +78,10 @@ let projects = [
             {
                 "name": "NuGet",
                 "content": "https://www.nuget.org/packages/BooruSharp"
+            },
+            {
+                "name": "Website",
+                "content": "https://boorusharp.zirk.eu"
             }
         ],
         "nsfw": true,
@@ -129,6 +130,8 @@ let projects = [
             "comment": "There are still a lot of crashs reported, especially on the subscription module"
         }
     },
+
+    // Others projects
     {
         "name": "Colodex",
         "description": "Library to use Holodex (vtuber stream aggregator) in C",
@@ -172,7 +175,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Library",
-        "highlight": true,
+        "highlight": false,
         "dates": {
             "start": "2021-05-03",
             "end": null
@@ -308,7 +311,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Android App",
-        "highlight": true,
+        "highlight": false,
         "dates": {
             "start": "2021-02-04",
             "end": "2021-12-20"
@@ -334,7 +337,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlight": true,
+        "highlight": false,
         "dates": {
             "start": "2020-07-20",
             "end": "2021-12-21"
@@ -361,7 +364,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Software",
-        "highlight": true,
+        "highlight": false,
         "dates": {
             "start": "2019-01-22",
             "end": "2019-02-03"
@@ -388,7 +391,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Discord Bot",
-        "highlight": true,
+        "highlight": false,
         "dates": {
             "start": "2018-06-09",
             "end": "2020-01-06"
@@ -441,7 +444,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlight": true,
+        "highlight": false,
         "dates": {
             "start": "End of 2016",
             "end": "End of 2016"
@@ -468,7 +471,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlight": true,
+        "highlight": false,
         "dates": {
             "start": "2015",
             "end": "2016"
@@ -495,7 +498,7 @@ let projects = [
         ],
         "nsfw": false,
         "type": "Video Game",
-        "highlight": true,
+        "highlight": false,
         "dates": {
             "start": "Around 2012",
             "end": "Around 2012"
@@ -1015,7 +1018,7 @@ let projects = [
         ],
         "image": {
             "id": "Isathos",
-            "description": null
+            "description": "RPG"
         },
         "nsfw": false,
         "type": "Video Game",
@@ -1773,16 +1776,33 @@ function displayProject(name) {
     }
 }
 
+function getButtonScore(name) {
+    if (name == "Source Code") return 1;
+    return 0;
+}
+
 function getHighlightHtml(project) {
     let buttons = `<div class="project-buttons">`;
-    for (let b of project.links) {
-        buttons += `<a class="button neutral">${b.name}</a>`;
+    if (!project.nsfw)
+    {
+        for (let b of project.links
+            .sort((a, b) => {
+                return getButtonScore(a.name) - getButtonScore(b.name);
+            }))
+        {
+            const score = getButtonScore(b.name);
+            buttons += `<a class="button ${score == 0 ? "colorful" : "neutral"}" href="${b.content}" target="_blank">${b.name}</a>`;
+        }
     }
     buttons += "</div>"
 
     return `
     <div class="highlight-preview">
-        <img class="projectPreviewInstance" src="img/project/highlight/${project.image.id}.png"/><br/>
+        <h1>${project.nsfw ? "&nbsp;" : project.name}</h1>
+        <img class="projectPreviewInstance" src="img/project/highlight/${project.image.id}.png"/>
+        <p>
+        ${project.description}
+        </p>
         ${buttons}
     </div>    
     `;
@@ -1822,10 +1842,9 @@ function initProjects() {
             image = `onmouseover="showProjectPreview('${project.name}', 'img/project/${project.highlight ? "highlight" : "normal"}/${project.image.id}.png')" onmouseleave="hideProjectPreview()"`;
             imageContent = "Hover me";
         }
-        const censorName = project.nsfw ? 'class="censor"' : "";
         html += `
             <tr>
-                <td ${censorName}>${project.name}</td>
+                <td>${project.nsfw ? "" : project.name}</td>
                 <td>${project.type}</td>
                 <td>${project.description}</td>
                 <td>${project.languages === null ? "" : project.languages.join(' ')}</td>

@@ -1,3 +1,4 @@
+/* Container for highlighted projects */
 .flex {
     display: flex;
     flex-flow: wrap;
@@ -5,15 +6,33 @@
     justify-content: center;
 }
 
+
+/* Highlighted project */
 .highlight-preview {
     width: 40%;
     min-width: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: .2em;
 }
 
 .highlight-preview img {
     width: 100%;
 }
 
+.highlight-preview p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Buttons for an highlighted projcet */
+.project-buttons {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+/* Preview image displayed when hovering normal project */
 #projectNormalPreview {
     position: fixed;
     left: 50%;
@@ -25,12 +44,6 @@
 #projectNormalPreviewImage {
     max-width: 60vw;
 }
-
-.project-buttons {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
 .censor {
     color: transparent;
 }
