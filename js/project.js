@@ -5,6 +5,32 @@ const STATE_NOT_WORKING = 2;
 let projects = [
     // Highlighted projects
     {
+        "name": "Deer Lister",
+        "description": "Directory Lister",
+        "languages": [ "PHP" ],
+        "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/DeerLister"
+            }
+        ],
+        "image": {
+            "id": "DeerLister",
+            "description": "Example of usage of the website"
+        },
+        "nsfw": false,
+        "type": "Website",
+        "highlight": true,
+        "dates": {
+            "start": "2022-08-25",
+            "end": null
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": null
+        }
+    },
+    {
         "name": "Euphonia",
         "description": "Website to host and play your music",
         "comment": "I was tired of others music platforms so I made my own!",
