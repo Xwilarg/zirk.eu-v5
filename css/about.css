@@ -53,13 +53,14 @@ tr:nth-child(even) {
 
 @media (max-width: 1000px) {
     #computer > #background {
-        width: 30vh;
+        width: 80vw;
         height: 60vh;
     }
 }
 
 @media (max-width: 750px) {
-    #computer img {
+    #computer > #background {
+        min-height: 500px;
     }
 
     #computer div {
