@@ -12,3 +12,41 @@ td, th {
 tr:nth-child(even) {
     background-color: #343444;
 }
+
+#computer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#computer > #background {
+    background-image: url("https://static.miraheze.org/windowswallpaperwiki/c/cf/Bliss.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 60vw;
+    height: 30vw;
+}
+
+#computer-icons {
+    display: flex;
+    flex-flow: wrap;
+    height: 100%;
+}
+
+#computer div {
+    padding: 20px;
+    flex: 1 1 50px;
+}
+
+#computer img {
+    height: 50px;
+}
+
+#computer p {
+    color: black;
+    margin-top: 0;
+}
+
+#computer a {
+    border-bottom: none;
+}
