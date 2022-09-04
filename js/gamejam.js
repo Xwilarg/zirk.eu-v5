@@ -1,5 +1,25 @@
 let gamejams = [
     {
+        "name": "DodgingTheFuture",
+        "fullName": "Dodging the Future",
+        "location": "Online",
+        "theme": [ "Alternative Movement" ],
+        "event": "Monthly Scratch Jam #1",
+        "date": "2022-09-03",
+        "duration": 36,
+        "engine": "Scratch",
+        "github": "https://scratch.mit.edu/projects/727826287/editor/",
+        "website": "https://itch.io/jam/best-coding-language-jam/rate/1691304",
+        "webgl": [ "https://gamejam.zirk.eu/DodgingTheFuture/index.html" ],
+        "postModification": null,
+        "nsfw": false,
+        "rating": {
+            "entries": 9,
+            "totalRatingCount": null,
+            "scores": null
+        }
+    },
+    {
         "name": "GoingStraightToThePoint",
         "fullName": "Going Straight to the Point",
         "location": "Online",
