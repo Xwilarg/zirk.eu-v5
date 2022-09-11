@@ -1,5 +1,21 @@
 let gamejams = [
     {
+        "name": "EscapeTheCrunch",
+        "fullName": "Escape the Crunch",
+        "location": "Online",
+        "theme": [ "The enemy is stupid... and needs help" ],
+        "event": "Shitty Horror Game Jam",
+        "date": "2022-09-09",
+        "duration": 24,
+        "engine": "Godot",
+        "github": "https://github.com/Xwilarg/EscapeTheCrunch",
+        "website": "https://itch.io/jam/shitty-horror-game-jam/rate/1699024",
+        "webgl": [ ],
+        "postModification": null,
+        "nsfw": false,
+        "rating": null
+    },
+    {
         "name": "DodgingTheFuture",
         "fullName": "Dodging the Future",
         "location": "Online",
