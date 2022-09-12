@@ -13,7 +13,11 @@ let gamejams = [
         "webgl": [ ],
         "postModification": null,
         "nsfw": false,
-        "rating": null
+        "rating": {
+            "entries": 31,
+            "totalRatingCount": null,
+            "scores": null
+        }
     },
     {
         "name": "DodgingTheFuture",
