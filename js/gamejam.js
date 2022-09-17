@@ -14,7 +14,7 @@ let gamejams = [
         "postModification": null,
         "nsfw": false,
         "rating": {
-            "entries": 3,
+            "entries": 2,
             "totalRatingCount": null,
             "scores": null
         }
