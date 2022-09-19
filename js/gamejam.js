@@ -10,11 +10,11 @@ let gamejams = [
         "engine": "Unity",
         "github": "https://github.com/Xwilarg/OneHourJam386",
         "website": "https://onehourgamejam.com/?page=jam&jam=386",
-        "webgl": [ ],
+        "webgl": [ "https://gamejam.zirk.eu/TankYou/index.html" ],
         "postModification": null,
         "nsfw": false,
         "rating": {
-            "entries": 2,
+            "entries": 3,
             "totalRatingCount": null,
             "scores": null
         }
