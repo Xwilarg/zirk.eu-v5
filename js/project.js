@@ -1768,6 +1768,32 @@ let projects = [
             "status": STATE_WORKING,
             "comment": null
         }
+    },
+    {
+        "name": "SkyGate",
+        "description": "Rhythm game",
+        "languages": [ "C#" ],
+        "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/SkyGate"
+            }
+        ],
+        "image": {
+            "id": "SkyGate",
+            "description": null
+        },
+        "nsfw": false,
+        "type": "Video Game",
+        "highlight": false,
+        "dates": {
+            "start": "2022-09-15",
+            "end": null
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": null
+        }
     }
 ];
 
@@ -1874,8 +1900,6 @@ function initProjects() {
                 <td>${project.type}</td>
                 <td>${project.description}</td>
                 <td>${project.languages === null ? "" : project.languages.join(' ')}</td>
-                <td></td>
-                <td></td>
                 <td ${image}>${imageContent}</td>
             </tr>
         `
