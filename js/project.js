@@ -5,6 +5,32 @@ const STATE_NOT_WORKING = 2;
 let projects = [
     // Highlighted projects
     {
+        "name": "Genesis",
+        "description": "",
+        "languages": [ "TypeScript" ],
+        "links": [
+            {
+                "name": "Source Code",
+                "content": "https://github.com/Xwilarg/Genesis"
+            }
+        ],
+        "image": {
+            "id": "DeerLister",
+            "description": null
+        },
+        "nsfw": false,
+        "type": "Website",
+        "highlight": true,
+        "dates": {
+            "start": "2022-02-07",
+            "end": null
+        },
+        "state": {
+            "status": STATE_WORKING,
+            "comment": null
+        }
+    },
+    {
         "name": "Deer Lister",
         "description": "Directory Lister",
         "languages": [ "PHP" ],
