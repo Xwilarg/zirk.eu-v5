@@ -50,9 +50,55 @@ let gamejams = [
         "postModification": null,
         "nsfw": false,
         "rating": {
-            "entries": 31,
+            "entries": 30,
             "totalRatingCount": null,
-            "scores": null
+            "scores": {
+                "Gameplay": {
+                    "rank": 3,
+                    "score": null,
+                    "ratingCount": null
+                },
+                "Audio": {
+                    "rank": 3,
+                    "score": null,
+                    "ratingCount": null
+                },
+                "Asset flip": {
+                    "rank": 5,
+                    "score": null,
+                    "ratingCount": null
+                },
+                "Shitty horror game-ness": {
+                    "rank": 5,
+                    "score": null,
+                    "ratingCount": null
+                },
+                "Voice acting": {
+                    "rank": 6,
+                    "score": null,
+                    "ratingCount": null
+                },
+                "Overall": {
+                    "rank": 7,
+                    "score": null,
+                    "ratingCount": null
+                },
+                "Graphics": {
+                    "rank": 10,
+                    "score": null,
+                    "ratingCount": null
+                },
+                "Theme": {
+                    "rank": 12,
+                    "score": null,
+                    "ratingCount": null
+                },
+                "Story": {
+                    "rank": 17,
+                    "score": null,
+                    "ratingCount": null
+                }
+            }
         }
     },
     {
