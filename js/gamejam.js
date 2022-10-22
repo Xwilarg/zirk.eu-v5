@@ -13,7 +13,52 @@ let gamejams = [
         "webgl": [ "https://gamejam.zirk.eu/Nachoverflow/index.html" ],
         "postModification": null,
         "nsfw": false,
-        "rating": null
+        "rating": {
+            "entries": 1703,
+            "totalRatingCount": null,
+            "scores": {
+                "Overall": {
+                    "rank": 638,
+                    "score": 3.474,
+                    "ratingCount": 21
+                },
+                "Fun": {
+                    "rank": 354,
+                    "score": 3.632,
+                    "ratingCount": 21
+                },
+                "Innovation": {
+                    "rank": 915,
+                    "score": 2.921,
+                    "ratingCount": 21
+                },
+                "Theme": {
+                    "rank": 1024,
+                    "score": 3.079,
+                    "ratingCount": 21
+                },
+                "Graphics": {
+                    "rank": 576,
+                    "score": 3.632,
+                    "ratingCount": 21
+                },
+                "Audio": {
+                    "rank": 294,
+                    "score": 3.632,
+                    "ratingCount": 21
+                },
+                "Humor": {
+                    "rank": 71,
+                    "score": 4.079,
+                    "ratingCount": 21
+                },
+                "Mood": {
+                    "rank": 397,
+                    "score": 3.639,
+                    "ratingCount": 20
+                }
+            }
+        }
     },
     {
         "name": "TankYou",
