@@ -1,5 +1,25 @@
 let gamejams = [
     {
+        "name": "TheShadowOfBearrintown",
+        "fullName": "The Shadow of Bearrintown",
+        "location": "Online",
+        "theme": [ "Change of Plans" ],
+        "event": "Bear Jams Fall 2022",
+        "date": "2022-10-29",
+        "duration": 45,
+        "engine": "Godot",
+        "github": "https://github.com/Xwilarg/TheShadowOfBearrintown",
+        "website": "https://itch.io/jam/bear-jams-fall-2022/rate/1769963",
+        "webgl": [ "https://gamejam.zirk.eu/TheShadowOfBearrintown/index.html" ],
+        "postModification": null,
+        "nsfw": false,
+        "rating": {
+            "entries": 9,
+            "totalRatingCount": null,
+            "scores": null
+        }
+    },
+    {
         "name": "Nachoverflow",
         "fullName": "Nachoverflow",
         "location": "Online",
