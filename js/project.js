@@ -15,12 +15,12 @@ let projects = [
             }
         ],
         "image": {
-            "id": "DeerLister",
+            "id": "Genesis",
             "description": null
         },
         "nsfw": false,
         "type": "Website",
-        "highlight": true,
+        "highlight": false,
         "dates": {
             "start": "2022-02-07",
             "end": null
